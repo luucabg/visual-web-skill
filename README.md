@@ -32,17 +32,20 @@ No entrena el modelo ni copia una web completa. Le proporciona memoria visual or
 Después de instalarla, abre una tarea nueva en Codex y pega algo parecido a esto:
 
 ```text
-Usa $visual-web para crear una landing de 8 secciones para un estudio de
-arquitectura residencial. La audiencia son personas que quieren reformar su
-vivienda. La acción principal es solicitar una primera conversación.
+Usa $visual-web para crear una landing para un estudio de arquitectura
+residencial. La audiencia son personas que quieren reformar su vivienda. La
+acción principal es solicitar una primera conversación.
 
 Quiero una estética cálida, precisa y tranquila. Selecciona y abre referencias
-reales de la biblioteca, desarrolla una identidad propia, genera un diseño
-independiente por sección y después sus activos. Implementa y comprueba la web
-en escritorio y móvil. No inventes proyectos, clientes ni premios.
+reales de la biblioteca y desarrolla una identidad propia. Decide tú cuántas
+secciones necesita la web; usa solo las necesarias y presenta primero el mapa.
+Genera un diseño independiente por sección y después sus activos. Implementa y
+comprueba la web en escritorio y móvil. No inventes proyectos, clientes ni premios.
 ```
 
-Puedes cambiar el negocio, el público, el número de secciones y el tono. También puedes pedir solo un hero, una dirección visual o una investigación de referencias.
+Puedes cambiar el negocio, el público y el tono. La IA puede decidir el número de secciones según el contenido y la conversión. También puedes pedir solo un hero, una dirección visual o una investigación de referencias.
+
+**[Abrir el prompt maestro para rellenar con los datos de una empresa →](PROMPT-EMPRESA.md)**
 
 ## Instalación sencilla en Windows
 

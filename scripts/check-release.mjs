@@ -23,7 +23,7 @@ function walk(directory) {
 }
 walk(root);
 
-for (const required of ['README.md', 'LICENSE.md', 'NOTICES.md', 'CONTRIBUTING.md',
+for (const required of ['README.md', 'PROMPT-EMPRESA.md', 'LICENSE.md', 'NOTICES.md', 'CONTRIBUTING.md',
   '.github/workflows/verify.yml', 'docs/visual-web-cover.svg', 'docs/social-preview.png', 'skill/visual-web/SKILL.md']) {
   assert(files.some(file => file.relative === required), `Release file missing: ${required}`);
 }
