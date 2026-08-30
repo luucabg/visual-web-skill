@@ -185,3 +185,4 @@ Tags: consumer-electronics, electrónica-de-consumo, music-technology, tecnolog�
 | [02-instrument](sites/teenage-engineering/02-instrument.jpg) | product | 1440 × 900 | 1425 × 891 | Campaña de EP–133 K.O. II |
 | [03-product-family](sites/teenage-engineering/03-product-family.jpg) | gallery | 1440 × 900 | 1425 × 891 | Retícula de instrumento y accesorios |
 | [04-hero-mobile](sites/teenage-engineering/04-hero-mobile.jpg) | mobile | 390 × 844 | 375 × 812 | Portada móvil de campaña editorial |
+

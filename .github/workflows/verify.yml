@@ -22,8 +22,6 @@ jobs:
       - name: Test tooling and safe installation
         run: node --test tests/tooling.test.mjs tests/maintenance.test.mjs
       - name: Check package and visual evaluations
-        run: |
-          node scripts/check-package.mjs
-          node scripts/check-evaluations.mjs
+        run: node scripts/check-package.mjs && node scripts/check-evaluations.mjs && node scripts/check-release.mjs
       - name: Validate portable skill
         run: node skill/visual-web/scripts/validate.mjs

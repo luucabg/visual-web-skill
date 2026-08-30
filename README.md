@@ -91,6 +91,26 @@ La primera edición contiene **48 capturas reales** —escritorio, secciones int
 
 `Lando Norris` · `MindMarket` · `Oryzo` · `Floema` · `Mistral` · `Shopify Editions` · `Linear` · `Teenage Engineering` · `Koto` · `Locomotive` · `Basement` · `Norm Architects`
 
+### Las referencias reales, a la vista
+
+| Lando Norris | MindMarket | Oryzo |
+| --- | --- | --- |
+| [![Portada real de Lando Norris](skill/visual-web/references/sites/landonorris/01-hero-desktop.jpg)](skill/visual-web/references/sites/landonorris/analysis.md) | [![Portada real de MindMarket](skill/visual-web/references/sites/mindmarket/01-hero-desktop.jpg)](skill/visual-web/references/sites/mindmarket/analysis.md) | [![Portada real de Oryzo](skill/visual-web/references/sites/oryzo/01-hero-desktop.jpg)](skill/visual-web/references/sites/oryzo/analysis.md) |
+
+| Floema | Mistral | Shopify Editions |
+| --- | --- | --- |
+| [![Portada real de Floema](skill/visual-web/references/sites/floema/01-hero-desktop.jpg)](skill/visual-web/references/sites/floema/analysis.md) | [![Portada real de Mistral](skill/visual-web/references/sites/mistral/01-hero-desktop.jpg)](skill/visual-web/references/sites/mistral/analysis.md) | [![Portada real de Shopify Editions](skill/visual-web/references/sites/shopify-editions/01-hero-desktop.jpg)](skill/visual-web/references/sites/shopify-editions/analysis.md) |
+
+| Linear | Teenage Engineering | Koto |
+| --- | --- | --- |
+| [![Portada real de Linear](skill/visual-web/references/sites/linear/01-hero-desktop.jpg)](skill/visual-web/references/sites/linear/analysis.md) | [![Portada real de Teenage Engineering](skill/visual-web/references/sites/teenage-engineering/01-hero-desktop.jpg)](skill/visual-web/references/sites/teenage-engineering/analysis.md) | [![Portada real de Koto](skill/visual-web/references/sites/koto/01-hero-desktop.jpg)](skill/visual-web/references/sites/koto/analysis.md) |
+
+| Locomotive | Basement | Norm Architects |
+| --- | --- | --- |
+| [![Portada real de Locomotive](skill/visual-web/references/sites/locomotive/01-hero-desktop.jpg)](skill/visual-web/references/sites/locomotive/analysis.md) | [![Portada real de Basement](skill/visual-web/references/sites/basement/01-hero-desktop.jpg)](skill/visual-web/references/sites/basement/analysis.md) | [![Portada real de Norm Architects](skill/visual-web/references/sites/norm-architects/01-hero-desktop.jpg)](skill/visual-web/references/sites/norm-architects/analysis.md) |
+
+Pulsa cualquier imagen para abrir su análisis. En cada ficha hay cuatro capturas: **portada de escritorio, dos secciones interiores y portada móvil**. La IA no se limita a esta galería: la skill le obliga a buscar, abrir a tamaño legible las capturas concretas que encajan con el encargo y leer después sus análisis.
+
 Cada web incluye:
 
 - capturas originales y fecha de observación;
@@ -99,7 +119,7 @@ Cada web incluye:
 - decisiones transferibles, límites y rasgos que debe evitar copiar;
 - estado de movimiento marcado como observado o no probado.
 
-[Explorar el índice visual →](skill/visual-web/references/INDEX.md)
+[Explorar las 48 capturas en el índice visual →](skill/visual-web/references/INDEX.md)
 
 ## Qué contiene
 
