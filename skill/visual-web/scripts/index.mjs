@@ -21,7 +21,7 @@ export function buildIndex(catalog, { rootDir = DEFAULT_ROOT } = {}) {
     for (const capture of [...site.captures].sort((a, b) => a.id.localeCompare(b.id, 'en'))) lines.push(`| [${escape(capture.id)}](${target(capture.file)}) | ${escape(capture.kind)} | ${capture.viewport.width} × ${capture.viewport.height} | ${capture.imageDimensions.width} × ${capture.imageDimensions.height} | ${escape(capture.sectionLabel)} |`);
     lines.push('');
   }
-  return `${lines.join('\n')}\n`;
+  return `${lines.join('\n').replace(/\n+$/u, '')}\n`;
 }
 
 if (isMain(import.meta.url)) {
