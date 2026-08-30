@@ -1,0 +1,84 @@
+{
+  "id": "mindmarket",
+  "tags": ["illustration", "ilustración", "characters", "personajes", "human-centered", "enfoque-humano", "playful", "lúdico", "b2b", "editorial", "green", "verde", "colorful", "colorido", "oversized-type", "tipografía-grande", "centered-hero", "hero-centrado", "organic-shapes", "formas-orgánicas", "narrative", "narrativa", "white-panels", "paneles-blancos", "service-design", "servicios"],
+  "industries": ["investigación de mercados", "consultoría", "servicios B2B", "investigación de usuarios"],
+  "summary": "Comunicación de servicios mediante un hero verde de titular centrado y personajes ilustrados de colores. Los interiores alternan paneles blancos legibles con figuras y formas orgánicas de gran escala para convertir información profesional en una narrativa accesible.",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "observed": [
+        "Un fondo verde uniforme sostiene un titular negro centrado de dos líneas, un subtítulo pequeño y un grupo ilustrado que entra desde abajo.",
+        "La navegación se presenta en una franja blanca redondeada con marca, enlaces y menú circular; la acción de presupuesto ocupa un panel blanco separado a la derecha.",
+        "La ilustración emplea figuras humanas estilizadas, manos grandes, contornos finos y bloques de azul, coral, lila y amarillo.",
+        "El primer nivel es el titular; el grupo humano queda parcialmente cortado por el borde inferior y aporta una segunda lectura."
+      ],
+      "adaptation": [
+        "Usar un mensaje corto y una composición central para explicar una promesa de servicio antes de desarrollar los detalles.",
+        "Crear una familia de ilustraciones propia con paleta, proporciones y trazos consistentes para enlazar el hero con secciones posteriores.",
+        "Separar la navegación del fondo saturado mediante una superficie clara y reservar una ubicación reconocible para la acción comercial."
+      ],
+      "avoid": [
+        "No adoptar personajes genéricos sin una relación visible con la promesa del servicio.",
+        "No copiar los personajes ni el estilo de marca de forma literal; tampoco identificar la fuente exacta solo por su aspecto."
+      ],
+      "motion": {"status": "not-tested", "description": "Se observó la composición estática. No se comprobó movimiento de personajes, navegación ni aparición durante la carga."}
+    },
+    {
+      "id": "02-services",
+      "observed": [
+        "Sobre fondo crema, una forma verde ancha recorre la composición detrás de personajes y papeles ilustrados.",
+        "Un panel blanco con título, párrafo y botón coral ocupa la zona superior derecha; otro panel empieza abajo a la izquierda.",
+        "Las figuras y objetos llenan los espacios opuestos a los paneles, creando alternancia diagonal en lugar de una serie de tarjetas iguales.",
+        "La cabecera blanca permanece visible en esta captura tomada a mayor scroll, sin que la captura permita establecer su implementación."
+      ],
+      "adaptation": [
+        "Alternar explicación e imagen para descomponer un servicio complejo en beneficios breves y visualmente diferenciados.",
+        "Mantener el texto sobre superficies tranquilas y usar la ilustración fuera de su área de lectura.",
+        "Crear un motivo de fondo que conecte varios bloques, pero dar a cada bloque su propio título, texto y siguiente acción."
+      ],
+      "avoid": [
+        "No convertir toda la página en una acumulación de tarjetas anidadas; aquí los paneles comparten un campo abierto de ilustración.",
+        "No trasladar el texto a zonas ilustradas ni inferir una trayectoria animada por la forma verde del fondo."
+      ],
+      "motion": {"status": "not-tested", "description": "No se probó scroll animado, fijación de paneles ni comportamiento de la cabecera; solo se describe su posición visible."}
+    },
+    {
+      "id": "03-sector-story",
+      "observed": [
+        "Un panel blanco central reúne título, párrafo y botón azul sobre una gran forma verde de bordes curvos.",
+        "Un personaje con mando de juego ocupa el lateral izquierdo y se aproxima al borde del panel; otras figuras y pequeños objetos se recortan por el perímetro.",
+        "La ilustración distribuye acentos azul, amarillo, coral y lila alrededor de una zona de texto estable.",
+        "El botón incorpora un círculo blanco con flecha, el mismo esquema visual del botón de servicios con un color distinto."
+      ],
+      "adaptation": [
+        "Vincular una especialidad o sector a una escena concreta, conservando el contenido principal en una superficie legible.",
+        "Mantener una anatomía consistente de botón y variar el acento solo cuando ayude a diferenciar capítulos.",
+        "Hacer que las figuras rodeen y orienten hacia el contenido, con solapamientos controlados que no tapen palabras."
+      ],
+      "avoid": [
+        "No usar una escena asociada al juego para servicios cuyo tono o audiencia la perciban como poco pertinente.",
+        "No interpretar el recorte de figuras como evidencia de una composición completa fuera del viewport ni como animación."
+      ],
+      "motion": {"status": "not-tested", "description": "La captura no permite establecer si las figuras se mueven, si los paneles cambian con scroll o si el botón tiene estados especiales."}
+    },
+    {
+      "id": "04-hero-mobile",
+      "observed": [
+        "En el viewport de 390 por 844 registrado, la cabecera conserva solo marca y menú circular; los enlaces y el panel separado de presupuesto no aparecen.",
+        "El titular sigue centrado en dos líneas y el subtítulo queda debajo, con márgenes laterales estrechos pero texto visible.",
+        "Existe una franja vertical amplia entre cabecera y título y otra antes del grupo humano, que se recorta al pie de pantalla.",
+        "Se mantiene el fondo verde y la misma familia de personajes, ahora adaptada a un campo mucho más estrecho."
+      ],
+      "adaptation": [
+        "Simplificar la navegación al reducir ancho y conservar la promesa principal como ancla de lectura.",
+        "Preparar un encuadre móvil deliberado de la ilustración y comprobar que los elementos expresivos sobrevivan al recorte.",
+        "Ajustar el espacio vertical a la prioridad comercial de cada proyecto; una acción esencial podría necesitar más presencia en el primer viewport."
+      ],
+      "avoid": [
+        "No asumir que la acción de presupuesto desaparece del sitio: solo no está visible en esta captura.",
+        "No heredar automáticamente los espacios grandes si desplazan la siguiente acción más allá de lo aceptable para la tarea del usuario."
+      ],
+      "motion": {"status": "not-tested", "description": "No se abrió el menú ni se probaron transiciones o comportamiento táctil; esta evidencia es exclusivamente de disposición móvil estática."}
+    }
+  ]
+}

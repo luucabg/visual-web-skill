@@ -1,0 +1,76 @@
+{
+  "id": "norm-architects",
+  "name": "Norm Architects",
+  "url": "https://normcph.com/",
+  "capturedAt": "2026-08-30T22:32:24.913Z",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "file": "references/sites/norm-architects/01-hero-desktop.jpg",
+      "kind": "hero",
+      "pageUrl": "https://normcph.com/",
+      "scrollY": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:32:25.087Z",
+      "sectionLabel": "Portada arquitectónica con fotografía de proyecto",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "02-latest-work",
+      "file": "references/sites/norm-architects/02-latest-work.jpg",
+      "kind": "gallery",
+      "pageUrl": "https://normcph.com/",
+      "scrollY": 1100,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:32:32.035Z",
+      "sectionLabel": "Trabajos recientes: imagen, contexto y tipografía",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "03-hospitality-feature",
+      "file": "references/sites/norm-architects/03-hospitality-feature.jpg",
+      "kind": "editorial",
+      "pageUrl": "https://normcph.com/",
+      "scrollY": 2660,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:32:51.776Z",
+      "sectionLabel": "Proyecto de hospitalidad: fotografía y relato",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "04-hero-mobile",
+      "file": "references/sites/norm-architects/04-hero-mobile.jpg",
+      "kind": "mobile",
+      "pageUrl": "https://normcph.com/",
+      "scrollY": 0,
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "capturedAt": "2026-08-30T22:33:00.313Z",
+      "sectionLabel": "Portada móvil arquitectónica",
+      "imageDimensions": {
+        "width": 375,
+        "height": 812
+      }
+    }
+  ]
+}

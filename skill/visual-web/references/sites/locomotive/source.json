@@ -1,0 +1,76 @@
+{
+  "id": "locomotive",
+  "name": "Locomotive",
+  "url": "https://locomotive.ca/en",
+  "capturedAt": "2026-08-30T22:29:55.876Z",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "file": "references/sites/locomotive/01-hero-desktop.jpg",
+      "kind": "hero",
+      "pageUrl": "https://locomotive.ca/en",
+      "scrollY": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:30:06.182Z",
+      "sectionLabel": "Portada del estudio: marca y expresión gráfica",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "02-featured-work",
+      "file": "references/sites/locomotive/02-featured-work.jpg",
+      "kind": "gallery",
+      "pageUrl": "https://locomotive.ca/en",
+      "scrollY": 1750,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:30:11.641Z",
+      "sectionLabel": "Listado tipográfico de proyectos",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "03-agency-manifesto",
+      "file": "references/sites/locomotive/03-agency-manifesto.jpg",
+      "kind": "editorial",
+      "pageUrl": "https://locomotive.ca/en",
+      "scrollY": 2950,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:30:23.230Z",
+      "sectionLabel": "Manifiesto tipográfico de agencia",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "04-hero-mobile",
+      "file": "references/sites/locomotive/04-hero-mobile.jpg",
+      "kind": "mobile",
+      "pageUrl": "https://locomotive.ca/en",
+      "scrollY": 0,
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "capturedAt": "2026-08-30T22:30:39.195Z",
+      "sectionLabel": "Portada móvil del estudio",
+      "imageDimensions": {
+        "width": 375,
+        "height": 812
+      }
+    }
+  ]
+}

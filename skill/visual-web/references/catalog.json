@@ -1,0 +1,2372 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-08-30T22:33:00.313Z",
+  "sites": [
+    {
+      "id": "basement",
+      "name": "Basement Studio",
+      "url": "https://basement.studio/",
+      "capturedAt": "2026-08-30T22:31:05.146Z",
+      "tags": [
+        "digital-studio",
+        "estudio-digital",
+        "branding",
+        "creative-development",
+        "desarrollo-creativo",
+        "dark",
+        "oscuro",
+        "black",
+        "negro",
+        "monochrome",
+        "monocromo",
+        "immersive-hero",
+        "hero-inmersivo",
+        "environmental-scene",
+        "escena-ambiental",
+        "industrial",
+        "arcade",
+        "warm-lighting",
+        "iluminación-cálida",
+        "orange-accent",
+        "acento-naranja",
+        "oversized-type",
+        "tipografía-grande",
+        "bold-sans",
+        "sans-pesada",
+        "project-list",
+        "lista-de-proyectos",
+        "capabilities",
+        "capacidades",
+        "four-column",
+        "cuatro-columnas",
+        "service-tags",
+        "etiquetas-de-servicio",
+        "high-contrast",
+        "alto-contraste"
+      ],
+      "industries": [
+        "estudios digitales",
+        "branding",
+        "diseño web",
+        "marketing creativo"
+      ],
+      "summary": "Portfolio oscuro de estudio digital que usa una escena ambiental de taller como identidad de portada y grandes bloques sans para proyectos y servicios. Las secciones interiores convierten casos en filas de imagen, explicación y nombre, y presentan capacidades en cuatro columnas con etiquetas técnicas compactas.",
+      "analysis": "references/sites/basement/analysis.md",
+      "captures": [
+        {
+          "id": "01-hero-desktop",
+          "file": "references/sites/basement/01-hero-desktop.jpg",
+          "kind": "hero",
+          "pageUrl": "https://basement.studio/",
+          "scrollY": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:31:05.402Z",
+          "sectionLabel": "Portada de estudio digital",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "Una escena oscura de estudio ocupa casi todo el viewport bajo una cabecera negra: paneles de madera, escalera, recreativa con luz naranja, canasta, persona, perro y un conjunto de monitores construyen profundidad.",
+            "La cabecera muestra marca a la izquierda, seis destinos centrados y «Contact Us» a la derecha, además de un grupo de puntos cercano.",
+            "La escena mezcla luz cálida sobre madera y recreativa con amplias zonas negras; monitores en blanco y negro y varios rótulos de basement aparecen integrados en el espacio.",
+            "En el borde inferior central hay un control rotulado «Human / Machine», con Human acentuado en naranja en este estado.",
+            "La imagen tiene apariencia de escena construida o renderizada, pero una captura estática no establece técnica, dimensionalidad, interactividad o librería."
+          ],
+          "adaptation": [
+            "Crear un espacio narrativo propio donde objetos, luz y señalización representen disciplinas, cultura y tono del estudio.",
+            "Distribuir puntos focales por profundidad para que la escena permita una primera lectura ambiental y luego descubrimientos secundarios.",
+            "Mantener navegación y contacto en una franja estable de alto contraste separada de la imagen compleja.",
+            "Si se ofrece un selector conceptual, explicar su efecto, estado y control mediante teclado sin depender solo del color."
+          ],
+          "avoid": [
+            "No copiar el espacio, los objetos, personajes, rótulos, marca o iluminación de Basement.",
+            "No inferir WebGL, 3D en tiempo real, vídeo, parallax, puntos interactivos o librerías desde el resultado visual.",
+            "No usar una escena densa si desplaza la propuesta y la acción para públicos que necesitan entender el servicio de inmediato."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se accionó Human/Machine ni se observaron cambios en luces, objetos, cámara o monitores. La técnica y el comportamiento de la escena no se probaron."
+          }
+        },
+        {
+          "id": "02-featured-project",
+          "file": "references/sites/basement/02-featured-project.jpg",
+          "kind": "gallery",
+          "pageUrl": "https://basement.studio/",
+          "scrollY": 2400,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:31:10.801Z",
+          "sectionLabel": "Proyecto destacado: imagen, descripción y servicios",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "«Featured Projects» aparece en sans gris de gran escala sobre negro, separado del contenido por una regla horizontal.",
+            "El caso Daylight ocupa la primera fila: una imagen clara de marca domina la izquierda, una explicación blanca ocupa una columna más estrecha y el nombre del proyecto se alinea al extremo derecho.",
+            "La etiqueta «Websites & Features» aparece cerca del pie de la fila, justo antes de la regla que separa el caso siguiente.",
+            "El caso KidSuper comienza debajo con una imagen celeste parcial, descripción y nombre; su fila continúa fuera del borde inferior.",
+            "La cabecera conserva la marca y los destinos en una franja negra separada del índice de proyectos."
+          ],
+          "adaptation": [
+            "Construir cada caso como una fila repetible de imagen dominante, resumen breve, categoría y nombre para permitir escaneo y contexto a la vez.",
+            "Usar reglas horizontales para separar proyectos sin envolverlos en tarjetas independientes.",
+            "Escribir descripciones centradas en problema, intervención y resultado, ajustadas a una columna de medida controlada.",
+            "Probar cabecera y retícula en estados de scroll y anchos intermedios para conservar separación y jerarquía."
+          ],
+          "avoid": [
+            "No tratar la porción de KidSuper como caso completo ni inferir la altura o contenido restante.",
+            "No copiar identidades, textos, imágenes o nombres de proyectos del estudio.",
+            "No forzar esta proporción de columnas si el resumen real necesita más espacio o el nombre del caso se vuelve difícil de leer."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se probaron filas, imágenes o cabecera. La captura no muestra si los casos cambian, expanden o responden al puntero."
+          }
+        },
+        {
+          "id": "03-capabilities",
+          "file": "references/sites/basement/03-capabilities.jpg",
+          "kind": "editorial",
+          "pageUrl": "https://basement.studio/",
+          "scrollY": 4100,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:31:16.571Z",
+          "sectionLabel": "Servicios: jerarquía y distribución de capacidades",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "La etiqueta gris «Capabilities» abre una superficie negra bajo la cabecera.",
+            "Una declaración sans gris de gran escala ocupa cinco líneas y domina la mitad superior con un mensaje sobre trabajo extraordinario y precisión.",
+            "Cuatro columnas inferiores presentan Websites & Features, Visual Branding, IRL Experience Design y Marketing Execution, cada una con un párrafo blanco y etiquetas compactas grises.",
+            "Los bloques comparten alineación superior y ancho similar, mientras las etiquetas se ajustan a varias filas según la cantidad de capacidades.",
+            "La palabra «Contact» empieza en el borde inferior y el control Human/Machine permanece visible al centro; la sección principal de capacidades sí queda contenida en el viewport."
+          ],
+          "adaptation": [
+            "Abrir servicios con una tesis corta y después desglosarlos en columnas paralelas de nombre, alcance y entregables.",
+            "Usar etiquetas para vocabulario concreto de entregables, manteniendo el párrafo como explicación y no como repetición de la lista.",
+            "Ajustar el número de columnas al ancho y convertirlas en una secuencia legible en móvil.",
+            "Diferenciar títulos, párrafos y etiquetas mediante escala y contraste sin depender de múltiples colores."
+          ],
+          "avoid": [
+            "No copiar el manifiesto ni el inventario de servicios; deben corresponder a capacidades reales del proyecto propio.",
+            "No usar etiquetas como adorno ni incluir términos ambiguos que no conduzcan a resultados o entregables.",
+            "No conservar cuatro columnas en pantallas donde obliguen a texto demasiado estrecho."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se accionaron etiquetas, navegación o control Human/Machine. La captura acredita jerarquía y distribución estáticas."
+          }
+        },
+        {
+          "id": "04-hero-mobile",
+          "file": "references/sites/basement/04-hero-mobile.jpg",
+          "kind": "mobile",
+          "pageUrl": "https://basement.studio/",
+          "scrollY": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          },
+          "capturedAt": "2026-08-30T22:31:47.517Z",
+          "sectionLabel": "Portada móvil de escena inmersiva",
+          "imageDimensions": {
+            "width": 375,
+            "height": 812
+          },
+          "observed": [
+            "En el viewport registrado de 390 por 844, la cabecera reduce la navegación a marca, puntos, «Menu» y un icono de dos líneas.",
+            "La escena se recorta alrededor de escalera, canasta, recreativa, panel señalizado y suelo; persona y monitores del escritorio quedan fuera del encuadre visible.",
+            "La luz naranja de la recreativa y la luz cálida de la pared conservan los dos puntos de acento principales sobre negro.",
+            "Bajo la imagen comienza un titular blanco muy grande, «A digital studio & branding powerhouse…», pero queda recortado por el borde inferior y lateral en este estado.",
+            "La captura termina dentro del titular y no muestra el final de la propuesta verbal ni la sección que la sigue."
+          ],
+          "adaptation": [
+            "Elegir un encuadre móvil específico que conserve pocos objetos reconocibles y no dependa de reducir toda la escena de escritorio.",
+            "Colocar la propuesta verbal después de la imagen solo si sus primeras líneas pueden leerse completas y descubren la continuación.",
+            "Probar anchos y alturas reales para ajustar los cortes de línea y asegurar que el título respete el área útil.",
+            "Mantener menú y controles con áreas táctiles suficientes sobre una cabecera estable."
+          ],
+          "avoid": [
+            "No tratar el título cortado por el límite de esta captura como una composición móvil completa o un breakpoint generalizable.",
+            "No asumir que los elementos ausentes fueron eliminados de la escena; solo quedan fuera de este recorte.",
+            "No inferir interacción, 3D, vídeo o técnica responsiva a partir de la diferencia de encuadre."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se abrió el menú ni se observaron cambios de escena o cámara. El estado móvil evidencia un recorte y un titular que continúa fuera del viewport."
+          }
+        }
+      ]
+    },
+    {
+      "id": "floema",
+      "name": "Floema",
+      "url": "https://floema.com/en",
+      "capturedAt": "2026-08-30T22:19:22.178Z",
+      "tags": [
+        "urban-furniture",
+        "mobiliario-urbano",
+        "signage",
+        "señalética",
+        "photography",
+        "fotografía",
+        "product",
+        "producto",
+        "image-constellation",
+        "constelación-de-imágenes",
+        "editorial",
+        "sustainability",
+        "sostenibilidad",
+        "process",
+        "proceso",
+        "cream",
+        "crema",
+        "forest-green",
+        "verde-oscuro",
+        "yellow",
+        "amarillo",
+        "pill-navigation",
+        "navegación-en-cápsulas",
+        "contextual-photography",
+        "fotografía-de-contexto"
+      ],
+      "industries": [
+        "mobiliario urbano",
+        "señalética",
+        "equipamiento exterior",
+        "diseño de espacios públicos"
+      ],
+      "summary": "Una portada crema con titular central y pequeñas imágenes dispersas da paso a categorías sobre fotografías de lugares, un manifiesto verde oscuro y una secuencia fotográfica de proceso. Combina catálogo de objetos con escala humana y contexto territorial.",
+      "analysis": "references/sites/floema/analysis.md",
+      "captures": [
+        {
+          "id": "01-hero-desktop",
+          "file": "references/sites/floema/01-hero-desktop.jpg",
+          "kind": "hero",
+          "pageUrl": "https://floema.com/en",
+          "scrollY": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:19:22.382Z",
+          "sectionLabel": "Portada: titular central y constelación de imágenes de producto",
+          "imageDimensions": {
+            "width": 1416,
+            "height": 885
+          },
+          "observed": [
+            "Un titular negro centrado en dos líneas queda rodeado por pequeñas imágenes de productos y escenas de fabricación sobre un campo crema.",
+            "Las imágenes tienen tamaños y visibilidades distintos; algunas son muy tenues y otras se recortan por el perímetro. No hay una única fotografía protagonista.",
+            "La marca y búsqueda están a la izquierda de la cabecera; cuatro enlaces en cápsulas blancas y selector de idioma se agrupan a la derecha.",
+            "La captura muestra barras de desplazamiento vertical y horizontal, además de un control circular amarillo abajo a la izquierda."
+          ],
+          "adaptation": [
+            "Presentar la amplitud de una colección mediante imágenes propias pequeñas que rodeen una promesa breve y legible.",
+            "Graduar tamaño y presencia visual para que la constelación funcione como contexto y el texto conserve prioridad.",
+            "Asegurar una zona central de lectura y comprobar los límites del contenedor para evitar desplazamiento horizontal accidental."
+          ],
+          "avoid": [
+            "No confundir esta portada con un hero de fotografía única ni convertir cada miniatura en una tarjeta con marco y metadatos.",
+            "No asumir animación, profundidad real ni respuesta al puntero a partir de tamaños y visibilidad variables."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se comprobó movimiento de la constelación, respuesta al puntero ni función del control circular. Se describe únicamente el estado visible."
+          }
+        },
+        {
+          "id": "03-sustainability",
+          "file": "references/sites/floema/03-sustainability.jpg",
+          "kind": "editorial",
+          "pageUrl": "https://floema.com/en",
+          "scrollY": 11900,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:21:40.452Z",
+          "sectionLabel": "Manifiesto de sostenibilidad y voz de la marca",
+          "imageDimensions": {
+            "width": 1416,
+            "height": 885
+          },
+          "observed": [
+            "El tramo superior combina un manifiesto grande amarillo verdoso sobre verde oscuro con una fotografía de señalética instalada en un paisaje costero.",
+            "El inicio de un párrafo precedente queda fuera del encuadre por arriba; la afirmación principal y su enlace sí están completos.",
+            "Debajo, sobre crema, tres fotografías rectangulares muestran piezas gráficas, mecanizado y trabajo manual, con títulos y descripciones breves alineados bajo cada imagen.",
+            "La cabecera visible cambia sus cápsulas y marca al mismo tono amarillo verdoso del bloque oscuro."
+          ],
+          "adaptation": [
+            "Conectar una declaración de marca con una fotografía de uso y después explicar cómo se realiza el trabajo en una secuencia de tres etapas.",
+            "Diferenciar manifiesto y proceso con un cambio de fondo, conservando tipografía y ritmos de alineación.",
+            "Sostener cualquier afirmación ambiental propia con datos, certificaciones o información verificable fuera del recurso visual."
+          ],
+          "avoid": [
+            "No tratar la afirmación ambiental visible como una evaluación independiente ni como prueba de impacto del producto.",
+            "No reconstruir el párrafo cortado ni inferir el flujo de fabricación completo a partir de tres fotografías."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se verificaron efectos de entrada, cambios de color de cabecera durante el recorrido ni enlaces. Se comparan solo superficies capturadas."
+          }
+        },
+        {
+          "id": "04-hero-mobile",
+          "file": "references/sites/floema/04-hero-mobile.jpg",
+          "kind": "mobile",
+          "pageUrl": "https://floema.com/en",
+          "scrollY": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          },
+          "capturedAt": "2026-08-30T22:21:45.667Z",
+          "sectionLabel": "Portada móvil: título y constelación de producto",
+          "imageDimensions": {
+            "width": 375,
+            "height": 812
+          },
+          "observed": [
+            "En el viewport de 390 por 844 registrado, la marca queda arriba a la izquierda y a la derecha aparecen idioma y un control blanco compacto con símbolos de menú y búsqueda.",
+            "El titular continúa centrado en dos líneas, rodeado por pequeñas imágenes repartidas verticalmente que se recortan en los laterales.",
+            "La constelación conserva variación de tamaño y presencia; una imagen verde pálida aparece detrás de la zona de marca.",
+            "El control circular amarillo permanece abajo a la izquierda y también es visible una barra de desplazamiento horizontal."
+          ],
+          "adaptation": [
+            "Recomponer la dispersión de imágenes para un campo vertical, preservando un núcleo central sin interferencias de lectura.",
+            "Agrupar controles de cabecera cuando el ancho se reduce, manteniendo funciones y etiquetas accesibles en la implementación propia.",
+            "Probar los bordes y el ancho de documento en móvil; los recortes decorativos no deben provocar una navegación lateral involuntaria."
+          ],
+          "avoid": [
+            "No presentar esta captura como evidencia de responsive sin desbordamiento, ya que muestra una barra horizontal.",
+            "No usar miniaturas pequeñas para transmitir información esencial que no exista también como texto o imagen accesible en otra sección."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se abrió el menú ni la búsqueda y no se observó la evolución de las imágenes. Esta captura solo informa del encuadre móvil."
+          }
+        },
+        {
+          "id": "02-urban-collection",
+          "file": "references/sites/floema/02-urban-collection.jpg",
+          "kind": "product",
+          "pageUrl": "https://floema.com/en",
+          "scrollY": 1200,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:21:56.405Z",
+          "sectionLabel": "Colección Urban: fotografía de contexto y categoría",
+          "imageDimensions": {
+            "width": 1416,
+            "height": 885
+          },
+          "observed": [
+            "Una fotografía de plaza urbana ocupa la mayor parte de la captura con apariencia oscurecida, dejando leer texto blanco sobre edificios y pavimento.",
+            "Una etiqueta coral de categoría antecede a un título de varias líneas y un botón blanco; el bloque principal se desplaza a la derecha de un pequeño índice lateral.",
+            "Una tarjeta blanca de catálogo con portada coral aparece abajo a la derecha como acción secundaria.",
+            "En el borde inferior hay una franja de otro paisaje y una indicación para continuar: la imagen reúne parte de la sección Urban y el inicio de una superficie siguiente."
+          ],
+          "adaptation": [
+            "Usar una fotografía propia de contexto para explicar dónde vive una categoría de producto, antes de entrar en su listado.",
+            "Distinguir acción de exploración y descarga mediante tamaños y ubicaciones claras, sin hacerlas competir en el mismo bloque.",
+            "Evaluar una capa tonal o un encuadre tranquilo que mantenga legible el texto sobre fotografía."
+          ],
+          "avoid": [
+            "No describir todo el viewport como una única sección homogénea ni copiar la franja inferior como si fuera un borde decorativo intencional.",
+            "No deducir transición, fijación o técnica de scroll por la coexistencia de dos superficies en esta captura."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se probó el paso entre categorías, el botón de productos ni la descarga del catálogo. La franja siguiente solo acredita un encuadre durante el scroll."
+          }
+        }
+      ]
+    },
+    {
+      "id": "koto",
+      "name": "Koto",
+      "url": "https://koto.studio/",
+      "capturedAt": "2026-08-30T22:28:00.264Z",
+      "tags": [
+        "creative-studio",
+        "estudio-creativo",
+        "branding",
+        "brand-design",
+        "diseño-de-marca",
+        "portfolio",
+        "portafolio",
+        "showreel",
+        "reel",
+        "full-bleed-media",
+        "medios-a-sangre",
+        "dark",
+        "oscuro",
+        "black",
+        "negro",
+        "yellow-accent",
+        "acento-amarillo",
+        "video-hero",
+        "hero-de-video",
+        "media-led",
+        "protagonismo-visual",
+        "editorial",
+        "asymmetric-grid",
+        "retícula-asimétrica",
+        "project-gallery",
+        "galería-de-proyectos",
+        "minimal-navigation",
+        "navegación-mínima",
+        "contact-directory",
+        "directorio-de-contacto"
+      ],
+      "industries": [
+        "branding y diseño de marca",
+        "estudios creativos",
+        "publicidad",
+        "consultoría de diseño"
+      ],
+      "summary": "Portfolio de estudio dirigido por imágenes en movimiento a pantalla completa, un logotipo amarillo y capas tipográficas sobrias. Los proyectos se explican con texto lateral y medios dominantes sobre negro; el cierre convierte contacto, contratación y canales en un directorio editorial austero.",
+      "analysis": "references/sites/koto/analysis.md",
+      "captures": [
+        {
+          "id": "01-hero-desktop",
+          "file": "references/sites/koto/01-hero-desktop.jpg",
+          "kind": "hero",
+          "pageUrl": "https://koto.com/",
+          "scrollY": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:28:05.174Z",
+          "sectionLabel": "Portada del estudio creativo",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "Un fotograma rural ocupa todo el viewport: un campo verde y ocre rodeado por árboles, con una figura pequeña cerca del centro inferior.",
+            "La navegación se superpone en la parte alta con logotipo amarillo, seis enlaces oscuros y una hora con zona UTC en el extremo derecho.",
+            "La palabra «Copilot» aparece centrada en blanco; un control «Play» se sitúa más abajo y un control circular de pausa aparece en el ángulo inferior derecho.",
+            "El lema «We’re Koto / The Creative Company» queda en el ángulo inferior izquierdo con blanco y gris; su contraste depende del fotograma que haya detrás.",
+            "Durante la captura, el parent observó que el reel sustituyó este plano de Copilot por otro plano de una furgoneta de Amazon; no se midieron tiempo, transición ni mecanismo."
+          ],
+          "adaptation": [
+            "Usar un reel a sangre cuando varias piezas fuertes puedan comunicar el rango de un portfolio antes de abrir casos individuales.",
+            "Superponer solo marca, navegación, título de proyecto y una presentación corta, reservando áreas seguras que funcionen con todos los fotogramas.",
+            "Aplicar una capa, sombra o color adaptativo detrás del texto cuando la luminosidad del reel varíe.",
+            "Ofrecer controles claros para pausar y reproducir, además de una alternativa estática o reducida para preferencias de movimiento y conexiones limitadas."
+          ],
+          "avoid": [
+            "No depender de un fotograma concreto para que la navegación o el lema alcancen contraste suficiente.",
+            "No copiar proyectos, reel, logotipo o rótulos de clientes del estudio.",
+            "No atribuir autoplay, bucle, duración, tipo de transición, librería o tecnología: solo se observó un cambio de plano."
+          ],
+          "motion": {
+            "status": "observed",
+            "description": "El parent observó durante la sesión que el reel cambió del plano de campo rotulado Copilot a un plano de una furgoneta de Amazon. No se midieron duración, transición, controles, repetición ni motor."
+          }
+        },
+        {
+          "id": "03-contact",
+          "file": "references/sites/koto/03-contact.jpg",
+          "kind": "closing",
+          "pageUrl": "https://koto.com/",
+          "scrollY": 5214,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:28:45.428Z",
+          "sectionLabel": "Contacto editorial por finalidad y oficina",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "Sobre negro, el título «Contact» y el subtítulo gris «Press and careers» ocupan una columna estrecha a la izquierda.",
+            "La región derecha organiza tres filas separadas por reglas finas: Press + Media con correo, Recruitment con invitación y Channels con una lista de cinco destinos visibles.",
+            "Una tarjeta fotográfica de oficina aparece abajo a la izquierda e incorpora «Say hello» y un correo de Berlín sobre la imagen.",
+            "El pie distribuye copyright, privacidad, términos y cookies en una línea tenue cerca del borde inferior.",
+            "La jerarquía depende de blanco, gris medio y reglas sutiles; no hay botones rellenos ni superficies elevadas en el directorio."
+          ],
+          "adaptation": [
+            "Separar contacto de prensa, empleo, oficinas y canales por intención para evitar que un único formulario sirva a públicos incompatibles.",
+            "Usar una fotografía de oficina o equipo propio como invitación humana, acompañada por un dato de contacto específico.",
+            "Mantener las etiquetas de fila cortas y dar a cada destino un texto de acción claro y accesible.",
+            "Medir contraste de reglas, enlaces y texto legal, porque un acabado discreto no debe ocultar información operativa."
+          ],
+          "avoid": [
+            "No copiar direcciones, canales, fotografías o estructura de oficinas de Koto.",
+            "No convertir todo el cierre en gris tenue si los datos de contacto son el objetivo principal.",
+            "No asumir que la tarjeta de oficina abre correo, galería o ubicación; no se probó su interacción."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se accionaron correos, canales, tarjeta de oficina ni enlaces legales. La captura solo muestra el estado estático del cierre."
+          }
+        },
+        {
+          "id": "02-work",
+          "file": "references/sites/koto/02-work.jpg",
+          "kind": "gallery",
+          "pageUrl": "https://koto.com/",
+          "scrollY": 1564,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:28:55.850Z",
+          "sectionLabel": "Proyecto destacado: composición de portfolio",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "Una superficie negra amplia divide el contenido en una columna textual estrecha a la izquierda y una región de medios considerablemente mayor a la derecha.",
+            "La columna izquierda presenta «Our work / Instagram», un párrafo gris y una ficha pequeña de proyecto relacionado cerca del borde inferior.",
+            "La región derecha muestra un fotograma con cuatro personas y la palabra «Instagram» en blanco de gran escala; un icono circular de pausa es visible en el ángulo inferior derecho del medio.",
+            "Debajo del primer medio entra una segunda pieza que queda cortada por el borde inferior, por lo que no se observa la composición completa del caso.",
+            "En la parte superior permanecen visibles un control oscuro de marca y Home a la izquierda, y hora e icono de cuadrícula a la derecha; la captura no establece su método de posicionamiento."
+          ],
+          "adaptation": [
+            "Reservar una columna estable para contexto y dejar que imágenes o vídeos demuestren el trabajo a escala mayor.",
+            "Combinar nombre, relato breve, categoría o fecha y una pista del caso siguiente para sostener navegación narrativa.",
+            "Preparar cada medio con un encuadre que admita el rótulo del proyecto sin tapar rostros o detalles esenciales.",
+            "Dar controles y alternativas a cualquier pieza en movimiento, y conservar un orden de lectura lineal en móvil."
+          ],
+          "avoid": [
+            "No asumir que el control de pausa acredita autoplay, duración o funcionamiento; no se observó temporalmente esta pieza.",
+            "No tratar la segunda pieza cortada como una imagen completa ni inventar su contenido inferior.",
+            "No usar texto gris pequeño sobre negro sin medir legibilidad, especialmente en párrafos extensos."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "Aunque hay un control de pausa visible, no se observó el medio a lo largo del tiempo ni se accionó. No se conoce su reproducción o transición."
+          }
+        },
+        {
+          "id": "04-hero-mobile",
+          "file": "references/sites/koto/04-hero-mobile.jpg",
+          "kind": "mobile",
+          "pageUrl": "https://koto.com/",
+          "scrollY": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          },
+          "capturedAt": "2026-08-30T22:29:03.617Z",
+          "sectionLabel": "Portada móvil del estudio, fotograma del reel",
+          "imageDimensions": {
+            "width": 375,
+            "height": 812
+          },
+          "observed": [
+            "En el viewport registrado de 390 por 844, un primer plano granulado de un rostro ocupa todo el fondo; se distinguen frente, ceja y ojo.",
+            "La cabecera superpone el logotipo amarillo, la etiqueta «Menu» y un icono de cuatro puntos; no aparecen los seis enlaces del escritorio.",
+            "Un pequeño control triangular queda cerca del centro y un control circular de pausa en el ángulo inferior derecho.",
+            "El lema gris se superpone en dos líneas al rostro cerca del pie y presenta contraste visual débil en partes del fotograma.",
+            "El parent observó que el hero pertenece al reel cambiante; esta captura solo conserva un fotograma móvil diferente del campo mostrado en escritorio."
+          ],
+          "adaptation": [
+            "Elegir recortes móviles específicos del reel para conservar un sujeto reconocible y áreas seguras para marca, menú y lema.",
+            "Añadir una capa de contraste estable o una superficie detrás del lema; este fotograma no debe tomarse como modelo de legibilidad.",
+            "Mantener controles táctiles visibles, con nombre accesible, área suficiente y estado comprensible.",
+            "Ofrecer una imagen alternativa o una reproducción reducida cuando el usuario prefiera menos movimiento."
+          ],
+          "avoid": [
+            "No adoptar como ideal el contraste débil del lema gris sobre piel y detalle variable.",
+            "No asumir el contenido del menú ni la relación funcional entre los dos iconos de reproducción visibles.",
+            "No inferir que el reel usa la misma secuencia, encuadre o duración en escritorio y móvil."
+          ],
+          "motion": {
+            "status": "observed",
+            "description": "El parent observó un reel que cambia de imagen durante la sesión; la captura móvil registra un primer plano de rostro distinto del plano rural de escritorio. No se midieron secuencia, duración, transición o implementación."
+          }
+        }
+      ]
+    },
+    {
+      "id": "landonorris",
+      "name": "Lando Norris",
+      "url": "https://landonorris.com/",
+      "capturedAt": "2026-08-30T22:08:44.717Z",
+      "tags": [
+        "sports",
+        "deporte",
+        "personal-brand",
+        "marca-personal",
+        "photography",
+        "fotografía",
+        "portrait",
+        "retrato",
+        "cutout",
+        "recorte",
+        "editorial",
+        "lime",
+        "lima",
+        "high-contrast",
+        "alto-contraste",
+        "serif-sans",
+        "oversized-image",
+        "imagen-protagonista",
+        "split-composition",
+        "composición-dividida",
+        "product-gallery",
+        "galería-de-producto",
+        "organic-linework",
+        "líneas-orgánicas"
+      ],
+      "industries": [
+        "deporte",
+        "marca personal",
+        "automovilismo",
+        "coleccionismo"
+      ],
+      "summary": "Identidad deportiva construida con retratos recortados de gran escala, acentos lima, trazos orgánicos y contraste entre letras serif y sans. Alterna una portada casi sin texto, una elección editorial de dos mundos y una galería oscura de objetos.",
+      "analysis": "references/sites/landonorris/analysis.md",
+      "captures": [
+        {
+          "id": "01-hero-desktop",
+          "file": "references/sites/landonorris/01-hero-desktop.jpg",
+          "kind": "hero",
+          "pageUrl": "https://landonorris.com/",
+          "scrollY": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:08:45.234Z",
+          "sectionLabel": "Portada: identidad deportiva y retrato",
+          "imageDimensions": {
+            "width": 1440,
+            "height": 900
+          },
+          "observed": [
+            "Un retrato frontal centrado ocupa casi toda la altura y sale del borde inferior sobre fondo marfil con líneas orgánicas muy tenues.",
+            "La marca está en la esquina superior izquierda; un monograma pequeño queda centrado arriba, mientras tienda lima y menú contorneado se agrupan a la derecha.",
+            "Una ficha pequeña con circuito y emblema ocupa la esquina inferior izquierda; no hay un gran titular que compita con el rostro.",
+            "Una malla gris semitransparente se superpone alrededor de la cabeza en este estado capturado."
+          ],
+          "adaptation": [
+            "Usar una fotografía propia de un protagonista reconocible y reservar un campo de fondo sobrio para la navegación periférica.",
+            "Asignar el acento saturado a la acción comercial principal y dejar los datos secundarios en una escala mucho menor.",
+            "Diseñar el recorte del retrato y sus zonas seguras antes de colocar controles o información cerca de la cara."
+          ],
+          "avoid": [
+            "No trasladar esta ausencia de titular a un servicio desconocido que necesite explicar su propuesta en el primer pantallazo.",
+            "No reutilizar el retrato, marcas, patrones ni emblemas de la referencia; tampoco tratar la malla capturada como una especificación de efecto."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "Solo se analizó una captura estática. La malla visible no permite determinar su técnica, respuesta al puntero ni evolución temporal."
+          }
+        },
+        {
+          "id": "03-on-off-track",
+          "file": "references/sites/landonorris/03-on-off-track.jpg",
+          "kind": "editorial",
+          "pageUrl": "https://landonorris.com/",
+          "scrollY": 6250,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:09:19.616Z",
+          "sectionLabel": "Doble composición de retratos On Track / Off Track",
+          "imageDimensions": {
+            "width": 1440,
+            "height": 900
+          },
+          "observed": [
+            "Dos perfiles fotográficos enfrentados quedan recortados por los extremos: casco lima a la izquierda y rostro a la derecha.",
+            "Dos bloques centrales de título usan serif arriba y sans pesada abajo, seguidos de texto breve y botones cuadrados lima.",
+            "Un trazo lima se cruza sobre el título izquierdo; el fondo conserva líneas orgánicas pálidas.",
+            "La parte inferior abre una fotografía a todo el ancho, sin una tarjeta alrededor."
+          ],
+          "adaptation": [
+            "Convertir dos facetas de una persona, dos colecciones o dos rutas de contenido en una elección visual equilibrada.",
+            "Dirigir los retratos hacia los textos para concentrar la atención en el centro y conservar aire alrededor de cada ruta.",
+            "En una versión móvil nueva, apilar las rutas con etiquetas y destinos explícitos; esa solución no está mostrada en esta captura."
+          ],
+          "avoid": [
+            "No usar dos rutas equivalentes cuando el producto necesita una única siguiente acción dominante.",
+            "No repetir el trazo superpuesto si reduce la lectura del título ni depender solo del icono de los botones para explicar su destino."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se verificaron hover, navegación de los botones ni cambios durante el desplazamiento."
+          }
+        },
+        {
+          "id": "02-helmets",
+          "file": "references/sites/landonorris/02-helmets.jpg",
+          "kind": "product",
+          "pageUrl": "https://landonorris.com/",
+          "scrollY": 7460,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:09:25.463Z",
+          "sectionLabel": "Colección de cascos: retícula escalonada y producto",
+          "imageDimensions": {
+            "width": 1440,
+            "height": 900
+          },
+          "observed": [
+            "Una franja fotográfica superior continúa la imagen de la sección precedente y da paso a un fondo casi negro.",
+            "El encabezado se sitúa a la izquierda en dos estilos tipográficos, blanco y verde oliva claro; una explicación breve ocupa una columna más estrecha a su derecha.",
+            "Tras un espacio vertical amplio aparecen marcos finos con cascos aislados; los marcos visibles comienzan a distintas alturas.",
+            "El color lima de los productos relaciona las fotografías con el botón de tienda visible en la cabecera."
+          ],
+          "adaptation": [
+            "Presentar una colección pequeña mediante imágenes consistentes de objetos sobre un fondo oscuro que refuerce sus colores.",
+            "Usar un ritmo escalonado con moderación para dar variedad a una galería editorial, conservando metadatos comparables cuando se añadan.",
+            "Separar la introducción de la galería con espacio deliberado solo cuando el contenido y el tiempo de lectura lo permitan."
+          ],
+          "avoid": [
+            "No extrapolar una retícula completa ni un comportamiento de carrusel: solo se ve la parte superior de varios marcos.",
+            "No copiar este espacio vertical en un catálogo de compra intensiva que necesite mostrar precio, filtros y disponibilidad de inmediato."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "La captura no acredita carrusel, movimiento de producto, aparición al hacer scroll ni interacción con las piezas."
+          }
+        },
+        {
+          "id": "04-hero-mobile",
+          "file": "references/sites/landonorris/04-hero-mobile.jpg",
+          "kind": "mobile",
+          "pageUrl": "https://landonorris.com/",
+          "scrollY": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          },
+          "capturedAt": "2026-08-30T22:09:36.302Z",
+          "sectionLabel": "Portada móvil: retrato y navegación compacta",
+          "imageDimensions": {
+            "width": 390,
+            "height": 844
+          },
+          "observed": [
+            "En el viewport móvil de 390 por 844 indicado por la fuente, tienda pasa a la esquina superior izquierda y el menú permanece a la derecha.",
+            "El monograma, nombre y línea secundaria se centran por encima del retrato, que se recorta a los lados y llega al borde inferior.",
+            "Un control lima con símbolo de mano y texto breve aparece abajo a la derecha.",
+            "Se ven malla gris y fragmentos gráficos amarillo-negros sobre la cabeza; son parte del estado capturado, no una composición limpia de retrato."
+          ],
+          "adaptation": [
+            "Reorganizar la identidad como una pila corta centrada cuando la fotografía ocupa todo el ancho útil del móvil.",
+            "Mantener acciones esenciales separadas en las esquinas y comprobar que sus áreas táctiles no invaden el sujeto.",
+            "Preparar una versión estática limpia del hero y evaluar por separado cualquier interacción ornamental."
+          ],
+          "avoid": [
+            "No presentar este estado como prueba de una animación móvil fluida o de una escena tridimensional funcional.",
+            "No copiar los fragmentos superpuestos ni depender de un control con icono ambiguo sin alternativa comprensible y accesible."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "Se ve una indicación de interacción táctil, pero no se tocó ni se probó. Los fragmentos visibles no permiten inferir causa o comportamiento."
+          }
+        }
+      ]
+    },
+    {
+      "id": "linear",
+      "name": "Linear",
+      "url": "https://linear.app/",
+      "capturedAt": "2026-08-30T22:26:05.670Z",
+      "tags": [
+        "saas",
+        "software-as-a-service",
+        "product-management",
+        "gestión-de-producto",
+        "developer-tools",
+        "herramientas-de-desarrollo",
+        "artificial-intelligence",
+        "inteligencia-artificial",
+        "dark",
+        "oscuro",
+        "monochrome",
+        "monocromo",
+        "minimal",
+        "minimalista",
+        "product-ui",
+        "interfaz-de-producto",
+        "interface-mockup",
+        "maqueta-de-interfaz",
+        "oversized-type",
+        "tipografía-grande",
+        "editorial",
+        "technical",
+        "técnico",
+        "wireframe-illustration",
+        "ilustración-lineal",
+        "three-column",
+        "tres-columnas",
+        "asymmetric-hero",
+        "hero-asimétrico",
+        "high-contrast",
+        "alto-contraste"
+      ],
+      "industries": [
+        "software de gestión de producto",
+        "herramientas para desarrolladores",
+        "colaboración de equipos",
+        "software B2B"
+      ],
+      "summary": "Presentación SaaS oscura y contenida que combina titulares blancos de gran escala, texto secundario gris, líneas finas y vistas del producto casi monocromas. La interfaz real ocupa el papel de imagen principal; una sección editorial de tres principios y otra composición de integración explican el sistema sin romper la estética técnica.",
+      "analysis": "references/sites/linear/analysis.md",
+      "captures": [
+        {
+          "id": "01-hero-desktop",
+          "file": "references/sites/linear/01-hero-desktop.jpg",
+          "kind": "hero",
+          "pageUrl": "https://linear.app/",
+          "scrollY": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:26:05.832Z",
+          "sectionLabel": "Portada de producto: propuesta y vista de aplicación",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "Sobre un fondo casi negro, un titular blanco de dos líneas ocupa la zona media izquierda, seguido por una descripción breve en gris.",
+            "La cabecera horizontal reúne logotipo a la izquierda, seis enlaces de navegación, acceso y un botón claro de registro en el lado derecho; una línea fina separa la navegación del contenido.",
+            "Un pequeño enlace de novedad, «New Loops», aparece aislado en la zona media derecha y equilibra la masa del titular sin competir con ella.",
+            "Una vista oscura del producto entra desde el borde inferior dentro de un marco redondeado; muestra navegación lateral, detalle de una incidencia y un panel superpuesto, pero la captura no contiene su extensión completa.",
+            "La paleta visible es casi monocroma: negro, blanco y grises, con acentos pequeños amarillos y violáceos dentro de la interfaz."
+          ],
+          "adaptation": [
+            "Reservar el contraste máximo para una promesa breve y permitir que una vista de producto detallada funcione como segunda capa de lectura.",
+            "Usar una captura o maqueta propia con un estado comprensible y representativo, evitando llenar el hero con varias ventanas sin una relación narrativa.",
+            "Colocar una noticia secundaria en un área libre solo cuando no reste claridad a la acción principal; en una página de conversión puede convertirse en CTA explícito.",
+            "Mantener una paleta base restringida y dejar los colores de estado dentro del producto para que la interfaz conserve significado."
+          ],
+          "avoid": [
+            "No copiar pantallas, nombres de incidencias, marca o microtextos visibles del producto.",
+            "No asumir que el panel superpuesto se abre, anima o responde de una forma concreta; la captura solo acredita su disposición estática.",
+            "No reducir demasiado el contraste de la descripción y enlaces al adaptar el gris sobre negro; debe medirse con los colores definitivos."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se probó la aparición del mockup, el panel superpuesto, el enlace de novedad ni la navegación; la captura solo registra un estado visual."
+          }
+        },
+        {
+          "id": "02-principles",
+          "file": "references/sites/linear/02-principles.jpg",
+          "kind": "editorial",
+          "pageUrl": "https://linear.app/",
+          "scrollY": 1450,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:26:19.967Z",
+          "sectionLabel": "Principios de producto: tres figuras conceptuales",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "Un párrafo editorial de gran escala ocupa casi todo el ancho superior: la frase inicial se muestra en blanco y el resto en gris medio para marcar dos niveles de énfasis.",
+            "Debajo se organiza una retícula de tres columnas separadas por reglas verticales finas y rotuladas FIG 0.1, FIG 0.2 y FIG 0.3.",
+            "Cada columna contiene una figura geométrica de trazo gris tenue sobre negro: capas apiladas, volúmenes modulares y planos escalonados.",
+            "Los títulos «Purpose-built», «Powered by agents» y «Designed for speed» aparecen cerca del pie, seguidos por descripciones que quedan parcialmente cortadas por el borde inferior.",
+            "En esta captura interior la cabecera visible muestra el logotipo a la izquierda, pero no los enlaces del hero; la imagen no permite establecer la causa ni el comportamiento de la cabecera."
+          ],
+          "adaptation": [
+            "Convertir tres principios de producto en figuras abstractas propias cuando cada forma pueda reforzar una idea concreta y conservar una gramática visual común.",
+            "Usar el cambio de blanco a gris dentro de una frase larga para separar tesis y explicación sin añadir otro componente.",
+            "Alinear rótulo, figura, título y descripción sobre una retícula consistente para que el conjunto se lea como un sistema técnico.",
+            "Preparar un orden lineal claro para anchos estrechos, porque la relación en tres columnas no garantiza por sí sola una secuencia móvil comprensible."
+          ],
+          "avoid": [
+            "No adoptar ilustraciones abstractas solo como decoración si no representan principios distinguibles.",
+            "No reconstruir el contenido cortado bajo el viewport ni afirmar la altura final de las columnas.",
+            "No interpretar la ausencia de enlaces visibles como navegación oculta por scroll, ni deducir animación de las figuras desde una imagen estática."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se observó si las figuras se dibujan, reaccionan al puntero o entran al hacer scroll; tampoco se comprobó el estado de la cabecera."
+          }
+        },
+        {
+          "id": "03-intake",
+          "file": "references/sites/linear/03-intake.jpg",
+          "kind": "product",
+          "pageUrl": "https://linear.app/",
+          "scrollY": 2550,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:26:26.442Z",
+          "sectionLabel": "Funcionalidad: intake e integraciones con vista de producto",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "La introducción se divide en dos columnas: título blanco de dos líneas a la izquierda y explicación más enlace «Learn more» a la derecha.",
+            "La mitad inferior presenta una composición de producto en capas: un panel de conversación ocupa el primer plano izquierdo y una vista de tablero se extiende detrás hacia la derecha.",
+            "El panel frontal muestra avatares, mensajes y un compositor con una instrucción dirigida a Linear; el control de envío violáceo es el acento cromático más fuerte.",
+            "El tablero del fondo pierde contraste hacia los bordes, lo que concentra la atención en la conversación y comunica el paso de entrada a resultado sin flechas explicativas.",
+            "La composición llega hasta los bordes inferior y derecho del viewport; no se ve el final de la sección ni el contenido posterior."
+          ],
+          "adaptation": [
+            "Explicar una integración mediante dos superficies de producto relacionadas: origen de la solicitud en primer plano y destino operativo en segundo plano.",
+            "Elegir contenido de interfaz propio que permita entender la transferencia con una lectura rápida, sin depender de párrafos largos.",
+            "Usar profundidad, escala y contraste para establecer origen y destino, conservando etiquetas y texto esenciales en tamaños legibles.",
+            "Mantener el título y la explicación fuera de la imagen de producto para que la promesa siga siendo accesible si el mockup se recorta."
+          ],
+          "avoid": [
+            "No reutilizar marcas de integraciones, avatares, mensajes ni datos de muestra de esta captura sin permiso.",
+            "No afirmar que la atenuación del tablero ocurre de forma interactiva o que el mensaje crea una incidencia en tiempo real; solo se observa una relación visual.",
+            "No multiplicar ventanas y capas cuando el flujo no pueda resumirse en un origen y un resultado claros."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se envió el mensaje, no se accionó «Learn more» y no se comprobó ninguna transición entre conversación y tablero."
+          }
+        },
+        {
+          "id": "04-hero-mobile",
+          "file": "references/sites/linear/04-hero-mobile.jpg",
+          "kind": "mobile",
+          "pageUrl": "https://linear.app/",
+          "scrollY": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          },
+          "capturedAt": "2026-08-30T22:26:34.279Z",
+          "sectionLabel": "Portada móvil de producto",
+          "imageDimensions": {
+            "width": 375,
+            "height": 812
+          },
+          "observed": [
+            "En el viewport registrado de 390 por 844, la cabecera conserva logotipo, «Log in», botón claro de registro y menú de tres líneas; los enlaces de escritorio no están visibles.",
+            "El titular se recompone en cuatro líneas y domina la zona superior; la descripción gris aparece debajo en dos líneas largas, seguida del enlace de novedad.",
+            "La vista del producto comienza en la mitad inferior dentro de un marco oscuro y estrecho; se ve una porción de navegación y detalle, mientras el resto continúa bajo el borde inferior.",
+            "El diseño conserva el fondo casi negro, el texto blanco y la jerarquía sobria del escritorio, pero reordena el enlace «New Loops» dentro del flujo izquierdo.",
+            "No se ve una acción principal dentro del cuerpo antes del mockup; sí permanece visible el registro en la cabecera."
+          ],
+          "adaptation": [
+            "Recomponer el titular para un ancho estrecho y comprobar manualmente sus cortes de línea con el texto real, evitando una reducción extrema del tamaño.",
+            "Mantener una acción compacta en la cabecera y ubicar las noticias secundarias dentro del flujo vertical.",
+            "Preparar un recorte móvil específico del producto que conserve una tarea reconocible; simplificar detalles ilegibles en lugar de reducir el escritorio sin criterio.",
+            "Decidir si el mockup debe aparecer en el primer viewport según la prioridad entre explicación, conversión y prueba de producto."
+          ],
+          "avoid": [
+            "No asumir que los enlaces ausentes se eliminaron del sitio: podrían estar dentro del menú, que no se abrió.",
+            "No tratar el área visible del mockup como una representación completa de la interfaz móvil del producto.",
+            "No conservar texto secundario gris sin verificar contraste y legibilidad en el dispositivo objetivo."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se abrió el menú ni se probaron el registro, la novedad o el desplazamiento del mockup; la evidencia es estática y parcial."
+          }
+        }
+      ]
+    },
+    {
+      "id": "locomotive",
+      "name": "Locomotive",
+      "url": "https://locomotive.ca/en",
+      "capturedAt": "2026-08-30T22:29:55.876Z",
+      "tags": [
+        "digital-agency",
+        "agencia-digital",
+        "creative-studio",
+        "estudio-creativo",
+        "portfolio",
+        "portafolio",
+        "red",
+        "rojo",
+        "black",
+        "negro",
+        "high-contrast",
+        "alto-contraste",
+        "serif-display",
+        "serif-de-exhibición",
+        "oversized-type",
+        "tipografía-grande",
+        "editorial",
+        "typographic-list",
+        "lista-tipográfica",
+        "project-index",
+        "índice-de-proyectos",
+        "pixelated-media",
+        "imagen-pixelada",
+        "full-bleed-media",
+        "medios-a-sangre",
+        "manifesto",
+        "manifiesto",
+        "two-column",
+        "dos-columnas",
+        "minimal-navigation",
+        "navegación-mínima"
+      ],
+      "industries": [
+        "agencias digitales",
+        "diseño web",
+        "branding",
+        "servicios creativos"
+      ],
+      "summary": "Portfolio de agencia que alterna un hero rojo y negro de medios a sangre con grandes titulares serif sobre blanco. La lista de proyectos convierte nombres en la imagen principal y el manifiesto combina una declaración tipográfica, una figura aislada sobre negro y una columna directa de servicios y destinos.",
+      "analysis": "references/sites/locomotive/analysis.md",
+      "captures": [
+        {
+          "id": "01-hero-desktop",
+          "file": "references/sites/locomotive/01-hero-desktop.jpg",
+          "kind": "hero",
+          "pageUrl": "https://locomotive.ca/en",
+          "scrollY": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:30:06.182Z",
+          "sectionLabel": "Portada del estudio: marca y expresión gráfica",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "Una imagen roja y negra, granulada y parcialmente pixelada, cubre todo el viewport; se distinguen formas y un rostro borroso sin una escena literal completamente legible.",
+            "La cabecera blanca superpuesta distribuye marca y un glifo a la izquierda, el grupo «Work, Agency, Careers, Store» en el centro y «Let’s talk» a la derecha.",
+            "En el ángulo inferior izquierdo, un lockup de glifos y etiquetas pequeñas precede al texto serif «Locomotive Digital-first Design Agency», que ocupa dos líneas grandes.",
+            "Pequeños acentos cian, naranja y blanco contrastan con la base roja y negra dentro del lockup inferior.",
+            "La captura registra un solo fotograma; aunque el fondo fue descrito como vídeo durante la captura, no muestra por sí solo su evolución temporal."
+          ],
+          "adaptation": [
+            "Combinar una pieza de medios abstracta a sangre con una descripción directa de la agencia para expresar carácter sin ocultar la función.",
+            "Crear un lockup original de símbolos, disciplinas y nombre que pueda sobrevivir sobre fondos variables.",
+            "Reservar zonas de contraste estable para navegación y titular, o añadir protección visual cuando cambie la luminosidad del medio.",
+            "Usar una mezcla de serif display y sans funcional para separar voz editorial de navegación, sin depender de una familia exacta ajena."
+          ],
+          "avoid": [
+            "No copiar los glifos, logotipos, composición tipográfica o material del reel de Locomotive.",
+            "No usar abstracción intensa si el visitante no puede descubrir qué ofrece la organización y cómo contactarla.",
+            "No inferir reproducción, distorsión animada, duración, librería o técnica de render desde este fotograma."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "El fondo se describió como vídeo en la sesión, pero no se midieron cambio, reproducción, bucle, duración o interacción. El análisis se limita al fotograma capturado."
+          }
+        },
+        {
+          "id": "02-featured-work",
+          "file": "references/sites/locomotive/02-featured-work.jpg",
+          "kind": "gallery",
+          "pageUrl": "https://locomotive.ca/en",
+          "scrollY": 1750,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:30:11.641Z",
+          "sectionLabel": "Listado tipográfico de proyectos",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "Sobre blanco, la etiqueta sans «Featured work» aparece sobre una regla horizontal que abre un índice de proyectos.",
+            "Los nombres Lightship, Wolverine Worldwide, The Drake Hotel, Dulcedo y Scout Motors se componen centrados con serif negra de gran escala y se separan mediante líneas finas.",
+            "Una miniatura fotográfica rectangular aparece junto a Dulcedo; la captura no acredita si está siempre visible o responde a un estado de interacción.",
+            "La cabecera mantiene la misma distribución del hero, ahora en negro sobre blanco.",
+            "Scout Motors queda parcialmente cortado por el borde inferior y la captura no muestra el final del listado."
+          ],
+          "adaptation": [
+            "Usar un índice tipográfico cuando los nombres de proyectos o clientes tengan suficiente reconocimiento y el objetivo sea un recorrido rápido.",
+            "Añadir una vista previa propia como señal visual secundaria, manteniendo el nombre como objetivo principal y accesible.",
+            "Separar filas con reglas simples y áreas de interacción amplias en lugar de envolver cada proyecto en una tarjeta.",
+            "Proporcionar categoría, fecha o resultado en otro nivel cuando los nombres solos no expliquen el trabajo."
+          ],
+          "avoid": [
+            "No asumir que la miniatura de Dulcedo es un hover, sigue el puntero o anima; solo es visible en este estado.",
+            "No tratar los cinco nombres visibles como inventario completo ni reconstruir la fila cortada.",
+            "No usar tipografía extrema si produce cortes, solapamientos o objetivos táctiles ambiguos en anchos pequeños."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se recorrieron filas ni se probó la miniatura. No se conoce si existen cambios de imagen, hover, seguimiento del puntero o transiciones."
+          }
+        },
+        {
+          "id": "03-agency-manifesto",
+          "file": "references/sites/locomotive/03-agency-manifesto.jpg",
+          "kind": "editorial",
+          "pageUrl": "https://locomotive.ca/en",
+          "scrollY": 2950,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:30:23.230Z",
+          "sectionLabel": "Manifiesto tipográfico de agencia",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "Una frase serif de gran escala ocupa la franja superior, pero comienza antes del borde alto de la captura; son visibles varias líneas sobre identidades y experiencias digitales a medida.",
+            "Debajo, una retícula de dos columnas coloca a la izquierda un rectángulo negro con una persona vista de espaldas y a la derecha un párrafo sans sobre estrategia, despliegue, mantenimiento, web y branding.",
+            "Dos enlaces, «Agency» y «Careers», se presentan como filas con reglas finas y flechas hacia la derecha.",
+            "La figura aislada sobre negro funciona como contrapunto conceptual frente al texto directo de la columna derecha.",
+            "En el borde inferior comienza el texto «Always looking», por lo que la sección continúa fuera del viewport; tampoco se ve el inicio completo de la frase superior."
+          ],
+          "adaptation": [
+            "Combinar una declaración editorial amplia con una explicación operativa más pequeña para expresar voz y capacidad en la misma sección.",
+            "Usar una imagen conceptual propia como pausa entre la declaración y los destinos de agencia o empleo.",
+            "Limitar los enlaces a próximos pasos pertinentes y darles filas amplias con etiquetas claras.",
+            "En móvil, ordenar declaración, explicación, imagen y enlaces según prioridad, sin conservar una división de columnas demasiado estrecha."
+          ],
+          "avoid": [
+            "No completar las palabras o frases ausentes en los bordes ni atribuir contenido a la continuación inferior.",
+            "No copiar el texto de manifiesto, la persona, el glifo central o la composición literal.",
+            "No inferir animación, recorte dinámico, modelo 3D o técnica de aislamiento de la figura desde la captura estática."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se observó movimiento de la figura, la frase o las flechas y no se probaron los enlaces. La captura describe una composición parcial."
+          }
+        },
+        {
+          "id": "04-hero-mobile",
+          "file": "references/sites/locomotive/04-hero-mobile.jpg",
+          "kind": "mobile",
+          "pageUrl": "https://locomotive.ca/en",
+          "scrollY": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          },
+          "capturedAt": "2026-08-30T22:30:39.195Z",
+          "sectionLabel": "Portada móvil del estudio",
+          "imageDimensions": {
+            "width": 375,
+            "height": 812
+          },
+          "observed": [
+            "En el viewport registrado de 390 por 844, el fondo rojo y negro se recompone como grandes bloques pixelados y formas oscuras verticales.",
+            "La cabecera contiene marca, glifo y «Menu» en una única fila; los destinos de escritorio y «Let’s talk» no aparecen.",
+            "El lockup inferior combina pequeñas etiquetas delineadas, el nombre Locomotive y el título serif «Digital-first Design Agency» en varias líneas.",
+            "Acentos cian, naranja y blanco permanecen dentro del lockup sobre la base roja; la zona tipográfica alcanza el borde inferior y la composición del hero continúa fuera de pantalla.",
+            "La captura no muestra la apertura del menú, una acción de contacto independiente ni el inicio de la sección siguiente."
+          ],
+          "adaptation": [
+            "Recomponer un lockup editorial para el ancho móvil, controlando cortes de línea y contraste como una pieza diseñada, no como reducción automática.",
+            "Simplificar navegación a marca, menú y una acción prioritaria si la conversión exige acceso inmediato.",
+            "Elegir un recorte móvil del medio que conserve textura y espacio para texto sin competir con él.",
+            "Probar el título en alturas móviles reales para que el contenido esencial no quede pegado o cortado en el borde."
+          ],
+          "avoid": [
+            "No asumir que los enlaces ausentes están dentro del menú ni cuál es su orden; el menú no se abrió.",
+            "No copiar el lockup, glifos, distorsión o material de fondo de la agencia.",
+            "No tratar esta captura parcial como evidencia de la altura total del hero o de un breakpoint exacto generalizable."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se abrió el menú ni se observó evolución del fondo o del lockup. La evidencia móvil es un único estado y termina dentro del hero."
+          }
+        }
+      ]
+    },
+    {
+      "id": "mindmarket",
+      "name": "MindMarket",
+      "url": "https://mindmarket.com/",
+      "capturedAt": "2026-08-30T22:10:44.409Z",
+      "tags": [
+        "illustration",
+        "ilustración",
+        "characters",
+        "personajes",
+        "human-centered",
+        "enfoque-humano",
+        "playful",
+        "lúdico",
+        "b2b",
+        "editorial",
+        "green",
+        "verde",
+        "colorful",
+        "colorido",
+        "oversized-type",
+        "tipografía-grande",
+        "centered-hero",
+        "hero-centrado",
+        "organic-shapes",
+        "formas-orgánicas",
+        "narrative",
+        "narrativa",
+        "white-panels",
+        "paneles-blancos",
+        "service-design",
+        "servicios"
+      ],
+      "industries": [
+        "investigación de mercados",
+        "consultoría",
+        "servicios B2B",
+        "investigación de usuarios"
+      ],
+      "summary": "Comunicación de servicios mediante un hero verde de titular centrado y personajes ilustrados de colores. Los interiores alternan paneles blancos legibles con figuras y formas orgánicas de gran escala para convertir información profesional en una narrativa accesible.",
+      "analysis": "references/sites/mindmarket/analysis.md",
+      "captures": [
+        {
+          "id": "01-hero-desktop",
+          "file": "references/sites/mindmarket/01-hero-desktop.jpg",
+          "kind": "hero",
+          "pageUrl": "https://mindmarket.com/",
+          "scrollY": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:11:50.742Z",
+          "sectionLabel": "Portada: tipografía de gran escala e ilustración humana",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "Un fondo verde uniforme sostiene un titular negro centrado de dos líneas, un subtítulo pequeño y un grupo ilustrado que entra desde abajo.",
+            "La navegación se presenta en una franja blanca redondeada con marca, enlaces y menú circular; la acción de presupuesto ocupa un panel blanco separado a la derecha.",
+            "La ilustración emplea figuras humanas estilizadas, manos grandes, contornos finos y bloques de azul, coral, lila y amarillo.",
+            "El primer nivel es el titular; el grupo humano queda parcialmente cortado por el borde inferior y aporta una segunda lectura."
+          ],
+          "adaptation": [
+            "Usar un mensaje corto y una composición central para explicar una promesa de servicio antes de desarrollar los detalles.",
+            "Crear una familia de ilustraciones propia con paleta, proporciones y trazos consistentes para enlazar el hero con secciones posteriores.",
+            "Separar la navegación del fondo saturado mediante una superficie clara y reservar una ubicación reconocible para la acción comercial."
+          ],
+          "avoid": [
+            "No adoptar personajes genéricos sin una relación visible con la promesa del servicio.",
+            "No copiar los personajes ni el estilo de marca de forma literal; tampoco identificar la fuente exacta solo por su aspecto."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "Se observó la composición estática. No se comprobó movimiento de personajes, navegación ni aparición durante la carga."
+          }
+        },
+        {
+          "id": "02-services",
+          "file": "references/sites/mindmarket/02-services.jpg",
+          "kind": "editorial",
+          "pageUrl": "https://mindmarket.com/",
+          "scrollY": 2050,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:12:07.173Z",
+          "sectionLabel": "Servicios: texto y objetos ilustrados",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "Sobre fondo crema, una forma verde ancha recorre la composición detrás de personajes y papeles ilustrados.",
+            "Un panel blanco con título, párrafo y botón coral ocupa la zona superior derecha; otro panel empieza abajo a la izquierda.",
+            "Las figuras y objetos llenan los espacios opuestos a los paneles, creando alternancia diagonal en lugar de una serie de tarjetas iguales.",
+            "La cabecera blanca permanece visible en esta captura tomada a mayor scroll, sin que la captura permita establecer su implementación."
+          ],
+          "adaptation": [
+            "Alternar explicación e imagen para descomponer un servicio complejo en beneficios breves y visualmente diferenciados.",
+            "Mantener el texto sobre superficies tranquilas y usar la ilustración fuera de su área de lectura.",
+            "Crear un motivo de fondo que conecte varios bloques, pero dar a cada bloque su propio título, texto y siguiente acción."
+          ],
+          "avoid": [
+            "No convertir toda la página en una acumulación de tarjetas anidadas; aquí los paneles comparten un campo abierto de ilustración.",
+            "No trasladar el texto a zonas ilustradas ni inferir una trayectoria animada por la forma verde del fondo."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se probó scroll animado, fijación de paneles ni comportamiento de la cabecera; solo se describe su posición visible."
+          }
+        },
+        {
+          "id": "04-hero-mobile",
+          "file": "references/sites/mindmarket/04-hero-mobile.jpg",
+          "kind": "mobile",
+          "pageUrl": "https://mindmarket.com/",
+          "scrollY": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          },
+          "capturedAt": "2026-08-30T22:12:26.496Z",
+          "sectionLabel": "Portada móvil y adaptación de ilustración",
+          "imageDimensions": {
+            "width": 375,
+            "height": 812
+          },
+          "observed": [
+            "En el viewport de 390 por 844 registrado, la cabecera conserva solo marca y menú circular; los enlaces y el panel separado de presupuesto no aparecen.",
+            "El titular sigue centrado en dos líneas y el subtítulo queda debajo, con márgenes laterales estrechos pero texto visible.",
+            "Existe una franja vertical amplia entre cabecera y título y otra antes del grupo humano, que se recorta al pie de pantalla.",
+            "Se mantiene el fondo verde y la misma familia de personajes, ahora adaptada a un campo mucho más estrecho."
+          ],
+          "adaptation": [
+            "Simplificar la navegación al reducir ancho y conservar la promesa principal como ancla de lectura.",
+            "Preparar un encuadre móvil deliberado de la ilustración y comprobar que los elementos expresivos sobrevivan al recorte.",
+            "Ajustar el espacio vertical a la prioridad comercial de cada proyecto; una acción esencial podría necesitar más presencia en el primer viewport."
+          ],
+          "avoid": [
+            "No asumir que la acción de presupuesto desaparece del sitio: solo no está visible en esta captura.",
+            "No heredar automáticamente los espacios grandes si desplazan la siguiente acción más allá de lo aceptable para la tarea del usuario."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se abrió el menú ni se probaron transiciones o comportamiento táctil; esta evidencia es exclusivamente de disposición móvil estática."
+          }
+        },
+        {
+          "id": "03-sector-story",
+          "file": "references/sites/mindmarket/03-sector-story.jpg",
+          "kind": "editorial",
+          "pageUrl": "https://mindmarket.com/",
+          "scrollY": 3400,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:12:51.419Z",
+          "sectionLabel": "Sectores: tarjeta editorial y narrativa ilustrada",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "Un panel blanco central reúne título, párrafo y botón azul sobre una gran forma verde de bordes curvos.",
+            "Un personaje con mando de juego ocupa el lateral izquierdo y se aproxima al borde del panel; otras figuras y pequeños objetos se recortan por el perímetro.",
+            "La ilustración distribuye acentos azul, amarillo, coral y lila alrededor de una zona de texto estable.",
+            "El botón incorpora un círculo blanco con flecha, el mismo esquema visual del botón de servicios con un color distinto."
+          ],
+          "adaptation": [
+            "Vincular una especialidad o sector a una escena concreta, conservando el contenido principal en una superficie legible.",
+            "Mantener una anatomía consistente de botón y variar el acento solo cuando ayude a diferenciar capítulos.",
+            "Hacer que las figuras rodeen y orienten hacia el contenido, con solapamientos controlados que no tapen palabras."
+          ],
+          "avoid": [
+            "No usar una escena asociada al juego para servicios cuyo tono o audiencia la perciban como poco pertinente.",
+            "No interpretar el recorte de figuras como evidencia de una composición completa fuera del viewport ni como animación."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "La captura no permite establecer si las figuras se mueven, si los paneles cambian con scroll o si el botón tiene estados especiales."
+          }
+        }
+      ]
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral AI",
+      "url": "https://mistral.ai/",
+      "capturedAt": "2026-08-30T22:22:29.527Z",
+      "tags": [
+        "artificial-intelligence",
+        "inteligencia-artificial",
+        "enterprise",
+        "empresarial",
+        "developer-tools",
+        "herramientas-de-desarrollo",
+        "dark",
+        "oscuro",
+        "black",
+        "negro",
+        "orange",
+        "naranja",
+        "red",
+        "rojo",
+        "pixel-art",
+        "arte-píxel",
+        "modular-grid",
+        "retícula-modular",
+        "mosaic",
+        "mosaico",
+        "oversized-type",
+        "tipografía-grande",
+        "customer-stories",
+        "casos-de-clientes",
+        "product-map",
+        "mapa-de-productos",
+        "staggered-layout",
+        "composición-escalonada"
+      ],
+      "industries": [
+        "inteligencia artificial",
+        "software empresarial",
+        "herramientas para desarrolladores",
+        "servicios tecnológicos"
+      ],
+      "summary": "Sistema visual tecnológico de fondo negro, divisiones finas y alto contraste, acompañado por mosaicos geométricos en naranja y rojo. La portada, casos de clientes y mapa de productos usan módulos de distinta escala para ordenar una oferta amplia sin perder una identidad compacta de píxel.",
+      "analysis": "references/sites/mistral/analysis.md",
+      "captures": [
+        {
+          "id": "01-hero-desktop",
+          "file": "references/sites/mistral/01-hero-desktop.jpg",
+          "kind": "hero",
+          "pageUrl": "https://mistral.ai/",
+          "scrollY": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:22:46.559Z",
+          "sectionLabel": "Portada: tipografía blanca, retícula negra y mosaico cálido",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "La portada negra se divide en una gran columna izquierda y una banda derecha más estrecha mediante líneas finas de retícula.",
+            "Un titular blanco de gran escala ocupa la mitad superior izquierda; debajo hay un mosaico de rectángulos naranja, rojo y granate, con pequeños rótulos y un emblema de píxel.",
+            "La columna derecha contiene una explicación breve, tres flechas hacia abajo y una noticia destacada pequeña cerca del pie.",
+            "La cabecera presenta numerosos enlaces en celdas separadas y una acción de ventas sobre fondo claro; un control de cookies es visible abajo a la izquierda."
+          ],
+          "adaptation": [
+            "Usar una retícula fuerte para separar promesa, contexto, noticia y acciones sin recurrir a tarjetas redondeadas.",
+            "Crear un mosaico geométrico propio que codifique la identidad con pocos colores y formas compatibles con el logotipo.",
+            "Dar mayor peso visual a una acción comercial si el hero se adapta a una página de conversión específica."
+          ],
+          "avoid": [
+            "No interpretar la disposición de bloques como movimiento, carga progresiva o visualización de datos.",
+            "No copiar el mosaico, emblema, logotipo o textos de marca ni heredar una navegación tan densa para un producto con menos secciones."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se observó evolución temporal del mosaico, noticia o flechas. La captura estática no permite atribuirles animación ni comportamiento de scroll."
+          }
+        },
+        {
+          "id": "03-product-map",
+          "file": "references/sites/mistral/03-product-map.jpg",
+          "kind": "product",
+          "pageUrl": "https://mistral.ai/",
+          "scrollY": 2800,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:22:58.146Z",
+          "sectionLabel": "Mapa visual de familia de productos",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "Un titular blanco centrado ocupa una franja amplia de aire negro sobre una composición de módulos escalonados.",
+            "Los módulos visibles incluyen Vibe, Studio, Forge y Applied AI services, con pequeños emblemas de color, títulos y descripciones breves.",
+            "Rectángulos gris oscuro y rombos decorativos interrumpen la retícula ortogonal; los contornos finos mantienen cada área distinguible sobre negro.",
+            "Varias columnas y módulos continúan por debajo del borde inferior, por lo que la captura no contiene el mapa completo de productos."
+          ],
+          "adaptation": [
+            "Representar una familia de productos con módulos conectados visualmente cuando la oferta incluye distintos niveles o tipos de servicio.",
+            "Usar color de emblema, título y una frase corta como claves repetibles antes de añadir comparaciones más detalladas.",
+            "En móvil o lectura lineal, proporcionar un orden inequívoco independiente de la posición bidimensional."
+          ],
+          "avoid": [
+            "No deducir relaciones jerárquicas o de dependencia entre módulos solo por su posición o tamaño.",
+            "No tratar esta captura parcial como inventario exhaustivo ni usar huecos decorativos si dificultan descubrir opciones."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se probaron hover, expansión, enlaces ni entrada de los módulos. La continuación inferior es espacial, no evidencia de animación."
+          }
+        },
+        {
+          "id": "02-customer-stories",
+          "file": "references/sites/mistral/02-customer-stories.jpg",
+          "kind": "gallery",
+          "pageUrl": "https://mistral.ai/",
+          "scrollY": 2000,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:23:10.848Z",
+          "sectionLabel": "Casos de clientes: tarjetas editoriales y fotografía",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "Una tarjeta horizontal amplia de HSBC domina la izquierda con fotografía nocturna de una escultura de león, marca, etiqueta sectorial, titular y botón superpuestos.",
+            "A la derecha se ve una segunda tarjeta de ASML, más estrecha por el encuadre, con fondo oscuro, texto blanco e imagen parcial en el pie.",
+            "El conjunto queda dentro de una gran superficie gris negruzca; una fila de puntos abajo a la izquierda y dos botones de flecha abajo a la derecha actúan como señales visuales de navegación.",
+            "La primera tarjeta se muestra completa dentro del viewport; la segunda continúa fuera del borde derecho de su zona visible."
+          ],
+          "adaptation": [
+            "Dar a un caso prioritario más anchura y una fotografía distintiva, dejando asomar el siguiente caso para comunicar amplitud.",
+            "Mantener marca, sector, resultado resumido y acción en posiciones consistentes para facilitar el escaneo entre casos.",
+            "Ofrecer controles con etiquetas accesibles y estados claros en una implementación propia."
+          ],
+          "avoid": [
+            "No inferir que puntos y flechas funcionan como carrusel ni cómo cambia el contenido: solo son controles visibles en la imagen.",
+            "No usar una fotografía compleja sin controlar la legibilidad de texto y marcas sobre ella."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se accionaron puntos, flechas, tarjetas ni botones. No se conoce la dirección, duración o mecanismo de un posible cambio de caso."
+          }
+        },
+        {
+          "id": "04-hero-mobile",
+          "file": "references/sites/mistral/04-hero-mobile.jpg",
+          "kind": "mobile",
+          "pageUrl": "https://mistral.ai/",
+          "scrollY": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          },
+          "capturedAt": "2026-08-30T22:24:05.005Z",
+          "sectionLabel": "Portada móvil: jerarquía tipográfica y arte modular",
+          "imageDimensions": {
+            "width": 375,
+            "height": 812
+          },
+          "observed": [
+            "En el viewport de 390 por 844 registrado, la cabecera muestra el emblema, una acción de ventas, un icono de retícula y otro control circular; los enlaces de escritorio no están visibles.",
+            "Titular y explicación se apilan a la izquierda sobre negro, seguidos de un módulo de noticia destacado con borde gris.",
+            "El mosaico naranja y rojo ocupa una franja completa más abajo y conserva módulos rectangulares y rombos sin texto grande superpuesto.",
+            "Debajo del mosaico comienza una retícula de logotipos de clientes; son visibles HSBC y TotalEnergies. No aparece el control de cookies en esta captura móvil limpia."
+          ],
+          "adaptation": [
+            "Reordenar el hero en una secuencia vertical clara: promesa, contexto, actualidad, arte de marca y prueba social.",
+            "Conservar la geometría y paleta del mosaico con un nuevo patrón ajustado al ancho en lugar de reducir el escritorio.",
+            "Simplificar navegación y comprobar que los iconos tengan nombres accesibles y destinos comprensibles."
+          ],
+          "avoid": [
+            "No asegurar que el aviso de cookies esté ausente del sitio: solo no aparece en el estado móvil final capturado.",
+            "No sobrecargar la primera pantalla con noticia y prueba social cuando una tarea de conversión exija acceso inmediato a otra acción."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se abrieron controles de cabecera ni la noticia y no se observó movimiento del mosaico. Es una referencia de jerarquía móvil estática."
+          }
+        }
+      ]
+    },
+    {
+      "id": "norm-architects",
+      "name": "Norm Architects",
+      "url": "https://normcph.com/",
+      "capturedAt": "2026-08-30T22:32:24.913Z",
+      "tags": [
+        "architecture",
+        "arquitectura",
+        "interior-design",
+        "diseño-de-interiores",
+        "furniture",
+        "mobiliario",
+        "hospitality",
+        "retail-design",
+        "diseño-comercial",
+        "portfolio",
+        "portafolio",
+        "photography-led",
+        "protagonismo-fotográfico",
+        "full-bleed-photography",
+        "fotografía-a-sangre",
+        "warm-neutral",
+        "neutros-cálidos",
+        "beige",
+        "cream",
+        "crema",
+        "brown",
+        "marrón",
+        "minimal",
+        "minimalista",
+        "quiet-luxury",
+        "lujo-sereno",
+        "editorial",
+        "asymmetric-grid",
+        "retícula-asimétrica",
+        "project-gallery",
+        "galería-de-proyectos",
+        "letter-spacing",
+        "espaciado-de-letras",
+        "small-caps",
+        "versalitas",
+        "carousel-signals",
+        "señales-de-carrusel"
+      ],
+      "industries": [
+        "arquitectura",
+        "diseño de interiores",
+        "mobiliario",
+        "hospitalidad y retail"
+      ],
+      "summary": "Portfolio arquitectónico de tono sereno construido con fotografía amplia, materiales cálidos, crema y tipografía pequeña muy espaciada. La portada superpone título y relato de proyecto sobre una imagen a sangre; la galería usa una retícula asimétrica 2:1:1 y los relatos destacados dejan que paisaje y arquitectura ocupen casi todo el viewport.",
+      "analysis": "references/sites/norm-architects/analysis.md",
+      "captures": [
+        {
+          "id": "01-hero-desktop",
+          "file": "references/sites/norm-architects/01-hero-desktop.jpg",
+          "kind": "hero",
+          "pageUrl": "https://normcph.com/",
+          "scrollY": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:32:25.087Z",
+          "sectionLabel": "Portada arquitectónica con fotografía de proyecto",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "Una fotografía de la Polène Flagship Store ocupa todo el viewport y muestra mesas de madera estratificada, pedestales de tronco, bolsos, piedra y luz natural en una paleta cálida.",
+            "La cabecera blanca se superpone a la imagen con marca a la izquierda, seis destinos centrados y un icono de búsqueda en el extremo derecho.",
+            "El título «Polène Flagship Store» y un párrafo centrado aparecen cerca del pie en blanco, sobre la zona oscura de las mesas.",
+            "Una larga hilera de puntos de paginación ocupa el borde inferior; varios puntos tienen distinto brillo, pero la captura no establece el estado o función exactos de todos.",
+            "El encuadre usa elementos verticales y mesas horizontales para conducir la mirada hacia los bolsos iluminados al fondo."
+          ],
+          "adaptation": [
+            "Usar una fotografía de proyecto a sangre cuando material, proporción y luz puedan comunicar la especialidad antes del texto.",
+            "Reservar una zona oscura o protegida para título y resumen, verificando el contraste en cada imagen del conjunto.",
+            "Mantener el relato breve y ofrecer una ruta clara al caso completo para no cubrir en exceso la fotografía.",
+            "Si existen numerosos proyectos, combinar paginación comprensible con nombres o posición textual, no solo una línea de puntos."
+          ],
+          "avoid": [
+            "No copiar fotografía, proyecto, marca, bolsos o texto de Norm Architects y Polène.",
+            "No asumir autoplay, orden, número total, duración o transición del carrusel a partir de los puntos visibles.",
+            "No superponer texto fino sobre materiales claros o cambiantes sin una estrategia de contraste por imagen."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se accionaron puntos, búsqueda o navegación y no se observó cambio temporal de proyecto. La captura registra Polène como estado seleccionado."
+          }
+        },
+        {
+          "id": "02-latest-work",
+          "file": "references/sites/norm-architects/02-latest-work.jpg",
+          "kind": "gallery",
+          "pageUrl": "https://normcph.com/",
+          "scrollY": 1100,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:32:32.035Z",
+          "sectionLabel": "Trabajos recientes: imagen, contexto y tipografía",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "Sobre un fondo crema, una retícula asimétrica presenta tres proyectos en una proporción aproximada 2:1:1: 262 Fifth Avenue es ancho, Pol Joinery Bench y Composed Matter ocupan columnas estrechas.",
+            "Cada proyecto combina fotografía, título en mayúsculas espaciadas y metadatos; el primero y el tercero incluyen además un párrafo descriptivo.",
+            "Las imágenes alternan interior urbano amplio, detalle de ensamblaje y una instalación vista a través de una puerta, manteniendo tonos piedra, madera y beige.",
+            "La palabra «Recent» aparece vertical en ambos márgenes de la fila principal.",
+            "Una segunda fila de fotografías comienza en el borde inferior, por lo que la captura no contiene la galería completa."
+          ],
+          "adaptation": [
+            "Asignar más ancho al proyecto prioritario y dos columnas menores a trabajos complementarios, justificando la jerarquía con contenido real.",
+            "Repetir título, disciplina, tipo y fecha como metadatos consistentes aunque la longitud de los relatos varíe.",
+            "Coordinar cultivos fotográficos y temperatura de color para que imágenes de escalas diferentes formen una colección serena.",
+            "Convertir la retícula en un orden lineal explícito en móvil y evitar que los rótulos verticales interfieran con lectura o foco."
+          ],
+          "avoid": [
+            "No interpretar la relación 2:1:1 como importancia permanente si el contenido no necesita esa prioridad.",
+            "No tratar la fila visible como inventario completo ni reconstruir las fotografías cortadas bajo el viewport.",
+            "No usar texto pequeño y muy espaciado sin comprobar tamaño, contraste y lectura en dispositivos estrechos."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se accionaron proyectos ni se probaron cambios de imagen, hover o desplazamiento especial. La evidencia es una retícula estática parcial."
+          }
+        },
+        {
+          "id": "03-hospitality-feature",
+          "file": "references/sites/norm-architects/03-hospitality-feature.jpg",
+          "kind": "editorial",
+          "pageUrl": "https://normcph.com/",
+          "scrollY": 2660,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:32:51.776Z",
+          "sectionLabel": "Proyecto de hospitalidad: fotografía y relato",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "Una fotografía de paisaje ocupa casi todo el viewport: árboles oscuros enmarcan un prado, un edificio bajo y un fondo de niebla.",
+            "El título «Sjöparken» y un párrafo blanco centrado se superponen cerca del tercio inferior sobre el césped.",
+            "La composición usa los árboles laterales y las ramas altas como marco natural que dirige hacia la arquitectura distante.",
+            "Una franja crema estrecha con un fragmento de navegación aparece en el borde superior, porque la captura empieza dentro de una sección interior.",
+            "La foto alcanza el borde inferior antes de otra franja crema; no se observa el desarrollo completo del caso."
+          ],
+          "adaptation": [
+            "Usar una imagen ambiental amplia para explicar la relación entre arquitectura y paisaje antes de mostrar detalles interiores.",
+            "Colocar un relato corto sobre una zona tonal estable y ofrecer el texto completo en una superficie independiente cuando sea necesario.",
+            "Elegir fotografías con marcos naturales o arquitectónicos que conduzcan al sujeto sin depender de adornos de interfaz.",
+            "Preparar una alternativa de texto accesible y verificar contraste en toda la anchura del párrafo."
+          ],
+          "avoid": [
+            "No copiar la fotografía, proyecto, título o descripción.",
+            "No asumir que la imagen es vídeo, tiene parallax o cambia al hacer scroll; no se observó movimiento.",
+            "No inferir el contenido anterior o posterior desde las franjas parciales del viewport."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se observó movimiento del paisaje, parallax o cambio de texto y no se probaron enlaces. La captura registra una pieza editorial estática."
+          }
+        },
+        {
+          "id": "04-hero-mobile",
+          "file": "references/sites/norm-architects/04-hero-mobile.jpg",
+          "kind": "mobile",
+          "pageUrl": "https://normcph.com/",
+          "scrollY": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          },
+          "capturedAt": "2026-08-30T22:33:00.313Z",
+          "sectionLabel": "Portada móvil arquitectónica",
+          "imageDimensions": {
+            "width": 375,
+            "height": 812
+          },
+          "observed": [
+            "En el viewport registrado de 390 por 844, el proyecto seleccionado es 262 Fifth Avenue, distinto de Polène en la captura de escritorio; se ve un interior de madera frente al skyline de Manhattan.",
+            "Flechas blancas aparecen en los laterales, una serie de puntos ocupa el pie de la imagen y búsqueda más menú se sitúan arriba a la derecha.",
+            "El título y un párrafo blanco se superponen cerca de la mitad inferior; debajo del hero comienza una sección crema con «Latest Work» y la parte alta de una fotografía.",
+            "El logotipo blanco de la zona superior izquierda pierde contraste sobre el cielo y la pared clara: solo un fragmento resulta claramente visible en esta captura.",
+            "El recorte móvil prioriza una vista vertical del marco de madera y la ciudad; no corresponde al mismo proyecto ni al mismo encuadre del escritorio."
+          ],
+          "adaptation": [
+            "Diseñar un cultivo móvil por proyecto, preservando sujeto, profundidad y una zona de lectura para título y resumen.",
+            "Proteger el logotipo con color alternativo, sombra, degradado o superficie cuando el fondo sea claro; este estado no es un modelo suficiente de contraste.",
+            "Mantener flechas y paginación con nombres accesibles, áreas táctiles amplias y estado comprensible.",
+            "Permitir que la siguiente sección aparezca para indicar continuidad, sin confundirla con el contenido del proyecto seleccionado."
+          ],
+          "avoid": [
+            "No comparar Polène y 262 Fifth Avenue como si fueran el mismo hero adaptado; son estados de contenido diferentes.",
+            "No adoptar el logotipo blanco casi perdido sobre la pared clara como solución de contraste.",
+            "No inferir autoplay, gesto, duración, orden o transición del carrusel; los controles no se probaron."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "Las capturas registran proyectos seleccionados distintos en escritorio y móvil, pero no se accionaron flechas o puntos ni se observó una transición temporal."
+          }
+        }
+      ]
+    },
+    {
+      "id": "oryzo",
+      "name": "Oryzo",
+      "url": "https://oryzo.ai/",
+      "capturedAt": "2026-08-30T22:13:06.867Z",
+      "tags": [
+        "product-storytelling",
+        "narrativa-de-producto",
+        "photorealistic",
+        "fotorrealista",
+        "materiality",
+        "materialidad",
+        "cork",
+        "corcho",
+        "warm",
+        "cálido",
+        "olive",
+        "verde-oliva",
+        "cream",
+        "crema",
+        "full-bleed",
+        "imagen-a-sangre",
+        "oversized-wordmark",
+        "marca-grande",
+        "workshop",
+        "taller",
+        "concept",
+        "concepto",
+        "satire",
+        "sátira",
+        "studio-portfolio",
+        "portfolio-de-estudio"
+      ],
+      "industries": [
+        "diseño digital",
+        "estudio creativo",
+        "producto conceptual",
+        "objetos domésticos"
+      ],
+      "summary": "Proyecto ficticio y satírico de Lusion que presenta un posavasos mediante escenas materiales de aspecto fotorrealista, marca de gran escala y anotaciones breves. El cierre transforma la demostración de producto en una presentación del estudio; no es un catálogo de productos reales.",
+      "analysis": "references/sites/oryzo/analysis.md",
+      "captures": [
+        {
+          "id": "01-hero-desktop",
+          "file": "references/sites/oryzo/01-hero-desktop.jpg",
+          "kind": "hero",
+          "pageUrl": "https://oryzo.ai/",
+          "scrollY": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:13:07.194Z",
+          "sectionLabel": "Portada: objeto físico y tipografía sobria",
+          "imageDimensions": {
+            "width": 1440,
+            "height": 900
+          },
+          "observed": [
+            "Una escena cenital ocupa todo el viewport: superficie de madera, base verde cuadriculada, herramientas y un objeto circular con textura de corcho cerca del centro.",
+            "La marca crema muy grande se extiende desde arriba a la izquierda; una descripción breve queda a la derecha del objeto.",
+            "Un panel translúcido de autoría ocupa la esquina inferior izquierda, una miniatura con indicación de reproducción la inferior derecha y una pestaña vertical aparece en el borde superior derecho.",
+            "El contraste depende de texto crema sobre zonas verdes o marrones relativamente tranquilas; no hay un panel general que encierre la escena."
+          ],
+          "adaptation": [
+            "Diseñar una escena propia en la que materiales, herramientas y escala expliquen el universo del objeto antes de añadir texto.",
+            "Separar marca, descripción y anotaciones secundarias en zonas del encuadre con contraste suficiente.",
+            "Reservar una acción principal clara cuando se adapte esta puesta en escena a un producto comercial real."
+          ],
+          "avoid": [
+            "No tratar las afirmaciones satíricas del sitio como especificaciones verificadas de un producto real.",
+            "No atribuir el aspecto fotorrealista a una biblioteca, motor o técnica concreta, ni reutilizar la escena o identidad de Lusion."
+          ],
+          "motion": {
+            "status": "observed",
+            "description": "El agente de captura informó de una comprobación directa: al situar el puntero sobre enlaces del encabezado, el resto de la página se oscurece. No se midieron duración, curva ni técnica; la imagen final muestra el estado sin ese oscurecimiento."
+          }
+        },
+        {
+          "id": "02-scroll-product",
+          "file": "references/sites/oryzo/02-scroll-product.jpg",
+          "kind": "product",
+          "pageUrl": "https://oryzo.ai/",
+          "scrollY": 20025,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:15:47.783Z",
+          "sectionLabel": "Características: producto en contexto y explicación visual",
+          "imageDimensions": {
+            "width": 1440,
+            "height": 900
+          },
+          "observed": [
+            "Una escena frontal de escritorio muestra un vaso sobre el objeto circular, con tablero perforado, herramientas, recipientes, mando y teclado al fondo.",
+            "El tercio izquierdo aproximado es una banda translúcida y desenfocada visualmente, con icono, encabezado, párrafo y título grande abajo.",
+            "Una fórmula y una leyenda pequeña ocupan la esquina inferior derecha; la navegación y marca reducida siguen visibles arriba.",
+            "La luz cálida y las sombras distinguen el vaso y el soporte del entorno verde y crema."
+          ],
+          "adaptation": [
+            "Mostrar un objeto en uso para explicar escala y contexto, alternando con vistas aisladas del mismo objeto.",
+            "Crear una zona lateral de lectura que amortigüe visualmente el fondo sin perder la continuidad de la escena.",
+            "Si se usan datos, diagramas o fórmulas en otro proyecto, vincularlos a evidencia real y comprensible."
+          ],
+          "avoid": [
+            "No trasladar el lenguaje de precisión del concepto satírico a prestaciones comerciales sin fundamento.",
+            "No asumir una secuencia de cámara o de scroll por la diferencia de encuadre respecto a la portada; aquí se observa solo este estado."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se analizó el movimiento entre escenas ni la transición de esta banda lateral. La navegación por ancla fue reportada por el agente de captura, sin medir el recorrido temporal."
+          }
+        },
+        {
+          "id": "03-closing",
+          "file": "references/sites/oryzo/03-closing.jpg",
+          "kind": "closing",
+          "pageUrl": "https://oryzo.ai/",
+          "scrollY": 55791,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:16:00.071Z",
+          "sectionLabel": "Cierre: autoría del concepto, contacto y escena oscura",
+          "imageDimensions": {
+            "width": 1440,
+            "height": 900
+          },
+          "observed": [
+            "El cierre cambia a fondo casi negro con granos de café distribuidos en una curva diagonal y zonas amplias de sombra.",
+            "Un monograma claro a la izquierda acompaña un gran mensaje de dos bloques en la parte superior derecha, seguido de un botón marrón redondeado hacia el estudio.",
+            "La parte inferior organiza newsletter, contactos, enlaces sociales, opciones legales y un pequeño bloque para compartir.",
+            "El aviso inferior identifica el sitio como proyecto ficticio de Lusion, indica que no hay productos a la venta y sitúa las afirmaciones en un contexto satírico."
+          ],
+          "adaptation": [
+            "Usar un cambio marcado de luminosidad para señalar un cierre y conectar el relato visual con una acción de contacto.",
+            "Agrupar la información funcional al pie en áreas reconocibles y separar el mensaje principal de los datos auxiliares.",
+            "En un caso conceptual propio, revelar claramente su carácter demostrativo y su autoría."
+          ],
+          "avoid": [
+            "No ocultar hasta el final una condición esencial que cambie el sentido de una oferta comercial real.",
+            "No usar el texto pequeño sobre imágenes oscuras como modelo de accesibilidad sin medir contraste y tamaño en el proyecto propio."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se probaron movimiento de los granos, formulario, copia de URL ni enlaces de salida. La captura solo acredita su presencia visual."
+          }
+        },
+        {
+          "id": "04-hero-mobile",
+          "file": "references/sites/oryzo/04-hero-mobile.jpg",
+          "kind": "mobile",
+          "pageUrl": "https://oryzo.ai/",
+          "scrollY": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          },
+          "capturedAt": "2026-08-30T22:16:16.702Z",
+          "sectionLabel": "Portada móvil: objeto y títulos sobre material",
+          "imageDimensions": {
+            "width": 390,
+            "height": 844
+          },
+          "observed": [
+            "En el viewport de 390 por 844 registrado, el menú se reduce a una cápsula pequeña arriba a la derecha y la marca ocupa casi todo el ancho.",
+            "La frase superior precede a la marca; la descripción se sitúa bajo ella alineada hacia la derecha, antes del objeto circular central.",
+            "La escena se recorta para conservar base cuadriculada y objeto; el panel translúcido y la miniatura de reproducción se distribuyen en la zona inferior.",
+            "La indicación para continuar aparece junto al borde inferior; la portada conserva numerosas capas informativas pese al ancho estrecho."
+          ],
+          "adaptation": [
+            "Recomponer el encuadre móvil alrededor del producto y redistribuir las anotaciones según áreas libres reales.",
+            "Revisar la prioridad de cada capa, ocultando o desplazando información secundaria si la claridad comercial lo necesita.",
+            "Mantener el material dominante y la relación de escala como hilo visual entre escritorio y móvil."
+          ],
+          "avoid": [
+            "No reducir toda la escena de escritorio como una sola imagen que incluya texto incrustado.",
+            "No tomar esta captura como validación del menú, reproducción de vídeo ni rendimiento en dispositivos móviles."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se abrió el menú ni se accionó la miniatura. La adaptación móvil se analiza únicamente a partir del estado estático capturado."
+          }
+        }
+      ]
+    },
+    {
+      "id": "shopify-editions",
+      "name": "Shopify Editions Winter 2026",
+      "url": "https://www.shopify.com/editions/winter2026",
+      "capturedAt": "2026-08-30T22:24:18.180Z",
+      "tags": [
+        "ecommerce",
+        "comercio-electrónico",
+        "product-launch",
+        "lanzamiento-de-producto",
+        "feature-release",
+        "novedades",
+        "editorial",
+        "pictorial",
+        "pictórico",
+        "painting",
+        "pintura",
+        "renaissance",
+        "renacimiento",
+        "collage",
+        "anachronism",
+        "anacronismo",
+        "full-bleed",
+        "imagen-a-sangre",
+        "chapter-index",
+        "índice-de-capítulos",
+        "torn-paper",
+        "papel-rasgado",
+        "serif-sans",
+        "product-comparison",
+        "comparación-de-producto"
+      ],
+      "industries": [
+        "comercio electrónico",
+        "software como servicio",
+        "retail",
+        "plataformas de comercio"
+      ],
+      "summary": "Lanzamiento editorial de producto presentado como una edición temática: escenas pictóricas a sangre, objetos contemporáneos en collage, índice de capítulos y grandes cambios de escala tipográfica. El detalle de funciones pasa a una superficie crema con borde de papel rasgado y comparación visual parcial.",
+      "analysis": "references/sites/shopify-editions/analysis.md",
+      "captures": [
+        {
+          "id": "01-hero-desktop",
+          "file": "references/sites/shopify-editions/01-hero-desktop.jpg",
+          "kind": "hero",
+          "pageUrl": "https://www.shopify.com/editions/winter2026",
+          "scrollY": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:24:18.429Z",
+          "sectionLabel": "Portada de The Renaissance Edition",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "Una escena pictórica de paisaje ocupa todo el viewport, con dos figuras suspendidas que extienden las manos hacia el centro.",
+            "Objetos contemporáneos en rosa intenso, entre ellos vaso, bolsa y monopatín, contrastan con las ropas y el paisaje de apariencia histórica.",
+            "Un panel central delineado y translúcido contiene el título de la edición, una introducción, una lista de doce capítulos y numeración romana.",
+            "La cabecera blanca se superpone sobre la escena; marca, selector de Editions y búsqueda quedan a la izquierda, y el destino corporativo y CTA a la derecha."
+          ],
+          "adaptation": [
+            "Crear una escena propia que articule el tema de un lanzamiento y usar objetos contemporáneos como segunda lectura vinculada a las funciones presentadas.",
+            "Convertir un conjunto grande de novedades en capítulos visibles desde la portada, con un orden consistente y destinos claros.",
+            "Situar texto sobre un panel de contraste controlado cuando el fondo sea pictórico y detallado."
+          ],
+          "avoid": [
+            "No reutilizar la pintura, personajes, objetos, logotipos o concepto de edición de la marca.",
+            "No sobreponer una lista extensa sobre imagen compleja sin probar legibilidad, foco de teclado y lectura en distintos anchos."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se observó evolución de figuras, objetos o escena. La imagen a sangre y sus superposiciones no permiten inferir animación o técnica."
+          }
+        },
+        {
+          "id": "02-agentic",
+          "file": "references/sites/shopify-editions/02-agentic.jpg",
+          "kind": "editorial",
+          "pageUrl": "https://www.shopify.com/editions/winter2026#agentic",
+          "scrollY": 9905,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:24:27.588Z",
+          "sectionLabel": "Capítulo Agentic: escena pictórica y tipografía",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "El capítulo Agentic emplea una escena interior oscura de apariencia pictórica, con retrato a la izquierda y arquitectura central al fondo.",
+            "La palabra Agentic aparece en sans blanca de escala muy grande; una frase serif cruza la zona inferior y queda parcialmente cubierta por un collage de fichas de producto.",
+            "El título de la edición y la lista completa de capítulos con numeración romana forman un índice estrecho en el lateral izquierdo.",
+            "La cabecera mantiene marca, búsqueda, enlace corporativo y CTA sobre la escena."
+          ],
+          "adaptation": [
+            "Dar a cada capítulo una escena y una palabra ancla propias, conservando índice, cabecera y reglas tipográficas comunes.",
+            "Usar collage para mostrar que una categoría reúne varios objetos o herramientas, sin intentar representar cada función en detalle.",
+            "Mantener disponible un índice de sección que permita saltos directos cuando el lanzamiento sea largo."
+          ],
+          "avoid": [
+            "No superponer objetos sobre una frase si su comprensión exacta es necesaria para convertir o para cumplir requisitos legales.",
+            "No inferir movimiento de tarjetas o de escena a partir de la profundidad aparente del collage."
+          ],
+          "motion": {
+            "status": "observed",
+            "description": "El agente de captura accionó el ancla nativa que lleva a #agentic y confirmó la navegación al capítulo. No se midieron duración, desplazamiento, curva ni otro efecto temporal."
+          }
+        },
+        {
+          "id": "03-online-features",
+          "file": "references/sites/shopify-editions/03-online-features.jpg",
+          "kind": "product",
+          "pageUrl": "https://www.shopify.com/editions/winter2026#online",
+          "scrollY": 13627,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:25:39.762Z",
+          "sectionLabel": "Detalle de novedades de tienda online",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "La parte superior conserva un fragmento oscuro de escena pictórica; un borde blanco irregular de apariencia rasgada da paso a una gran superficie crema.",
+            "El bloque principal presenta Rollouts con título, explicación breve y enlace pequeño a documentación, desplazado hacia la izquierda del centro.",
+            "El índice lateral continúa visible, con Online destacado más oscuro que los demás capítulos.",
+            "En la zona inferior entra solo parte de una comparación: líneas curvas, dos miniaturas etiquetadas Option A y Option B y porcentajes muy grandes que se cortan por el borde."
+          ],
+          "adaptation": [
+            "Separar ambiente editorial y detalle funcional mediante una transición material, manteniendo una señal clara del capítulo activo.",
+            "Presentar cada novedad con título, resumen y destino documental antes de añadir una demostración o comparación visual.",
+            "Usar una captura, diagrama o prueba propia que explique la función completa y no dependa de métricas decorativas."
+          ],
+          "avoid": [
+            "No inferir el comportamiento o la técnica del borde rasgado ni tratarlo como prueba de una transición animada.",
+            "No interpretar los porcentajes cortados o la comparación parcial sin el contexto que continúa debajo del viewport."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se probó la transición entre escena y papel, el enlace de documentación ni la comparación. El recorte inferior acredita que continúa, no cómo se revela."
+          }
+        },
+        {
+          "id": "04-hero-mobile",
+          "file": "references/sites/shopify-editions/04-hero-mobile.jpg",
+          "kind": "mobile",
+          "pageUrl": "https://www.shopify.com/editions/winter2026",
+          "scrollY": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          },
+          "capturedAt": "2026-08-30T22:25:46.915Z",
+          "sectionLabel": "Portada móvil: escena pictórica e índice editorial",
+          "imageDimensions": {
+            "width": 375,
+            "height": 812
+          },
+          "observed": [
+            "En el viewport de 390 por 844 registrado, la cabecera se reduce a marca en dos líneas, CTA blanco y menú de tres líneas.",
+            "El panel delineado ocupa la mayor parte de la altura visible y contiene título, introducción, lista de doce capítulos y numeración romana.",
+            "La escena pictórica se recorta alrededor del panel: manos enfrentadas entran por los laterales, una manga blanca y otra coral dominan la zona media y una pierna blanca aparece abajo a la derecha.",
+            "El monopatín rosa entra desde la esquina inferior izquierda; el encuadre conserva el contraste anacrónico sin mostrar las figuras completas."
+          ],
+          "adaptation": [
+            "Priorizar título e índice en móvil y recortar la escena para que sus gestos principales dirijan la mirada al contenido.",
+            "Separar los elementos del collage del texto para poder reubicarlos según ancho, orientación y zonas seguras.",
+            "Ofrecer un índice móvil legible y operable sin exigir precisión sobre números pequeños."
+          ],
+          "avoid": [
+            "No incrustar texto e índice dentro de una única imagen pictórica, porque impediría adaptación y acceso semántico.",
+            "No asumir que el menú funciona, que el panel cabe en otros móviles o que todos los capítulos son visibles sin desplazamiento adicional."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se abrió el menú ni se probaron capítulos en móvil. El estado limpio solo demuestra la composición a este viewport."
+          }
+        }
+      ]
+    },
+    {
+      "id": "teenage-engineering",
+      "name": "Teenage Engineering",
+      "url": "https://teenage.engineering/",
+      "capturedAt": "2026-08-30T22:27:00.114Z",
+      "tags": [
+        "consumer-electronics",
+        "electrónica-de-consumo",
+        "music-technology",
+        "tecnología-musical",
+        "industrial-design",
+        "diseño-industrial",
+        "ecommerce",
+        "comercio-electrónico",
+        "editorial-campaign",
+        "campaña-editorial",
+        "illustration",
+        "ilustración",
+        "comic",
+        "cómic",
+        "black-and-white",
+        "blanco-y-negro",
+        "orange-accent",
+        "acento-naranja",
+        "oversized-type",
+        "tipografía-grande",
+        "display-type",
+        "tipografía-display",
+        "graphic-navigation",
+        "navegación-gráfica",
+        "product-photography",
+        "fotografía-de-producto",
+        "product-grid",
+        "retícula-de-productos",
+        "packaging",
+        "embalaje",
+        "minimal",
+        "minimalista"
+      ],
+      "industries": [
+        "instrumentos musicales electrónicos",
+        "electrónica de consumo",
+        "diseño industrial",
+        "comercio electrónico"
+      ],
+      "summary": "Tienda y campaña editorial de alto contraste que cambia con intención entre una portada ilustrada en blanco, negro y naranja y fotografía de producto austera sobre gris. Una navegación formada por símbolos y palabras, el titular display de gran escala, los primeros planos de embalaje y una retícula clara de producto construyen una identidad de diseño industrial lúdica y precisa.",
+      "analysis": "references/sites/teenage-engineering/analysis.md",
+      "captures": [
+        {
+          "id": "01-hero-desktop",
+          "file": "references/sites/teenage-engineering/01-hero-desktop.jpg",
+          "kind": "hero",
+          "pageUrl": "https://teenage.engineering/",
+          "scrollY": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:27:00.267Z",
+          "sectionLabel": "Portada editorial: tipografía negra e ilustración de Mr. Update",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "La portada blanca dedica la franja superior a una navegación gráfica: marca, productos, tienda, novedades y buscador se presentan con símbolos negros grandes y texto auxiliar pequeño; a la derecha aparecen un bloque breve en japonés y un emblema negro.",
+            "El titular «Daily Life of Mr. Update» ocupa dos líneas con letras negras display de gran escala y se acompaña de una ficha de actualización EP Series con un pequeño acento naranja.",
+            "Una ilustración lineal muestra a Mr. Update en una mesa rodeada por pilas de papeles, con rótulos y líneas de humo en naranja.",
+            "Titular e ilustración forman una sola escena editorial centrada; la parte inferior del dibujo queda cortada por el borde del viewport y no muestra el cierre completo del hero.",
+            "La composición mezcla grosores extremos: masas tipográficas negras, dibujo de contorno, microtexto y unas pocas líneas naranjas sobre un fondo casi blanco."
+          ],
+          "adaptation": [
+            "Usar una campaña ilustrada como portada temporal cuando la historia tenga un personaje, un conflicto y un vínculo directo con lanzamientos o actualizaciones reales.",
+            "Crear un alfabeto propio de símbolos para la navegación solo si cada forma conserva significado junto a una etiqueta verbal clara.",
+            "Coordinar titular, ficha informativa e ilustración desde el mismo boceto para que la escena se lea como una pieza editorial y no como elementos apilados sin relación.",
+            "Limitar el acento cromático a información precisa o detalles narrativos para que una paleta casi monocroma mantenga fuerza."
+          ],
+          "avoid": [
+            "No copiar el personaje, el estilo de dibujo, los emblemas, el titular ni los símbolos de navegación de la marca.",
+            "No adoptar microtexto o navegación de alta densidad sin comprobar legibilidad, semántica y acceso por teclado.",
+            "No extender la parte ilustrada cortada ni atribuir movimiento a las líneas de humo o al personaje."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se probaron los módulos de navegación ni se observó evolución del personaje, humo, ficha o titular; la campaña se registra como composición estática."
+          }
+        },
+        {
+          "id": "02-instrument",
+          "file": "references/sites/teenage-engineering/02-instrument.jpg",
+          "kind": "product",
+          "pageUrl": "https://teenage.engineering/",
+          "scrollY": 3650,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:27:11.498Z",
+          "sectionLabel": "Campaña de EP–133 K.O. II",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "Una banda negra estrecha en el borde superior contiene el texto pequeño «sinus transmission completed»; debajo comienza un campo gris oscuro con una iluminación gradual hacia el centro.",
+            "El embalaje blanco del EP–133 K.O. II aparece en perspectiva y ocupa la zona central inferior, con gran parte del objeto fuera del borde inferior.",
+            "La superficie del paquete combina letras de contorno, microtexto técnico, diagramas, códigos y acentos naranja, negro y gris.",
+            "El gran espacio gris sobre el producto concentra la atención en su entrada desde abajo y separa esta escena de la densidad gráfica del hero.",
+            "La captura es parcial: no muestra el embalaje completo, precio, acción de compra ni el límite inferior de la sección."
+          ],
+          "adaptation": [
+            "Presentar un objeto diseñado con un primer plano o embalaje de gran escala cuando sus detalles gráficos formen parte central de la propuesta de valor.",
+            "Usar un fondo neutro y una iluminación contenida para aislar el producto sin añadir marcos, tarjetas o decoración innecesaria.",
+            "Planificar el recorte para que nombre y rasgos reconocibles sigan visibles, y acompañarlo en otra parte con datos comerciales completos.",
+            "Tratar la gráfica del embalaje como un activo de marca propio, con jerarquía y sistema de información coherentes."
+          ],
+          "avoid": [
+            "No copiar el embalaje, nomenclatura, textos técnicos, emblemas o disposición gráfica del producto.",
+            "No usar un recorte extremo como única imagen para compradores que necesiten comprender forma, escala y controles completos.",
+            "No interpretar la posición baja como entrada animada ni el texto superior como un estado funcional verificado."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se observó si el producto entra, rota o responde al scroll; tampoco se comprobó que la banda superior cambie. La captura acredita un encuadre parcial."
+          }
+        },
+        {
+          "id": "03-product-family",
+          "file": "references/sites/teenage-engineering/03-product-family.jpg",
+          "kind": "gallery",
+          "pageUrl": "https://teenage.engineering/",
+          "scrollY": 4550,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T22:27:18.310Z",
+          "sectionLabel": "Retícula de instrumento y accesorios",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "La parte superior conserva el final de una imagen de producto sobre gris: solo se ve una franja del instrumento en el borde alto, una sombra y la etiqueta «EP–133 K.O. II» cerca del pie izquierdo del campo.",
+            "Una retícula blanca de tres columnas comienza más abajo, separada por líneas verticales grises finas.",
+            "Las columnas presentan el instrumento, una cubierta translúcida y una bolsa; cada una usa un nombre pequeño, el enlace azul «buy now» y una fotografía aislada con mucho espacio en blanco.",
+            "Los tres objetos tienen escalas visuales distintas pero comparten una ubicación aproximada dentro de su celda; el naranja del instrumento y la bolsa enlaza la familia.",
+            "La captura contiene la transición entre una imagen principal parcial y la galería, no el inicio ni el final completos de ninguna de las dos áreas."
+          ],
+          "adaptation": [
+            "Pasar de una imagen de campaña amplia a una retícula de compra clara para separar deseo, identificación y selección de accesorios.",
+            "Mantener nombre y acción en una posición estable mientras la fotografía de cada producto conserva su escala y silueta características.",
+            "Usar líneas finas y espacio en blanco para construir familias sin envolver cada artículo en tarjetas elevadas.",
+            "Vincular productos y accesorios mediante materiales, ángulos de foto o acentos comunes en lugar de igualar artificialmente su tamaño."
+          ],
+          "avoid": [
+            "No deducir la altura completa de las celdas ni el número total de productos desde esta porción de galería.",
+            "No mostrar una acción de compra con tan poca información si el precio, compatibilidad o variante son esenciales antes de decidir.",
+            "No reutilizar fotografías, nombres, códigos o diseños industriales ajenos."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se accionaron los enlaces de compra ni se probaron estados de las celdas. La transición espacial entre imagen gris y retícula no demuestra animación."
+          }
+        },
+        {
+          "id": "04-hero-mobile",
+          "file": "references/sites/teenage-engineering/04-hero-mobile.jpg",
+          "kind": "mobile",
+          "pageUrl": "https://teenage.engineering/",
+          "scrollY": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          },
+          "capturedAt": "2026-08-30T22:27:24.046Z",
+          "sectionLabel": "Portada móvil de campaña editorial",
+          "imageDimensions": {
+            "width": 375,
+            "height": 812
+          },
+          "observed": [
+            "En el viewport registrado de 390 por 844, la cabecera se reduce a un icono rectangular a la izquierda y un control de tres puntos a la derecha; la navegación gráfica de escritorio no aparece.",
+            "El titular, la ficha EP Series y la ilustración se recomponen como una pieza compacta centrada, con el personaje y las pilas de papeles visibles en todo el ancho.",
+            "Una línea horizontal negra cierra la escena y deja un campo gris muy claro antes de la sección blanca «explore products».",
+            "La siguiente sección ya entra en el mismo viewport: muestra el encabezado centrado y el inicio de una tarjeta negra redondeada de APC–2 con una imagen oscura parcial.",
+            "El acento naranja se conserva en la ficha, rótulos y trazos de la ilustración, mientras el resto permanece negro, blanco y gris claro."
+          ],
+          "adaptation": [
+            "Preparar una composición móvil propia del arte editorial para conservar titular, personaje y detalles narrativos sin limitarse a recortar el escritorio.",
+            "Simplificar una navegación visual compleja a pocos controles reconocibles y asegurar nombres accesibles y destinos comprensibles.",
+            "Permitir que la siguiente sección asome para señalar continuidad, controlando que no compita con la campaña principal.",
+            "Crear una separación clara entre campaña y catálogo mediante cambio de fondo, aire y un encabezado de transición."
+          ],
+          "avoid": [
+            "No asumir que los puntos abren un menú específico ni que todas las opciones de escritorio están dentro; el control no se probó.",
+            "No confundir la tarjeta parcial de APC–2 con parte de la ilustración o con el producto promovido por la campaña.",
+            "No reducir detalles lineales por debajo de una escala legible ni copiar la escena y el personaje."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se abrió el control de tres puntos ni se probó la tarjeta de producto. La captura solo permite observar la recomposición móvil y el inicio de la sección siguiente."
+          }
+        }
+      ]
+    }
+  ]
+}

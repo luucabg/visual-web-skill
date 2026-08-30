@@ -1,0 +1,84 @@
+{
+  "id": "oryzo",
+  "tags": ["product-storytelling", "narrativa-de-producto", "photorealistic", "fotorrealista", "materiality", "materialidad", "cork", "corcho", "warm", "cálido", "olive", "verde-oliva", "cream", "crema", "full-bleed", "imagen-a-sangre", "oversized-wordmark", "marca-grande", "workshop", "taller", "concept", "concepto", "satire", "sátira", "studio-portfolio", "portfolio-de-estudio"],
+  "industries": ["diseño digital", "estudio creativo", "producto conceptual", "objetos domésticos"],
+  "summary": "Proyecto ficticio y satírico de Lusion que presenta un posavasos mediante escenas materiales de aspecto fotorrealista, marca de gran escala y anotaciones breves. El cierre transforma la demostración de producto en una presentación del estudio; no es un catálogo de productos reales.",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "observed": [
+        "Una escena cenital ocupa todo el viewport: superficie de madera, base verde cuadriculada, herramientas y un objeto circular con textura de corcho cerca del centro.",
+        "La marca crema muy grande se extiende desde arriba a la izquierda; una descripción breve queda a la derecha del objeto.",
+        "Un panel translúcido de autoría ocupa la esquina inferior izquierda, una miniatura con indicación de reproducción la inferior derecha y una pestaña vertical aparece en el borde superior derecho.",
+        "El contraste depende de texto crema sobre zonas verdes o marrones relativamente tranquilas; no hay un panel general que encierre la escena."
+      ],
+      "adaptation": [
+        "Diseñar una escena propia en la que materiales, herramientas y escala expliquen el universo del objeto antes de añadir texto.",
+        "Separar marca, descripción y anotaciones secundarias en zonas del encuadre con contraste suficiente.",
+        "Reservar una acción principal clara cuando se adapte esta puesta en escena a un producto comercial real."
+      ],
+      "avoid": [
+        "No tratar las afirmaciones satíricas del sitio como especificaciones verificadas de un producto real.",
+        "No atribuir el aspecto fotorrealista a una biblioteca, motor o técnica concreta, ni reutilizar la escena o identidad de Lusion."
+      ],
+      "motion": {"status": "observed", "description": "El agente de captura informó de una comprobación directa: al situar el puntero sobre enlaces del encabezado, el resto de la página se oscurece. No se midieron duración, curva ni técnica; la imagen final muestra el estado sin ese oscurecimiento."}
+    },
+    {
+      "id": "02-scroll-product",
+      "observed": [
+        "Una escena frontal de escritorio muestra un vaso sobre el objeto circular, con tablero perforado, herramientas, recipientes, mando y teclado al fondo.",
+        "El tercio izquierdo aproximado es una banda translúcida y desenfocada visualmente, con icono, encabezado, párrafo y título grande abajo.",
+        "Una fórmula y una leyenda pequeña ocupan la esquina inferior derecha; la navegación y marca reducida siguen visibles arriba.",
+        "La luz cálida y las sombras distinguen el vaso y el soporte del entorno verde y crema."
+      ],
+      "adaptation": [
+        "Mostrar un objeto en uso para explicar escala y contexto, alternando con vistas aisladas del mismo objeto.",
+        "Crear una zona lateral de lectura que amortigüe visualmente el fondo sin perder la continuidad de la escena.",
+        "Si se usan datos, diagramas o fórmulas en otro proyecto, vincularlos a evidencia real y comprensible."
+      ],
+      "avoid": [
+        "No trasladar el lenguaje de precisión del concepto satírico a prestaciones comerciales sin fundamento.",
+        "No asumir una secuencia de cámara o de scroll por la diferencia de encuadre respecto a la portada; aquí se observa solo este estado."
+      ],
+      "motion": {"status": "not-tested", "description": "No se analizó el movimiento entre escenas ni la transición de esta banda lateral. La navegación por ancla fue reportada por el agente de captura, sin medir el recorrido temporal."}
+    },
+    {
+      "id": "03-closing",
+      "observed": [
+        "El cierre cambia a fondo casi negro con granos de café distribuidos en una curva diagonal y zonas amplias de sombra.",
+        "Un monograma claro a la izquierda acompaña un gran mensaje de dos bloques en la parte superior derecha, seguido de un botón marrón redondeado hacia el estudio.",
+        "La parte inferior organiza newsletter, contactos, enlaces sociales, opciones legales y un pequeño bloque para compartir.",
+        "El aviso inferior identifica el sitio como proyecto ficticio de Lusion, indica que no hay productos a la venta y sitúa las afirmaciones en un contexto satírico."
+      ],
+      "adaptation": [
+        "Usar un cambio marcado de luminosidad para señalar un cierre y conectar el relato visual con una acción de contacto.",
+        "Agrupar la información funcional al pie en áreas reconocibles y separar el mensaje principal de los datos auxiliares.",
+        "En un caso conceptual propio, revelar claramente su carácter demostrativo y su autoría."
+      ],
+      "avoid": [
+        "No ocultar hasta el final una condición esencial que cambie el sentido de una oferta comercial real.",
+        "No usar el texto pequeño sobre imágenes oscuras como modelo de accesibilidad sin medir contraste y tamaño en el proyecto propio."
+      ],
+      "motion": {"status": "not-tested", "description": "No se probaron movimiento de los granos, formulario, copia de URL ni enlaces de salida. La captura solo acredita su presencia visual."}
+    },
+    {
+      "id": "04-hero-mobile",
+      "observed": [
+        "En el viewport de 390 por 844 registrado, el menú se reduce a una cápsula pequeña arriba a la derecha y la marca ocupa casi todo el ancho.",
+        "La frase superior precede a la marca; la descripción se sitúa bajo ella alineada hacia la derecha, antes del objeto circular central.",
+        "La escena se recorta para conservar base cuadriculada y objeto; el panel translúcido y la miniatura de reproducción se distribuyen en la zona inferior.",
+        "La indicación para continuar aparece junto al borde inferior; la portada conserva numerosas capas informativas pese al ancho estrecho."
+      ],
+      "adaptation": [
+        "Recomponer el encuadre móvil alrededor del producto y redistribuir las anotaciones según áreas libres reales.",
+        "Revisar la prioridad de cada capa, ocultando o desplazando información secundaria si la claridad comercial lo necesita.",
+        "Mantener el material dominante y la relación de escala como hilo visual entre escritorio y móvil."
+      ],
+      "avoid": [
+        "No reducir toda la escena de escritorio como una sola imagen que incluya texto incrustado.",
+        "No tomar esta captura como validación del menú, reproducción de vídeo ni rendimiento en dispositivos móviles."
+      ],
+      "motion": {"status": "not-tested", "description": "No se abrió el menú ni se accionó la miniatura. La adaptación móvil se analiza únicamente a partir del estado estático capturado."}
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "basement",
+  "name": "Basement Studio",
+  "url": "https://basement.studio/",
+  "capturedAt": "2026-08-30T22:31:05.146Z",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "file": "references/sites/basement/01-hero-desktop.jpg",
+      "kind": "hero",
+      "pageUrl": "https://basement.studio/",
+      "scrollY": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:31:05.402Z",
+      "sectionLabel": "Portada de estudio digital",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "02-featured-project",
+      "file": "references/sites/basement/02-featured-project.jpg",
+      "kind": "gallery",
+      "pageUrl": "https://basement.studio/",
+      "scrollY": 2400,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:31:10.801Z",
+      "sectionLabel": "Proyecto destacado: imagen, descripción y servicios",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "03-capabilities",
+      "file": "references/sites/basement/03-capabilities.jpg",
+      "kind": "editorial",
+      "pageUrl": "https://basement.studio/",
+      "scrollY": 4100,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:31:16.571Z",
+      "sectionLabel": "Servicios: jerarquía y distribución de capacidades",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "04-hero-mobile",
+      "file": "references/sites/basement/04-hero-mobile.jpg",
+      "kind": "mobile",
+      "pageUrl": "https://basement.studio/",
+      "scrollY": 0,
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "capturedAt": "2026-08-30T22:31:47.517Z",
+      "sectionLabel": "Portada móvil de escena inmersiva",
+      "imageDimensions": {
+        "width": 375,
+        "height": 812
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "oryzo",
+  "name": "Oryzo",
+  "url": "https://oryzo.ai/",
+  "capturedAt": "2026-08-30T22:13:06.867Z",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "file": "references/sites/oryzo/01-hero-desktop.jpg",
+      "kind": "hero",
+      "pageUrl": "https://oryzo.ai/",
+      "scrollY": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:13:07.194Z",
+      "sectionLabel": "Portada: objeto físico y tipografía sobria",
+      "imageDimensions": {
+        "width": 1440,
+        "height": 900
+      }
+    },
+    {
+      "id": "02-scroll-product",
+      "file": "references/sites/oryzo/02-scroll-product.jpg",
+      "kind": "product",
+      "pageUrl": "https://oryzo.ai/",
+      "scrollY": 20025,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:15:47.783Z",
+      "sectionLabel": "Características: producto en contexto y explicación visual",
+      "imageDimensions": {
+        "width": 1440,
+        "height": 900
+      }
+    },
+    {
+      "id": "03-closing",
+      "file": "references/sites/oryzo/03-closing.jpg",
+      "kind": "closing",
+      "pageUrl": "https://oryzo.ai/",
+      "scrollY": 55791,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:16:00.071Z",
+      "sectionLabel": "Cierre: autoría del concepto, contacto y escena oscura",
+      "imageDimensions": {
+        "width": 1440,
+        "height": 900
+      }
+    },
+    {
+      "id": "04-hero-mobile",
+      "file": "references/sites/oryzo/04-hero-mobile.jpg",
+      "kind": "mobile",
+      "pageUrl": "https://oryzo.ai/",
+      "scrollY": 0,
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "capturedAt": "2026-08-30T22:16:16.702Z",
+      "sectionLabel": "Portada móvil: objeto y títulos sobre material",
+      "imageDimensions": {
+        "width": 390,
+        "height": 844
+      }
+    }
+  ]
+}

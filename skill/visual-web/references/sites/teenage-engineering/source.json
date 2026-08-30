@@ -1,0 +1,76 @@
+{
+  "id": "teenage-engineering",
+  "name": "Teenage Engineering",
+  "url": "https://teenage.engineering/",
+  "capturedAt": "2026-08-30T22:27:00.114Z",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "file": "references/sites/teenage-engineering/01-hero-desktop.jpg",
+      "kind": "hero",
+      "pageUrl": "https://teenage.engineering/",
+      "scrollY": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:27:00.267Z",
+      "sectionLabel": "Portada editorial: tipografía negra e ilustración de Mr. Update",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "02-instrument",
+      "file": "references/sites/teenage-engineering/02-instrument.jpg",
+      "kind": "product",
+      "pageUrl": "https://teenage.engineering/",
+      "scrollY": 3650,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:27:11.498Z",
+      "sectionLabel": "Campaña de EP–133 K.O. II",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "03-product-family",
+      "file": "references/sites/teenage-engineering/03-product-family.jpg",
+      "kind": "gallery",
+      "pageUrl": "https://teenage.engineering/",
+      "scrollY": 4550,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:27:18.310Z",
+      "sectionLabel": "Retícula de instrumento y accesorios",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "04-hero-mobile",
+      "file": "references/sites/teenage-engineering/04-hero-mobile.jpg",
+      "kind": "mobile",
+      "pageUrl": "https://teenage.engineering/",
+      "scrollY": 0,
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "capturedAt": "2026-08-30T22:27:24.046Z",
+      "sectionLabel": "Portada móvil de campaña editorial",
+      "imageDimensions": {
+        "width": 375,
+        "height": 812
+      }
+    }
+  ]
+}

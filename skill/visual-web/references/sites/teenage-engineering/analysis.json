@@ -1,0 +1,121 @@
+{
+  "id": "teenage-engineering",
+  "tags": [
+    "consumer-electronics", "electrónica-de-consumo", "music-technology", "tecnología-musical",
+    "industrial-design", "diseño-industrial", "ecommerce", "comercio-electrónico",
+    "editorial-campaign", "campaña-editorial", "illustration", "ilustración", "comic", "cómic",
+    "black-and-white", "blanco-y-negro", "orange-accent", "acento-naranja",
+    "oversized-type", "tipografía-grande", "display-type", "tipografía-display",
+    "graphic-navigation", "navegación-gráfica", "product-photography", "fotografía-de-producto",
+    "product-grid", "retícula-de-productos", "packaging", "embalaje", "minimal", "minimalista"
+  ],
+  "industries": [
+    "instrumentos musicales electrónicos",
+    "electrónica de consumo",
+    "diseño industrial",
+    "comercio electrónico"
+  ],
+  "summary": "Tienda y campaña editorial de alto contraste que cambia con intención entre una portada ilustrada en blanco, negro y naranja y fotografía de producto austera sobre gris. Una navegación formada por símbolos y palabras, el titular display de gran escala, los primeros planos de embalaje y una retícula clara de producto construyen una identidad de diseño industrial lúdica y precisa.",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "observed": [
+        "La portada blanca dedica la franja superior a una navegación gráfica: marca, productos, tienda, novedades y buscador se presentan con símbolos negros grandes y texto auxiliar pequeño; a la derecha aparecen un bloque breve en japonés y un emblema negro.",
+        "El titular «Daily Life of Mr. Update» ocupa dos líneas con letras negras display de gran escala y se acompaña de una ficha de actualización EP Series con un pequeño acento naranja.",
+        "Una ilustración lineal muestra a Mr. Update en una mesa rodeada por pilas de papeles, con rótulos y líneas de humo en naranja.",
+        "Titular e ilustración forman una sola escena editorial centrada; la parte inferior del dibujo queda cortada por el borde del viewport y no muestra el cierre completo del hero.",
+        "La composición mezcla grosores extremos: masas tipográficas negras, dibujo de contorno, microtexto y unas pocas líneas naranjas sobre un fondo casi blanco."
+      ],
+      "adaptation": [
+        "Usar una campaña ilustrada como portada temporal cuando la historia tenga un personaje, un conflicto y un vínculo directo con lanzamientos o actualizaciones reales.",
+        "Crear un alfabeto propio de símbolos para la navegación solo si cada forma conserva significado junto a una etiqueta verbal clara.",
+        "Coordinar titular, ficha informativa e ilustración desde el mismo boceto para que la escena se lea como una pieza editorial y no como elementos apilados sin relación.",
+        "Limitar el acento cromático a información precisa o detalles narrativos para que una paleta casi monocroma mantenga fuerza."
+      ],
+      "avoid": [
+        "No copiar el personaje, el estilo de dibujo, los emblemas, el titular ni los símbolos de navegación de la marca.",
+        "No adoptar microtexto o navegación de alta densidad sin comprobar legibilidad, semántica y acceso por teclado.",
+        "No extender la parte ilustrada cortada ni atribuir movimiento a las líneas de humo o al personaje."
+      ],
+      "motion": {
+        "status": "not-tested",
+        "description": "No se probaron los módulos de navegación ni se observó evolución del personaje, humo, ficha o titular; la campaña se registra como composición estática."
+      }
+    },
+    {
+      "id": "02-instrument",
+      "observed": [
+        "Una banda negra estrecha en el borde superior contiene el texto pequeño «sinus transmission completed»; debajo comienza un campo gris oscuro con una iluminación gradual hacia el centro.",
+        "El embalaje blanco del EP–133 K.O. II aparece en perspectiva y ocupa la zona central inferior, con gran parte del objeto fuera del borde inferior.",
+        "La superficie del paquete combina letras de contorno, microtexto técnico, diagramas, códigos y acentos naranja, negro y gris.",
+        "El gran espacio gris sobre el producto concentra la atención en su entrada desde abajo y separa esta escena de la densidad gráfica del hero.",
+        "La captura es parcial: no muestra el embalaje completo, precio, acción de compra ni el límite inferior de la sección."
+      ],
+      "adaptation": [
+        "Presentar un objeto diseñado con un primer plano o embalaje de gran escala cuando sus detalles gráficos formen parte central de la propuesta de valor.",
+        "Usar un fondo neutro y una iluminación contenida para aislar el producto sin añadir marcos, tarjetas o decoración innecesaria.",
+        "Planificar el recorte para que nombre y rasgos reconocibles sigan visibles, y acompañarlo en otra parte con datos comerciales completos.",
+        "Tratar la gráfica del embalaje como un activo de marca propio, con jerarquía y sistema de información coherentes."
+      ],
+      "avoid": [
+        "No copiar el embalaje, nomenclatura, textos técnicos, emblemas o disposición gráfica del producto.",
+        "No usar un recorte extremo como única imagen para compradores que necesiten comprender forma, escala y controles completos.",
+        "No interpretar la posición baja como entrada animada ni el texto superior como un estado funcional verificado."
+      ],
+      "motion": {
+        "status": "not-tested",
+        "description": "No se observó si el producto entra, rota o responde al scroll; tampoco se comprobó que la banda superior cambie. La captura acredita un encuadre parcial."
+      }
+    },
+    {
+      "id": "03-product-family",
+      "observed": [
+        "La parte superior conserva el final de una imagen de producto sobre gris: solo se ve una franja del instrumento en el borde alto, una sombra y la etiqueta «EP–133 K.O. II» cerca del pie izquierdo del campo.",
+        "Una retícula blanca de tres columnas comienza más abajo, separada por líneas verticales grises finas.",
+        "Las columnas presentan el instrumento, una cubierta translúcida y una bolsa; cada una usa un nombre pequeño, el enlace azul «buy now» y una fotografía aislada con mucho espacio en blanco.",
+        "Los tres objetos tienen escalas visuales distintas pero comparten una ubicación aproximada dentro de su celda; el naranja del instrumento y la bolsa enlaza la familia.",
+        "La captura contiene la transición entre una imagen principal parcial y la galería, no el inicio ni el final completos de ninguna de las dos áreas."
+      ],
+      "adaptation": [
+        "Pasar de una imagen de campaña amplia a una retícula de compra clara para separar deseo, identificación y selección de accesorios.",
+        "Mantener nombre y acción en una posición estable mientras la fotografía de cada producto conserva su escala y silueta características.",
+        "Usar líneas finas y espacio en blanco para construir familias sin envolver cada artículo en tarjetas elevadas.",
+        "Vincular productos y accesorios mediante materiales, ángulos de foto o acentos comunes en lugar de igualar artificialmente su tamaño."
+      ],
+      "avoid": [
+        "No deducir la altura completa de las celdas ni el número total de productos desde esta porción de galería.",
+        "No mostrar una acción de compra con tan poca información si el precio, compatibilidad o variante son esenciales antes de decidir.",
+        "No reutilizar fotografías, nombres, códigos o diseños industriales ajenos."
+      ],
+      "motion": {
+        "status": "not-tested",
+        "description": "No se accionaron los enlaces de compra ni se probaron estados de las celdas. La transición espacial entre imagen gris y retícula no demuestra animación."
+      }
+    },
+    {
+      "id": "04-hero-mobile",
+      "observed": [
+        "En el viewport registrado de 390 por 844, la cabecera se reduce a un icono rectangular a la izquierda y un control de tres puntos a la derecha; la navegación gráfica de escritorio no aparece.",
+        "El titular, la ficha EP Series y la ilustración se recomponen como una pieza compacta centrada, con el personaje y las pilas de papeles visibles en todo el ancho.",
+        "Una línea horizontal negra cierra la escena y deja un campo gris muy claro antes de la sección blanca «explore products».",
+        "La siguiente sección ya entra en el mismo viewport: muestra el encabezado centrado y el inicio de una tarjeta negra redondeada de APC–2 con una imagen oscura parcial.",
+        "El acento naranja se conserva en la ficha, rótulos y trazos de la ilustración, mientras el resto permanece negro, blanco y gris claro."
+      ],
+      "adaptation": [
+        "Preparar una composición móvil propia del arte editorial para conservar titular, personaje y detalles narrativos sin limitarse a recortar el escritorio.",
+        "Simplificar una navegación visual compleja a pocos controles reconocibles y asegurar nombres accesibles y destinos comprensibles.",
+        "Permitir que la siguiente sección asome para señalar continuidad, controlando que no compita con la campaña principal.",
+        "Crear una separación clara entre campaña y catálogo mediante cambio de fondo, aire y un encabezado de transición."
+      ],
+      "avoid": [
+        "No asumir que los puntos abren un menú específico ni que todas las opciones de escritorio están dentro; el control no se probó.",
+        "No confundir la tarjeta parcial de APC–2 con parte de la ilustración o con el producto promovido por la campaña.",
+        "No reducir detalles lineales por debajo de una escala legible ni copiar la escena y el personaje."
+      ],
+      "motion": {
+        "status": "not-tested",
+        "description": "No se abrió el control de tres puntos ni se probó la tarjeta de producto. La captura solo permite observar la recomposición móvil y el inicio de la sección siguiente."
+      }
+    }
+  ]
+}

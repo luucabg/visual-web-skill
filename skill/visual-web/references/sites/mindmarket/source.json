@@ -1,0 +1,76 @@
+{
+  "id": "mindmarket",
+  "name": "MindMarket",
+  "url": "https://mindmarket.com/",
+  "capturedAt": "2026-08-30T22:10:44.409Z",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "file": "references/sites/mindmarket/01-hero-desktop.jpg",
+      "kind": "hero",
+      "pageUrl": "https://mindmarket.com/",
+      "scrollY": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:11:50.742Z",
+      "sectionLabel": "Portada: tipografía de gran escala e ilustración humana",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "02-services",
+      "file": "references/sites/mindmarket/02-services.jpg",
+      "kind": "editorial",
+      "pageUrl": "https://mindmarket.com/",
+      "scrollY": 2050,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:12:07.173Z",
+      "sectionLabel": "Servicios: texto y objetos ilustrados",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "04-hero-mobile",
+      "file": "references/sites/mindmarket/04-hero-mobile.jpg",
+      "kind": "mobile",
+      "pageUrl": "https://mindmarket.com/",
+      "scrollY": 0,
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "capturedAt": "2026-08-30T22:12:26.496Z",
+      "sectionLabel": "Portada móvil y adaptación de ilustración",
+      "imageDimensions": {
+        "width": 375,
+        "height": 812
+      }
+    },
+    {
+      "id": "03-sector-story",
+      "file": "references/sites/mindmarket/03-sector-story.jpg",
+      "kind": "editorial",
+      "pageUrl": "https://mindmarket.com/",
+      "scrollY": 3400,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:12:51.419Z",
+      "sectionLabel": "Sectores: tarjeta editorial y narrativa ilustrada",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    }
+  ]
+}

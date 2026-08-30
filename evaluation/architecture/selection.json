@@ -1,0 +1,74 @@
+{
+  "brief": {
+    "product": "ARCO, estudio conceptual de arquitectura especializado en rehabilitación de viviendas",
+    "audience": "Personas que quieren reformar su casa",
+    "primaryAction": "Iniciar una conversación sobre su proyecto",
+    "availableContent": "Nombre ARCO, especialidad, audiencia y acción; no se aportaron obras, clientes, premios ni credenciales",
+    "tone": [
+      "tranquilo",
+      "material",
+      "preciso"
+    ],
+    "scope": "Dirección de arte y una única imagen horizontal de hero; sin código, publicación ni activos sueltos"
+  },
+  "search": {
+    "query": "arquitectura rehabilitacion vivienda material editorial calma fotografia",
+    "command": "node <skill-root>/scripts/search.mjs \"arquitectura rehabilitacion vivienda material editorial calma fotografia\"",
+    "browserUsed": false
+  },
+  "references": [
+    {
+      "siteId": "norm-architects",
+      "siteName": "Norm Architects",
+      "captureIds": [
+        "01-hero-desktop",
+        "04-hero-mobile"
+      ],
+      "opened": true,
+      "filesOpened": [
+        "references/sites/norm-architects/01-hero-desktop.jpg",
+        "references/sites/norm-architects/04-hero-mobile.jpg"
+      ],
+      "capturedAt": [
+        "2026-08-30T22:32:25.087Z",
+        "2026-08-30T22:33:00.313Z"
+      ],
+      "role": "Composición principal, escala fotográfica y criterio de recorte móvil",
+      "observed": "La portada de escritorio entrega casi todo el viewport a una escena arquitectónica cálida y material; el texto se concentra sobre una zona tonal estable. La captura móvil conserva profundidad y sujeto mediante un recorte vertical, pero evidencia que la marca blanca pierde contraste sobre fondos claros.",
+      "adapt": "Usar una escena conceptual a gran escala para comunicar materia y luz antes que credenciales, reservar una superficie opaca para lectura constante y planificar un recorte móvil que conserve el umbral existente. La cabecera tendrá fondo mineral para evitar el problema de contraste observado.",
+      "reject": "No se transfieren la fotografía, los proyectos, la marca, el carrusel, los puntos, la navegación ni el texto de la fuente; tampoco se presenta una imagen generada como obra construida."
+    },
+    {
+      "siteId": "oryzo",
+      "siteName": "Oryzo",
+      "captureIds": [
+        "01-hero-desktop"
+      ],
+      "opened": true,
+      "filesOpened": [
+        "references/sites/oryzo/01-hero-desktop.jpg"
+      ],
+      "capturedAt": [
+        "2026-08-30T22:13:07.194Z"
+      ],
+      "role": "Precisión material, encuadre compuesto y anotación secundaria",
+      "observed": "La vista cenital organiza un objeto material, herramientas y texto en zonas despejadas; la utilería explica contexto y la jerarquía mantiene un foco claro pese a varias capas.",
+      "adapt": "Introducir solo materiales propios de una rehabilitación doméstica y una anotación técnica breve que explique la capa existente, con una retícula más calmada y una acción comercial inequívoca.",
+      "reject": "No se transfieren el posavasos, la base verde, las herramientas, la marca, la sátira, el panel de autoría, las credenciales ni la densidad de interfaz de la fuente."
+    }
+  ],
+  "direction": {
+    "concept": "La casa como palimpsesto: rehabilitar comienza leyendo con cuidado lo que ya existe.",
+    "typeMood": "Serif editorial de contraste moderado para la idea; sans neutral y precisa para navegación, apoyo y CTA.",
+    "imageLanguage": "Fotografía editorial conceptual, luz natural lateral, cal apagada, madera existente, terracota recuperada y una pequeña cata de fábrica vista; calma de obra contenida, sin lujo de catálogo.",
+    "palette": [
+      "hueso mineral #EEE9DE",
+      "tinta parda #302D29",
+      "óxido cocido #9A533E",
+      "madera miel apagada #9A765A",
+      "gris cal #C9C2B5"
+    ],
+    "controlFamily": "Controles rectos y compactos, bordes finos, CTA sólido en óxido y sin sombras decorativas.",
+    "motionPurpose": "Fuera del alcance visual estático; una implementación futura podría revelar la anotación para explicar el criterio de intervención, manteniendo el contenido disponible sin movimiento."
+  }
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Visual Web"
+  short_description: "Webs originales con referencias visuales reales"
+  default_prompt: "Usa $visual-web para crear una web original: selecciona y abre referencias reales, define la dirección de arte, genera los diseños y activos necesarios, implementa y verifica el resultado."
+policy:
+  allow_implicit_invocation: true

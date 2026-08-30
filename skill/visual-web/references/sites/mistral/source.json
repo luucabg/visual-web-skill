@@ -1,0 +1,76 @@
+{
+  "id": "mistral",
+  "name": "Mistral AI",
+  "url": "https://mistral.ai/",
+  "capturedAt": "2026-08-30T22:22:29.527Z",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "file": "references/sites/mistral/01-hero-desktop.jpg",
+      "kind": "hero",
+      "pageUrl": "https://mistral.ai/",
+      "scrollY": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:22:46.559Z",
+      "sectionLabel": "Portada: tipografía blanca, retícula negra y mosaico cálido",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "03-product-map",
+      "file": "references/sites/mistral/03-product-map.jpg",
+      "kind": "product",
+      "pageUrl": "https://mistral.ai/",
+      "scrollY": 2800,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:22:58.146Z",
+      "sectionLabel": "Mapa visual de familia de productos",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "02-customer-stories",
+      "file": "references/sites/mistral/02-customer-stories.jpg",
+      "kind": "gallery",
+      "pageUrl": "https://mistral.ai/",
+      "scrollY": 2000,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:23:10.848Z",
+      "sectionLabel": "Casos de clientes: tarjetas editoriales y fotografía",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "04-hero-mobile",
+      "file": "references/sites/mistral/04-hero-mobile.jpg",
+      "kind": "mobile",
+      "pageUrl": "https://mistral.ai/",
+      "scrollY": 0,
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "capturedAt": "2026-08-30T22:24:05.005Z",
+      "sectionLabel": "Portada móvil: jerarquía tipográfica y arte modular",
+      "imageDimensions": {
+        "width": 375,
+        "height": 812
+      }
+    }
+  ]
+}

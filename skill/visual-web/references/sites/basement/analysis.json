@@ -1,0 +1,121 @@
+{
+  "id": "basement",
+  "tags": [
+    "digital-studio", "estudio-digital", "branding", "creative-development", "desarrollo-creativo",
+    "dark", "oscuro", "black", "negro", "monochrome", "monocromo",
+    "immersive-hero", "hero-inmersivo", "environmental-scene", "escena-ambiental",
+    "industrial", "arcade", "warm-lighting", "iluminación-cálida", "orange-accent", "acento-naranja",
+    "oversized-type", "tipografía-grande", "bold-sans", "sans-pesada",
+    "project-list", "lista-de-proyectos", "capabilities", "capacidades",
+    "four-column", "cuatro-columnas", "service-tags", "etiquetas-de-servicio", "high-contrast", "alto-contraste"
+  ],
+  "industries": [
+    "estudios digitales",
+    "branding",
+    "diseño web",
+    "marketing creativo"
+  ],
+  "summary": "Portfolio oscuro de estudio digital que usa una escena ambiental de taller como identidad de portada y grandes bloques sans para proyectos y servicios. Las secciones interiores convierten casos en filas de imagen, explicación y nombre, y presentan capacidades en cuatro columnas con etiquetas técnicas compactas.",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "observed": [
+        "Una escena oscura de estudio ocupa casi todo el viewport bajo una cabecera negra: paneles de madera, escalera, recreativa con luz naranja, canasta, persona, perro y un conjunto de monitores construyen profundidad.",
+        "La cabecera muestra marca a la izquierda, seis destinos centrados y «Contact Us» a la derecha, además de un grupo de puntos cercano.",
+        "La escena mezcla luz cálida sobre madera y recreativa con amplias zonas negras; monitores en blanco y negro y varios rótulos de basement aparecen integrados en el espacio.",
+        "En el borde inferior central hay un control rotulado «Human / Machine», con Human acentuado en naranja en este estado.",
+        "La imagen tiene apariencia de escena construida o renderizada, pero una captura estática no establece técnica, dimensionalidad, interactividad o librería."
+      ],
+      "adaptation": [
+        "Crear un espacio narrativo propio donde objetos, luz y señalización representen disciplinas, cultura y tono del estudio.",
+        "Distribuir puntos focales por profundidad para que la escena permita una primera lectura ambiental y luego descubrimientos secundarios.",
+        "Mantener navegación y contacto en una franja estable de alto contraste separada de la imagen compleja.",
+        "Si se ofrece un selector conceptual, explicar su efecto, estado y control mediante teclado sin depender solo del color."
+      ],
+      "avoid": [
+        "No copiar el espacio, los objetos, personajes, rótulos, marca o iluminación de Basement.",
+        "No inferir WebGL, 3D en tiempo real, vídeo, parallax, puntos interactivos o librerías desde el resultado visual.",
+        "No usar una escena densa si desplaza la propuesta y la acción para públicos que necesitan entender el servicio de inmediato."
+      ],
+      "motion": {
+        "status": "not-tested",
+        "description": "No se accionó Human/Machine ni se observaron cambios en luces, objetos, cámara o monitores. La técnica y el comportamiento de la escena no se probaron."
+      }
+    },
+    {
+      "id": "02-featured-project",
+      "observed": [
+        "«Featured Projects» aparece en sans gris de gran escala sobre negro, separado del contenido por una regla horizontal.",
+        "El caso Daylight ocupa la primera fila: una imagen clara de marca domina la izquierda, una explicación blanca ocupa una columna más estrecha y el nombre del proyecto se alinea al extremo derecho.",
+        "La etiqueta «Websites & Features» aparece cerca del pie de la fila, justo antes de la regla que separa el caso siguiente.",
+        "El caso KidSuper comienza debajo con una imagen celeste parcial, descripción y nombre; su fila continúa fuera del borde inferior.",
+        "La cabecera conserva la marca y los destinos en una franja negra separada del índice de proyectos."
+      ],
+      "adaptation": [
+        "Construir cada caso como una fila repetible de imagen dominante, resumen breve, categoría y nombre para permitir escaneo y contexto a la vez.",
+        "Usar reglas horizontales para separar proyectos sin envolverlos en tarjetas independientes.",
+        "Escribir descripciones centradas en problema, intervención y resultado, ajustadas a una columna de medida controlada.",
+        "Probar cabecera y retícula en estados de scroll y anchos intermedios para conservar separación y jerarquía."
+      ],
+      "avoid": [
+        "No tratar la porción de KidSuper como caso completo ni inferir la altura o contenido restante.",
+        "No copiar identidades, textos, imágenes o nombres de proyectos del estudio.",
+        "No forzar esta proporción de columnas si el resumen real necesita más espacio o el nombre del caso se vuelve difícil de leer."
+      ],
+      "motion": {
+        "status": "not-tested",
+        "description": "No se probaron filas, imágenes o cabecera. La captura no muestra si los casos cambian, expanden o responden al puntero."
+      }
+    },
+    {
+      "id": "03-capabilities",
+      "observed": [
+        "La etiqueta gris «Capabilities» abre una superficie negra bajo la cabecera.",
+        "Una declaración sans gris de gran escala ocupa cinco líneas y domina la mitad superior con un mensaje sobre trabajo extraordinario y precisión.",
+        "Cuatro columnas inferiores presentan Websites & Features, Visual Branding, IRL Experience Design y Marketing Execution, cada una con un párrafo blanco y etiquetas compactas grises.",
+        "Los bloques comparten alineación superior y ancho similar, mientras las etiquetas se ajustan a varias filas según la cantidad de capacidades.",
+        "La palabra «Contact» empieza en el borde inferior y el control Human/Machine permanece visible al centro; la sección principal de capacidades sí queda contenida en el viewport."
+      ],
+      "adaptation": [
+        "Abrir servicios con una tesis corta y después desglosarlos en columnas paralelas de nombre, alcance y entregables.",
+        "Usar etiquetas para vocabulario concreto de entregables, manteniendo el párrafo como explicación y no como repetición de la lista.",
+        "Ajustar el número de columnas al ancho y convertirlas en una secuencia legible en móvil.",
+        "Diferenciar títulos, párrafos y etiquetas mediante escala y contraste sin depender de múltiples colores."
+      ],
+      "avoid": [
+        "No copiar el manifiesto ni el inventario de servicios; deben corresponder a capacidades reales del proyecto propio.",
+        "No usar etiquetas como adorno ni incluir términos ambiguos que no conduzcan a resultados o entregables.",
+        "No conservar cuatro columnas en pantallas donde obliguen a texto demasiado estrecho."
+      ],
+      "motion": {
+        "status": "not-tested",
+        "description": "No se accionaron etiquetas, navegación o control Human/Machine. La captura acredita jerarquía y distribución estáticas."
+      }
+    },
+    {
+      "id": "04-hero-mobile",
+      "observed": [
+        "En el viewport registrado de 390 por 844, la cabecera reduce la navegación a marca, puntos, «Menu» y un icono de dos líneas.",
+        "La escena se recorta alrededor de escalera, canasta, recreativa, panel señalizado y suelo; persona y monitores del escritorio quedan fuera del encuadre visible.",
+        "La luz naranja de la recreativa y la luz cálida de la pared conservan los dos puntos de acento principales sobre negro.",
+        "Bajo la imagen comienza un titular blanco muy grande, «A digital studio & branding powerhouse…», pero queda recortado por el borde inferior y lateral en este estado.",
+        "La captura termina dentro del titular y no muestra el final de la propuesta verbal ni la sección que la sigue."
+      ],
+      "adaptation": [
+        "Elegir un encuadre móvil específico que conserve pocos objetos reconocibles y no dependa de reducir toda la escena de escritorio.",
+        "Colocar la propuesta verbal después de la imagen solo si sus primeras líneas pueden leerse completas y descubren la continuación.",
+        "Probar anchos y alturas reales para ajustar los cortes de línea y asegurar que el título respete el área útil.",
+        "Mantener menú y controles con áreas táctiles suficientes sobre una cabecera estable."
+      ],
+      "avoid": [
+        "No tratar el título cortado por el límite de esta captura como una composición móvil completa o un breakpoint generalizable.",
+        "No asumir que los elementos ausentes fueron eliminados de la escena; solo quedan fuera de este recorte.",
+        "No inferir interacción, 3D, vídeo o técnica responsiva a partir de la diferencia de encuadre."
+      ],
+      "motion": {
+        "status": "not-tested",
+        "description": "No se abrió el menú ni se observaron cambios de escena o cámara. El estado móvil evidencia un recorte y un titular que continúa fuera del viewport."
+      }
+    }
+  ]
+}

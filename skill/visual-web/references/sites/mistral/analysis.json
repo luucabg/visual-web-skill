@@ -1,0 +1,84 @@
+{
+  "id": "mistral",
+  "tags": ["artificial-intelligence", "inteligencia-artificial", "enterprise", "empresarial", "developer-tools", "herramientas-de-desarrollo", "dark", "oscuro", "black", "negro", "orange", "naranja", "red", "rojo", "pixel-art", "arte-píxel", "modular-grid", "retícula-modular", "mosaic", "mosaico", "oversized-type", "tipografía-grande", "customer-stories", "casos-de-clientes", "product-map", "mapa-de-productos", "staggered-layout", "composición-escalonada"],
+  "industries": ["inteligencia artificial", "software empresarial", "herramientas para desarrolladores", "servicios tecnológicos"],
+  "summary": "Sistema visual tecnológico de fondo negro, divisiones finas y alto contraste, acompañado por mosaicos geométricos en naranja y rojo. La portada, casos de clientes y mapa de productos usan módulos de distinta escala para ordenar una oferta amplia sin perder una identidad compacta de píxel.",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "observed": [
+        "La portada negra se divide en una gran columna izquierda y una banda derecha más estrecha mediante líneas finas de retícula.",
+        "Un titular blanco de gran escala ocupa la mitad superior izquierda; debajo hay un mosaico de rectángulos naranja, rojo y granate, con pequeños rótulos y un emblema de píxel.",
+        "La columna derecha contiene una explicación breve, tres flechas hacia abajo y una noticia destacada pequeña cerca del pie.",
+        "La cabecera presenta numerosos enlaces en celdas separadas y una acción de ventas sobre fondo claro; un control de cookies es visible abajo a la izquierda."
+      ],
+      "adaptation": [
+        "Usar una retícula fuerte para separar promesa, contexto, noticia y acciones sin recurrir a tarjetas redondeadas.",
+        "Crear un mosaico geométrico propio que codifique la identidad con pocos colores y formas compatibles con el logotipo.",
+        "Dar mayor peso visual a una acción comercial si el hero se adapta a una página de conversión específica."
+      ],
+      "avoid": [
+        "No interpretar la disposición de bloques como movimiento, carga progresiva o visualización de datos.",
+        "No copiar el mosaico, emblema, logotipo o textos de marca ni heredar una navegación tan densa para un producto con menos secciones."
+      ],
+      "motion": {"status": "not-tested", "description": "No se observó evolución temporal del mosaico, noticia o flechas. La captura estática no permite atribuirles animación ni comportamiento de scroll."}
+    },
+    {
+      "id": "02-customer-stories",
+      "observed": [
+        "Una tarjeta horizontal amplia de HSBC domina la izquierda con fotografía nocturna de una escultura de león, marca, etiqueta sectorial, titular y botón superpuestos.",
+        "A la derecha se ve una segunda tarjeta de ASML, más estrecha por el encuadre, con fondo oscuro, texto blanco e imagen parcial en el pie.",
+        "El conjunto queda dentro de una gran superficie gris negruzca; una fila de puntos abajo a la izquierda y dos botones de flecha abajo a la derecha actúan como señales visuales de navegación.",
+        "La primera tarjeta se muestra completa dentro del viewport; la segunda continúa fuera del borde derecho de su zona visible."
+      ],
+      "adaptation": [
+        "Dar a un caso prioritario más anchura y una fotografía distintiva, dejando asomar el siguiente caso para comunicar amplitud.",
+        "Mantener marca, sector, resultado resumido y acción en posiciones consistentes para facilitar el escaneo entre casos.",
+        "Ofrecer controles con etiquetas accesibles y estados claros en una implementación propia."
+      ],
+      "avoid": [
+        "No inferir que puntos y flechas funcionan como carrusel ni cómo cambia el contenido: solo son controles visibles en la imagen.",
+        "No usar una fotografía compleja sin controlar la legibilidad de texto y marcas sobre ella."
+      ],
+      "motion": {"status": "not-tested", "description": "No se accionaron puntos, flechas, tarjetas ni botones. No se conoce la dirección, duración o mecanismo de un posible cambio de caso."}
+    },
+    {
+      "id": "03-product-map",
+      "observed": [
+        "Un titular blanco centrado ocupa una franja amplia de aire negro sobre una composición de módulos escalonados.",
+        "Los módulos visibles incluyen Vibe, Studio, Forge y Applied AI services, con pequeños emblemas de color, títulos y descripciones breves.",
+        "Rectángulos gris oscuro y rombos decorativos interrumpen la retícula ortogonal; los contornos finos mantienen cada área distinguible sobre negro.",
+        "Varias columnas y módulos continúan por debajo del borde inferior, por lo que la captura no contiene el mapa completo de productos."
+      ],
+      "adaptation": [
+        "Representar una familia de productos con módulos conectados visualmente cuando la oferta incluye distintos niveles o tipos de servicio.",
+        "Usar color de emblema, título y una frase corta como claves repetibles antes de añadir comparaciones más detalladas.",
+        "En móvil o lectura lineal, proporcionar un orden inequívoco independiente de la posición bidimensional."
+      ],
+      "avoid": [
+        "No deducir relaciones jerárquicas o de dependencia entre módulos solo por su posición o tamaño.",
+        "No tratar esta captura parcial como inventario exhaustivo ni usar huecos decorativos si dificultan descubrir opciones."
+      ],
+      "motion": {"status": "not-tested", "description": "No se probaron hover, expansión, enlaces ni entrada de los módulos. La continuación inferior es espacial, no evidencia de animación."}
+    },
+    {
+      "id": "04-hero-mobile",
+      "observed": [
+        "En el viewport de 390 por 844 registrado, la cabecera muestra el emblema, una acción de ventas, un icono de retícula y otro control circular; los enlaces de escritorio no están visibles.",
+        "Titular y explicación se apilan a la izquierda sobre negro, seguidos de un módulo de noticia destacado con borde gris.",
+        "El mosaico naranja y rojo ocupa una franja completa más abajo y conserva módulos rectangulares y rombos sin texto grande superpuesto.",
+        "Debajo del mosaico comienza una retícula de logotipos de clientes; son visibles HSBC y TotalEnergies. No aparece el control de cookies en esta captura móvil limpia."
+      ],
+      "adaptation": [
+        "Reordenar el hero en una secuencia vertical clara: promesa, contexto, actualidad, arte de marca y prueba social.",
+        "Conservar la geometría y paleta del mosaico con un nuevo patrón ajustado al ancho en lugar de reducir el escritorio.",
+        "Simplificar navegación y comprobar que los iconos tengan nombres accesibles y destinos comprensibles."
+      ],
+      "avoid": [
+        "No asegurar que el aviso de cookies esté ausente del sitio: solo no aparece en el estado móvil final capturado.",
+        "No sobrecargar la primera pantalla con noticia y prueba social cuando una tarea de conversión exija acceso inmediato a otra acción."
+      ],
+      "motion": {"status": "not-tested", "description": "No se abrieron controles de cabecera ni la noticia y no se observó movimiento del mosaico. Es una referencia de jerarquía móvil estática."}
+    }
+  ]
+}

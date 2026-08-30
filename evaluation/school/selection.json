@@ -1,0 +1,62 @@
+{
+  "brief": {
+    "product": "MESA, escuela conceptual de talleres creativos presenciales",
+    "audience": "adultos principiantes",
+    "primaryAction": "explorar los talleres",
+    "availableContent": "nombre de marca, propuesta conceptual y permiso para copy conceptual",
+    "toneAndConstraints": "cercana, con carácter y optimista; adulta, no infantil ni tecnológica; sin cifras, testimonios, profesores, ubicaciones o fechas reales"
+  },
+  "references": [
+    {
+      "siteId": "floema",
+      "siteName": "Floema",
+      "captureIds": [
+        "01-hero-desktop",
+        "04-hero-mobile"
+      ],
+      "openedFiles": [
+        "references/sites/floema/01-hero-desktop.jpg",
+        "references/sites/floema/04-hero-mobile.jpg"
+      ],
+      "role": "composición principal y criterio de adaptación móvil",
+      "observed": "El titular funciona como ancla en una zona central tranquila mientras pequeñas imágenes de escala desigual forman un campo alrededor; en móvil la promesa sigue centrada y las imágenes se redistribuyen y recortan de forma específica.",
+      "adapt": "Mantener un núcleo verbal limpio y usar pocos fragmentos materiales como señales de descubrimiento; en MESA la escena será una mesa continua y los recortes serán mínimos para que la acción y la lectura dominen. El motivo es expresar variedad sin convertir el hero en catálogo.",
+      "reject": "No se copian marca, productos, cápsulas de navegación ni la dispersión exacta; tampoco se presupone movimiento ni se usa el desbordamiento visible de la captura."
+    },
+    {
+      "siteId": "oryzo",
+      "siteName": "Oryzo",
+      "captureIds": [
+        "01-hero-desktop"
+      ],
+      "openedFiles": [
+        "references/sites/oryzo/01-hero-desktop.jpg"
+      ],
+      "role": "materialidad y encuadre de taller",
+      "observed": "Una vista cenital cálida organiza objeto, superficie cuadriculada, madera y herramientas, con zonas reservadas para texto; la escena comunica contexto mediante materiales concretos.",
+      "adapt": "Usar una mesa real como metáfora de la escuela y mostrar manos adultas, papel, arcilla y marcas de trabajo bajo luz natural. El motivo es que el entorno explique aprendizaje presencial sin recurrir a iconos educativos ni interfaces tecnológicas.",
+      "reject": "No se copian el producto circular, el verde de corte como fondo dominante, las herramientas concretas, la marca, los paneles de autoría ni el tono satírico."
+    },
+    {
+      "siteId": "teenage-engineering",
+      "siteName": "Teenage Engineering",
+      "captureIds": [
+        "01-hero-desktop"
+      ],
+      "openedFiles": [
+        "references/sites/teenage-engineering/01-hero-desktop.jpg"
+      ],
+      "role": "carácter tipográfico y disciplina del acento",
+      "observed": "La portada une una tipografía display negra de gran escala, microjerarquías funcionales y un acento naranja escaso sobre una base casi blanca; el dibujo y el título se leen como una sola campaña.",
+      "adapt": "Dar a MESA una grotesca grande, franca y adulta, con un solo acento coral reservado al CTA y a pequeñas marcas de proceso. El motivo es aportar optimismo y personalidad sin recurrir a letras redondeadas infantiles.",
+      "reject": "No se copian personaje, ilustración lineal, símbolos de navegación, emblemas, composición del titular ni microtexto técnico."
+    }
+  ],
+  "direction": {
+    "concept": "La mesa de empezar: un hero que convierte la mesa compartida en símbolo de permiso para probar, equivocarse y hacer algo propio.",
+    "typeMood": "Grotesca editorial de gran escala, firme y abierta, combinada con sans funcional pequeña; sin estética escolar infantil ni códigos de software.",
+    "imageLanguage": "Fotografía editorial cenital oblicua, manos adultas en acción, luz de ventana, papel mate, arcilla, tinta y madera con huellas reales de uso.",
+    "palette": "papel crema, tinta casi negra, azul ultramar y coral bermellón, con verde oliva muy reducido",
+    "motionPurpose": "Si se implementara, una entrada breve revelaría materiales después del titular; todo el contenido y el CTA permanecerían estáticos y disponibles con movimiento reducido. No se genera ni prueba movimiento en este encargo."
+  }
+}

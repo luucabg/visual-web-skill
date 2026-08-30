@@ -1,0 +1,84 @@
+{
+  "id": "landonorris",
+  "tags": ["sports", "deporte", "personal-brand", "marca-personal", "photography", "fotografía", "portrait", "retrato", "cutout", "recorte", "editorial", "lime", "lima", "high-contrast", "alto-contraste", "serif-sans", "oversized-image", "imagen-protagonista", "split-composition", "composición-dividida", "product-gallery", "galería-de-producto", "organic-linework", "líneas-orgánicas"],
+  "industries": ["deporte", "marca personal", "automovilismo", "coleccionismo"],
+  "summary": "Identidad deportiva construida con retratos recortados de gran escala, acentos lima, trazos orgánicos y contraste entre letras serif y sans. Alterna una portada casi sin texto, una elección editorial de dos mundos y una galería oscura de objetos.",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "observed": [
+        "Un retrato frontal centrado ocupa casi toda la altura y sale del borde inferior sobre fondo marfil con líneas orgánicas muy tenues.",
+        "La marca está en la esquina superior izquierda; un monograma pequeño queda centrado arriba, mientras tienda lima y menú contorneado se agrupan a la derecha.",
+        "Una ficha pequeña con circuito y emblema ocupa la esquina inferior izquierda; no hay un gran titular que compita con el rostro.",
+        "Una malla gris semitransparente se superpone alrededor de la cabeza en este estado capturado."
+      ],
+      "adaptation": [
+        "Usar una fotografía propia de un protagonista reconocible y reservar un campo de fondo sobrio para la navegación periférica.",
+        "Asignar el acento saturado a la acción comercial principal y dejar los datos secundarios en una escala mucho menor.",
+        "Diseñar el recorte del retrato y sus zonas seguras antes de colocar controles o información cerca de la cara."
+      ],
+      "avoid": [
+        "No trasladar esta ausencia de titular a un servicio desconocido que necesite explicar su propuesta en el primer pantallazo.",
+        "No reutilizar el retrato, marcas, patrones ni emblemas de la referencia; tampoco tratar la malla capturada como una especificación de efecto."
+      ],
+      "motion": {"status": "not-tested", "description": "Solo se analizó una captura estática. La malla visible no permite determinar su técnica, respuesta al puntero ni evolución temporal."}
+    },
+    {
+      "id": "03-on-off-track",
+      "observed": [
+        "Dos perfiles fotográficos enfrentados quedan recortados por los extremos: casco lima a la izquierda y rostro a la derecha.",
+        "Dos bloques centrales de título usan serif arriba y sans pesada abajo, seguidos de texto breve y botones cuadrados lima.",
+        "Un trazo lima se cruza sobre el título izquierdo; el fondo conserva líneas orgánicas pálidas.",
+        "La parte inferior abre una fotografía a todo el ancho, sin una tarjeta alrededor."
+      ],
+      "adaptation": [
+        "Convertir dos facetas de una persona, dos colecciones o dos rutas de contenido en una elección visual equilibrada.",
+        "Dirigir los retratos hacia los textos para concentrar la atención en el centro y conservar aire alrededor de cada ruta.",
+        "En una versión móvil nueva, apilar las rutas con etiquetas y destinos explícitos; esa solución no está mostrada en esta captura."
+      ],
+      "avoid": [
+        "No usar dos rutas equivalentes cuando el producto necesita una única siguiente acción dominante.",
+        "No repetir el trazo superpuesto si reduce la lectura del título ni depender solo del icono de los botones para explicar su destino."
+      ],
+      "motion": {"status": "not-tested", "description": "No se verificaron hover, navegación de los botones ni cambios durante el desplazamiento."}
+    },
+    {
+      "id": "02-helmets",
+      "observed": [
+        "Una franja fotográfica superior continúa la imagen de la sección precedente y da paso a un fondo casi negro.",
+        "El encabezado se sitúa a la izquierda en dos estilos tipográficos, blanco y verde oliva claro; una explicación breve ocupa una columna más estrecha a su derecha.",
+        "Tras un espacio vertical amplio aparecen marcos finos con cascos aislados; los marcos visibles comienzan a distintas alturas.",
+        "El color lima de los productos relaciona las fotografías con el botón de tienda visible en la cabecera."
+      ],
+      "adaptation": [
+        "Presentar una colección pequeña mediante imágenes consistentes de objetos sobre un fondo oscuro que refuerce sus colores.",
+        "Usar un ritmo escalonado con moderación para dar variedad a una galería editorial, conservando metadatos comparables cuando se añadan.",
+        "Separar la introducción de la galería con espacio deliberado solo cuando el contenido y el tiempo de lectura lo permitan."
+      ],
+      "avoid": [
+        "No extrapolar una retícula completa ni un comportamiento de carrusel: solo se ve la parte superior de varios marcos.",
+        "No copiar este espacio vertical en un catálogo de compra intensiva que necesite mostrar precio, filtros y disponibilidad de inmediato."
+      ],
+      "motion": {"status": "not-tested", "description": "La captura no acredita carrusel, movimiento de producto, aparición al hacer scroll ni interacción con las piezas."}
+    },
+    {
+      "id": "04-hero-mobile",
+      "observed": [
+        "En el viewport móvil de 390 por 844 indicado por la fuente, tienda pasa a la esquina superior izquierda y el menú permanece a la derecha.",
+        "El monograma, nombre y línea secundaria se centran por encima del retrato, que se recorta a los lados y llega al borde inferior.",
+        "Un control lima con símbolo de mano y texto breve aparece abajo a la derecha.",
+        "Se ven malla gris y fragmentos gráficos amarillo-negros sobre la cabeza; son parte del estado capturado, no una composición limpia de retrato."
+      ],
+      "adaptation": [
+        "Reorganizar la identidad como una pila corta centrada cuando la fotografía ocupa todo el ancho útil del móvil.",
+        "Mantener acciones esenciales separadas en las esquinas y comprobar que sus áreas táctiles no invaden el sujeto.",
+        "Preparar una versión estática limpia del hero y evaluar por separado cualquier interacción ornamental."
+      ],
+      "avoid": [
+        "No presentar este estado como prueba de una animación móvil fluida o de una escena tridimensional funcional.",
+        "No copiar los fragmentos superpuestos ni depender de un control con icono ambiguo sin alternativa comprensible y accesible."
+      ],
+      "motion": {"status": "not-tested", "description": "Se ve una indicación de interacción táctil, pero no se tocó ni se probó. Los fragmentos visibles no permiten inferir causa o comportamiento."}
+    }
+  ]
+}

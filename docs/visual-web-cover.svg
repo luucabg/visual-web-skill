@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">Visual Web</title>
+  <desc id="desc">Sistema para convertir referencias visuales reales en dirección de arte y código.</desc>
+  <rect width="1280" height="640" rx="28" fill="#11120f"/>
+  <path d="M0 470C230 390 405 564 642 478s370-23 638-145v307H0Z" fill="#ff4d30"/>
+  <circle cx="1095" cy="116" r="155" fill="#c9ff3d"/>
+  <circle cx="1095" cy="116" r="88" fill="#11120f"/>
+  <g transform="translate(676 205) rotate(-3)">
+    <rect width="422" height="275" rx="14" fill="#f2eee4"/>
+    <rect x="22" y="22" width="378" height="28" rx="5" fill="#11120f"/>
+    <rect x="22" y="72" width="151" height="180" rx="7" fill="#ff4d30"/>
+    <rect x="193" y="72" width="207" height="93" rx="7" fill="#d9d4c8"/>
+    <rect x="193" y="183" width="134" height="18" rx="9" fill="#11120f"/>
+    <rect x="193" y="215" width="173" height="11" rx="5.5" fill="#918c82"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#f2eee4">
+    <text x="72" y="96" font-size="17" font-weight="700" letter-spacing="5">CODEX SKILL · 12 WEBS · 48 CAPTURAS</text>
+    <text x="68" y="242" font-size="112" font-weight="900" letter-spacing="-6">VISUAL</text>
+    <text x="68" y="346" font-size="112" font-weight="900" letter-spacing="-6">WEB</text>
+    <text x="76" y="408" font-size="24" font-weight="400">Referencias reales → dirección de arte → código</text>
+  </g>
+  <g transform="translate(74 518)" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">
+    <rect width="212" height="54" rx="27" fill="#11120f"/>
+    <text x="25" y="34" fill="#f2eee4">SECCIÓN POR SECCIÓN</text>
+    <rect x="226" width="182" height="54" rx="27" fill="#c9ff3d"/>
+    <text x="252" y="34" fill="#11120f">LISTO PARA CREAR</text>
+  </g>
+</svg>

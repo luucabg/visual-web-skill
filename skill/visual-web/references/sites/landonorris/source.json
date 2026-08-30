@@ -1,0 +1,76 @@
+{
+  "id": "landonorris",
+  "name": "Lando Norris",
+  "url": "https://landonorris.com/",
+  "capturedAt": "2026-08-30T22:08:44.717Z",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "file": "references/sites/landonorris/01-hero-desktop.jpg",
+      "kind": "hero",
+      "pageUrl": "https://landonorris.com/",
+      "scrollY": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:08:45.234Z",
+      "sectionLabel": "Portada: identidad deportiva y retrato",
+      "imageDimensions": {
+        "width": 1440,
+        "height": 900
+      }
+    },
+    {
+      "id": "03-on-off-track",
+      "file": "references/sites/landonorris/03-on-off-track.jpg",
+      "kind": "editorial",
+      "pageUrl": "https://landonorris.com/",
+      "scrollY": 6250,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:09:19.616Z",
+      "sectionLabel": "Doble composición de retratos On Track / Off Track",
+      "imageDimensions": {
+        "width": 1440,
+        "height": 900
+      }
+    },
+    {
+      "id": "02-helmets",
+      "file": "references/sites/landonorris/02-helmets.jpg",
+      "kind": "product",
+      "pageUrl": "https://landonorris.com/",
+      "scrollY": 7460,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:09:25.463Z",
+      "sectionLabel": "Colección de cascos: retícula escalonada y producto",
+      "imageDimensions": {
+        "width": 1440,
+        "height": 900
+      }
+    },
+    {
+      "id": "04-hero-mobile",
+      "file": "references/sites/landonorris/04-hero-mobile.jpg",
+      "kind": "mobile",
+      "pageUrl": "https://landonorris.com/",
+      "scrollY": 0,
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "capturedAt": "2026-08-30T22:09:36.302Z",
+      "sectionLabel": "Portada móvil: retrato y navegación compacta",
+      "imageDimensions": {
+        "width": 390,
+        "height": 844
+      }
+    }
+  ]
+}

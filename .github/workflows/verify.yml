@@ -1,0 +1,29 @@
+name: Verify skill
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: windows-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Test tooling and safe installation
+        run: node --test tests/tooling.test.mjs tests/maintenance.test.mjs
+      - name: Check package and visual evaluations
+        run: |
+          node scripts/check-package.mjs
+          node scripts/check-evaluations.mjs
+      - name: Validate portable skill
+        run: node skill/visual-web/scripts/validate.mjs

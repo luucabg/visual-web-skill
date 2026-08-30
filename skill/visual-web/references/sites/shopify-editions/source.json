@@ -1,0 +1,76 @@
+{
+  "id": "shopify-editions",
+  "name": "Shopify Editions Winter 2026",
+  "url": "https://www.shopify.com/editions/winter2026",
+  "capturedAt": "2026-08-30T22:24:18.180Z",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "file": "references/sites/shopify-editions/01-hero-desktop.jpg",
+      "kind": "hero",
+      "pageUrl": "https://www.shopify.com/editions/winter2026",
+      "scrollY": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:24:18.429Z",
+      "sectionLabel": "Portada de The Renaissance Edition",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "02-agentic",
+      "file": "references/sites/shopify-editions/02-agentic.jpg",
+      "kind": "editorial",
+      "pageUrl": "https://www.shopify.com/editions/winter2026#agentic",
+      "scrollY": 9905,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:24:27.588Z",
+      "sectionLabel": "Capítulo Agentic: escena pictórica y tipografía",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "03-online-features",
+      "file": "references/sites/shopify-editions/03-online-features.jpg",
+      "kind": "product",
+      "pageUrl": "https://www.shopify.com/editions/winter2026#online",
+      "scrollY": 13627,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:25:39.762Z",
+      "sectionLabel": "Detalle de novedades de tienda online",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "04-hero-mobile",
+      "file": "references/sites/shopify-editions/04-hero-mobile.jpg",
+      "kind": "mobile",
+      "pageUrl": "https://www.shopify.com/editions/winter2026",
+      "scrollY": 0,
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "capturedAt": "2026-08-30T22:25:46.915Z",
+      "sectionLabel": "Portada móvil: escena pictórica e índice editorial",
+      "imageDimensions": {
+        "width": 375,
+        "height": 812
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "shopify-editions",
+  "tags": ["ecommerce", "comercio-electrónico", "product-launch", "lanzamiento-de-producto", "feature-release", "novedades", "editorial", "pictorial", "pictórico", "painting", "pintura", "renaissance", "renacimiento", "collage", "anachronism", "anacronismo", "full-bleed", "imagen-a-sangre", "chapter-index", "índice-de-capítulos", "torn-paper", "papel-rasgado", "serif-sans", "product-comparison", "comparación-de-producto"],
+  "industries": ["comercio electrónico", "software como servicio", "retail", "plataformas de comercio"],
+  "summary": "Lanzamiento editorial de producto presentado como una edición temática: escenas pictóricas a sangre, objetos contemporáneos en collage, índice de capítulos y grandes cambios de escala tipográfica. El detalle de funciones pasa a una superficie crema con borde de papel rasgado y comparación visual parcial.",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "observed": [
+        "Una escena pictórica de paisaje ocupa todo el viewport, con dos figuras suspendidas que extienden las manos hacia el centro.",
+        "Objetos contemporáneos en rosa intenso, entre ellos vaso, bolsa y monopatín, contrastan con las ropas y el paisaje de apariencia histórica.",
+        "Un panel central delineado y translúcido contiene el título de la edición, una introducción, una lista de doce capítulos y numeración romana.",
+        "La cabecera blanca se superpone sobre la escena; marca, selector de Editions y búsqueda quedan a la izquierda, y el destino corporativo y CTA a la derecha."
+      ],
+      "adaptation": [
+        "Crear una escena propia que articule el tema de un lanzamiento y usar objetos contemporáneos como segunda lectura vinculada a las funciones presentadas.",
+        "Convertir un conjunto grande de novedades en capítulos visibles desde la portada, con un orden consistente y destinos claros.",
+        "Situar texto sobre un panel de contraste controlado cuando el fondo sea pictórico y detallado."
+      ],
+      "avoid": [
+        "No reutilizar la pintura, personajes, objetos, logotipos o concepto de edición de la marca.",
+        "No sobreponer una lista extensa sobre imagen compleja sin probar legibilidad, foco de teclado y lectura en distintos anchos."
+      ],
+      "motion": {"status": "not-tested", "description": "No se observó evolución de figuras, objetos o escena. La imagen a sangre y sus superposiciones no permiten inferir animación o técnica."}
+    },
+    {
+      "id": "02-agentic",
+      "observed": [
+        "El capítulo Agentic emplea una escena interior oscura de apariencia pictórica, con retrato a la izquierda y arquitectura central al fondo.",
+        "La palabra Agentic aparece en sans blanca de escala muy grande; una frase serif cruza la zona inferior y queda parcialmente cubierta por un collage de fichas de producto.",
+        "El título de la edición y la lista completa de capítulos con numeración romana forman un índice estrecho en el lateral izquierdo.",
+        "La cabecera mantiene marca, búsqueda, enlace corporativo y CTA sobre la escena."
+      ],
+      "adaptation": [
+        "Dar a cada capítulo una escena y una palabra ancla propias, conservando índice, cabecera y reglas tipográficas comunes.",
+        "Usar collage para mostrar que una categoría reúne varios objetos o herramientas, sin intentar representar cada función en detalle.",
+        "Mantener disponible un índice de sección que permita saltos directos cuando el lanzamiento sea largo."
+      ],
+      "avoid": [
+        "No superponer objetos sobre una frase si su comprensión exacta es necesaria para convertir o para cumplir requisitos legales.",
+        "No inferir movimiento de tarjetas o de escena a partir de la profundidad aparente del collage."
+      ],
+      "motion": {"status": "observed", "description": "El agente de captura accionó el ancla nativa que lleva a #agentic y confirmó la navegación al capítulo. No se midieron duración, desplazamiento, curva ni otro efecto temporal."}
+    },
+    {
+      "id": "03-online-features",
+      "observed": [
+        "La parte superior conserva un fragmento oscuro de escena pictórica; un borde blanco irregular de apariencia rasgada da paso a una gran superficie crema.",
+        "El bloque principal presenta Rollouts con título, explicación breve y enlace pequeño a documentación, desplazado hacia la izquierda del centro.",
+        "El índice lateral continúa visible, con Online destacado más oscuro que los demás capítulos.",
+        "En la zona inferior entra solo parte de una comparación: líneas curvas, dos miniaturas etiquetadas Option A y Option B y porcentajes muy grandes que se cortan por el borde."
+      ],
+      "adaptation": [
+        "Separar ambiente editorial y detalle funcional mediante una transición material, manteniendo una señal clara del capítulo activo.",
+        "Presentar cada novedad con título, resumen y destino documental antes de añadir una demostración o comparación visual.",
+        "Usar una captura, diagrama o prueba propia que explique la función completa y no dependa de métricas decorativas."
+      ],
+      "avoid": [
+        "No inferir el comportamiento o la técnica del borde rasgado ni tratarlo como prueba de una transición animada.",
+        "No interpretar los porcentajes cortados o la comparación parcial sin el contexto que continúa debajo del viewport."
+      ],
+      "motion": {"status": "not-tested", "description": "No se probó la transición entre escena y papel, el enlace de documentación ni la comparación. El recorte inferior acredita que continúa, no cómo se revela."}
+    },
+    {
+      "id": "04-hero-mobile",
+      "observed": [
+        "En el viewport de 390 por 844 registrado, la cabecera se reduce a marca en dos líneas, CTA blanco y menú de tres líneas.",
+        "El panel delineado ocupa la mayor parte de la altura visible y contiene título, introducción, lista de doce capítulos y numeración romana.",
+        "La escena pictórica se recorta alrededor del panel: manos enfrentadas entran por los laterales, una manga blanca y otra coral dominan la zona media y una pierna blanca aparece abajo a la derecha.",
+        "El monopatín rosa entra desde la esquina inferior izquierda; el encuadre conserva el contraste anacrónico sin mostrar las figuras completas."
+      ],
+      "adaptation": [
+        "Priorizar título e índice en móvil y recortar la escena para que sus gestos principales dirijan la mirada al contenido.",
+        "Separar los elementos del collage del texto para poder reubicarlos según ancho, orientación y zonas seguras.",
+        "Ofrecer un índice móvil legible y operable sin exigir precisión sobre números pequeños."
+      ],
+      "avoid": [
+        "No incrustar texto e índice dentro de una única imagen pictórica, porque impediría adaptación y acceso semántico.",
+        "No asumir que el menú funciona, que el panel cabe en otros móviles o que todos los capítulos son visibles sin desplazamiento adicional."
+      ],
+      "motion": {"status": "not-tested", "description": "No se abrió el menú ni se probaron capítulos en móvil. El estado limpio solo demuestra la composición a este viewport."}
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+
+# Evidencia local de construcción; no forma parte de la distribución.
+GATES.md
+GATES-PUBLISH.md
+PLAN.md
+gates/
+evaluation/*/GATES.md

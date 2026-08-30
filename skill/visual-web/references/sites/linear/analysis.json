@@ -1,0 +1,121 @@
+{
+  "id": "linear",
+  "tags": [
+    "saas", "software-as-a-service", "product-management", "gestión-de-producto",
+    "developer-tools", "herramientas-de-desarrollo", "artificial-intelligence", "inteligencia-artificial",
+    "dark", "oscuro", "monochrome", "monocromo", "minimal", "minimalista",
+    "product-ui", "interfaz-de-producto", "interface-mockup", "maqueta-de-interfaz",
+    "oversized-type", "tipografía-grande", "editorial", "technical", "técnico",
+    "wireframe-illustration", "ilustración-lineal", "three-column", "tres-columnas",
+    "asymmetric-hero", "hero-asimétrico", "high-contrast", "alto-contraste"
+  ],
+  "industries": [
+    "software de gestión de producto",
+    "herramientas para desarrolladores",
+    "colaboración de equipos",
+    "software B2B"
+  ],
+  "summary": "Presentación SaaS oscura y contenida que combina titulares blancos de gran escala, texto secundario gris, líneas finas y vistas del producto casi monocromas. La interfaz real ocupa el papel de imagen principal; una sección editorial de tres principios y otra composición de integración explican el sistema sin romper la estética técnica.",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "observed": [
+        "Sobre un fondo casi negro, un titular blanco de dos líneas ocupa la zona media izquierda, seguido por una descripción breve en gris.",
+        "La cabecera horizontal reúne logotipo a la izquierda, seis enlaces de navegación, acceso y un botón claro de registro en el lado derecho; una línea fina separa la navegación del contenido.",
+        "Un pequeño enlace de novedad, «New Loops», aparece aislado en la zona media derecha y equilibra la masa del titular sin competir con ella.",
+        "Una vista oscura del producto entra desde el borde inferior dentro de un marco redondeado; muestra navegación lateral, detalle de una incidencia y un panel superpuesto, pero la captura no contiene su extensión completa.",
+        "La paleta visible es casi monocroma: negro, blanco y grises, con acentos pequeños amarillos y violáceos dentro de la interfaz."
+      ],
+      "adaptation": [
+        "Reservar el contraste máximo para una promesa breve y permitir que una vista de producto detallada funcione como segunda capa de lectura.",
+        "Usar una captura o maqueta propia con un estado comprensible y representativo, evitando llenar el hero con varias ventanas sin una relación narrativa.",
+        "Colocar una noticia secundaria en un área libre solo cuando no reste claridad a la acción principal; en una página de conversión puede convertirse en CTA explícito.",
+        "Mantener una paleta base restringida y dejar los colores de estado dentro del producto para que la interfaz conserve significado."
+      ],
+      "avoid": [
+        "No copiar pantallas, nombres de incidencias, marca o microtextos visibles del producto.",
+        "No asumir que el panel superpuesto se abre, anima o responde de una forma concreta; la captura solo acredita su disposición estática.",
+        "No reducir demasiado el contraste de la descripción y enlaces al adaptar el gris sobre negro; debe medirse con los colores definitivos."
+      ],
+      "motion": {
+        "status": "not-tested",
+        "description": "No se probó la aparición del mockup, el panel superpuesto, el enlace de novedad ni la navegación; la captura solo registra un estado visual."
+      }
+    },
+    {
+      "id": "02-principles",
+      "observed": [
+        "Un párrafo editorial de gran escala ocupa casi todo el ancho superior: la frase inicial se muestra en blanco y el resto en gris medio para marcar dos niveles de énfasis.",
+        "Debajo se organiza una retícula de tres columnas separadas por reglas verticales finas y rotuladas FIG 0.1, FIG 0.2 y FIG 0.3.",
+        "Cada columna contiene una figura geométrica de trazo gris tenue sobre negro: capas apiladas, volúmenes modulares y planos escalonados.",
+        "Los títulos «Purpose-built», «Powered by agents» y «Designed for speed» aparecen cerca del pie, seguidos por descripciones que quedan parcialmente cortadas por el borde inferior.",
+        "En esta captura interior la cabecera visible muestra el logotipo a la izquierda, pero no los enlaces del hero; la imagen no permite establecer la causa ni el comportamiento de la cabecera."
+      ],
+      "adaptation": [
+        "Convertir tres principios de producto en figuras abstractas propias cuando cada forma pueda reforzar una idea concreta y conservar una gramática visual común.",
+        "Usar el cambio de blanco a gris dentro de una frase larga para separar tesis y explicación sin añadir otro componente.",
+        "Alinear rótulo, figura, título y descripción sobre una retícula consistente para que el conjunto se lea como un sistema técnico.",
+        "Preparar un orden lineal claro para anchos estrechos, porque la relación en tres columnas no garantiza por sí sola una secuencia móvil comprensible."
+      ],
+      "avoid": [
+        "No adoptar ilustraciones abstractas solo como decoración si no representan principios distinguibles.",
+        "No reconstruir el contenido cortado bajo el viewport ni afirmar la altura final de las columnas.",
+        "No interpretar la ausencia de enlaces visibles como navegación oculta por scroll, ni deducir animación de las figuras desde una imagen estática."
+      ],
+      "motion": {
+        "status": "not-tested",
+        "description": "No se observó si las figuras se dibujan, reaccionan al puntero o entran al hacer scroll; tampoco se comprobó el estado de la cabecera."
+      }
+    },
+    {
+      "id": "03-intake",
+      "observed": [
+        "La introducción se divide en dos columnas: título blanco de dos líneas a la izquierda y explicación más enlace «Learn more» a la derecha.",
+        "La mitad inferior presenta una composición de producto en capas: un panel de conversación ocupa el primer plano izquierdo y una vista de tablero se extiende detrás hacia la derecha.",
+        "El panel frontal muestra avatares, mensajes y un compositor con una instrucción dirigida a Linear; el control de envío violáceo es el acento cromático más fuerte.",
+        "El tablero del fondo pierde contraste hacia los bordes, lo que concentra la atención en la conversación y comunica el paso de entrada a resultado sin flechas explicativas.",
+        "La composición llega hasta los bordes inferior y derecho del viewport; no se ve el final de la sección ni el contenido posterior."
+      ],
+      "adaptation": [
+        "Explicar una integración mediante dos superficies de producto relacionadas: origen de la solicitud en primer plano y destino operativo en segundo plano.",
+        "Elegir contenido de interfaz propio que permita entender la transferencia con una lectura rápida, sin depender de párrafos largos.",
+        "Usar profundidad, escala y contraste para establecer origen y destino, conservando etiquetas y texto esenciales en tamaños legibles.",
+        "Mantener el título y la explicación fuera de la imagen de producto para que la promesa siga siendo accesible si el mockup se recorta."
+      ],
+      "avoid": [
+        "No reutilizar marcas de integraciones, avatares, mensajes ni datos de muestra de esta captura sin permiso.",
+        "No afirmar que la atenuación del tablero ocurre de forma interactiva o que el mensaje crea una incidencia en tiempo real; solo se observa una relación visual.",
+        "No multiplicar ventanas y capas cuando el flujo no pueda resumirse en un origen y un resultado claros."
+      ],
+      "motion": {
+        "status": "not-tested",
+        "description": "No se envió el mensaje, no se accionó «Learn more» y no se comprobó ninguna transición entre conversación y tablero."
+      }
+    },
+    {
+      "id": "04-hero-mobile",
+      "observed": [
+        "En el viewport registrado de 390 por 844, la cabecera conserva logotipo, «Log in», botón claro de registro y menú de tres líneas; los enlaces de escritorio no están visibles.",
+        "El titular se recompone en cuatro líneas y domina la zona superior; la descripción gris aparece debajo en dos líneas largas, seguida del enlace de novedad.",
+        "La vista del producto comienza en la mitad inferior dentro de un marco oscuro y estrecho; se ve una porción de navegación y detalle, mientras el resto continúa bajo el borde inferior.",
+        "El diseño conserva el fondo casi negro, el texto blanco y la jerarquía sobria del escritorio, pero reordena el enlace «New Loops» dentro del flujo izquierdo.",
+        "No se ve una acción principal dentro del cuerpo antes del mockup; sí permanece visible el registro en la cabecera."
+      ],
+      "adaptation": [
+        "Recomponer el titular para un ancho estrecho y comprobar manualmente sus cortes de línea con el texto real, evitando una reducción extrema del tamaño.",
+        "Mantener una acción compacta en la cabecera y ubicar las noticias secundarias dentro del flujo vertical.",
+        "Preparar un recorte móvil específico del producto que conserve una tarea reconocible; simplificar detalles ilegibles en lugar de reducir el escritorio sin criterio.",
+        "Decidir si el mockup debe aparecer en el primer viewport según la prioridad entre explicación, conversión y prueba de producto."
+      ],
+      "avoid": [
+        "No asumir que los enlaces ausentes se eliminaron del sitio: podrían estar dentro del menú, que no se abrió.",
+        "No tratar el área visible del mockup como una representación completa de la interfaz móvil del producto.",
+        "No conservar texto secundario gris sin verificar contraste y legibilidad en el dispositivo objetivo."
+      ],
+      "motion": {
+        "status": "not-tested",
+        "description": "No se abrió el menú ni se probaron el registro, la novedad o el desplazamiento del mockup; la evidencia es estática y parcial."
+      }
+    }
+  ]
+}

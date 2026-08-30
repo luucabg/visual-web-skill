@@ -1,0 +1,76 @@
+{
+  "id": "linear",
+  "name": "Linear",
+  "url": "https://linear.app/",
+  "capturedAt": "2026-08-30T22:26:05.670Z",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "file": "references/sites/linear/01-hero-desktop.jpg",
+      "kind": "hero",
+      "pageUrl": "https://linear.app/",
+      "scrollY": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:26:05.832Z",
+      "sectionLabel": "Portada de producto: propuesta y vista de aplicación",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "02-principles",
+      "file": "references/sites/linear/02-principles.jpg",
+      "kind": "editorial",
+      "pageUrl": "https://linear.app/",
+      "scrollY": 1450,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:26:19.967Z",
+      "sectionLabel": "Principios de producto: tres figuras conceptuales",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "03-intake",
+      "file": "references/sites/linear/03-intake.jpg",
+      "kind": "product",
+      "pageUrl": "https://linear.app/",
+      "scrollY": 2550,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:26:26.442Z",
+      "sectionLabel": "Funcionalidad: intake e integraciones con vista de producto",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "04-hero-mobile",
+      "file": "references/sites/linear/04-hero-mobile.jpg",
+      "kind": "mobile",
+      "pageUrl": "https://linear.app/",
+      "scrollY": 0,
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "capturedAt": "2026-08-30T22:26:34.279Z",
+      "sectionLabel": "Portada móvil de producto",
+      "imageDimensions": {
+        "width": 375,
+        "height": 812
+      }
+    }
+  ]
+}

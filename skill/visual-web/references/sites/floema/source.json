@@ -1,0 +1,76 @@
+{
+  "id": "floema",
+  "name": "Floema",
+  "url": "https://floema.com/en",
+  "capturedAt": "2026-08-30T22:19:22.178Z",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "file": "references/sites/floema/01-hero-desktop.jpg",
+      "kind": "hero",
+      "pageUrl": "https://floema.com/en",
+      "scrollY": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:19:22.382Z",
+      "sectionLabel": "Portada: titular central y constelación de imágenes de producto",
+      "imageDimensions": {
+        "width": 1416,
+        "height": 885
+      }
+    },
+    {
+      "id": "03-sustainability",
+      "file": "references/sites/floema/03-sustainability.jpg",
+      "kind": "editorial",
+      "pageUrl": "https://floema.com/en",
+      "scrollY": 11900,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:21:40.452Z",
+      "sectionLabel": "Manifiesto de sostenibilidad y voz de la marca",
+      "imageDimensions": {
+        "width": 1416,
+        "height": 885
+      }
+    },
+    {
+      "id": "04-hero-mobile",
+      "file": "references/sites/floema/04-hero-mobile.jpg",
+      "kind": "mobile",
+      "pageUrl": "https://floema.com/en",
+      "scrollY": 0,
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "capturedAt": "2026-08-30T22:21:45.667Z",
+      "sectionLabel": "Portada móvil: título y constelación de producto",
+      "imageDimensions": {
+        "width": 375,
+        "height": 812
+      }
+    },
+    {
+      "id": "02-urban-collection",
+      "file": "references/sites/floema/02-urban-collection.jpg",
+      "kind": "product",
+      "pageUrl": "https://floema.com/en",
+      "scrollY": 1200,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:21:56.405Z",
+      "sectionLabel": "Colección Urban: fotografía de contexto y categoría",
+      "imageDimensions": {
+        "width": 1416,
+        "height": 885
+      }
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "locomotive",
+  "tags": [
+    "digital-agency", "agencia-digital", "creative-studio", "estudio-creativo", "portfolio", "portafolio",
+    "red", "rojo", "black", "negro", "high-contrast", "alto-contraste",
+    "serif-display", "serif-de-exhibición", "oversized-type", "tipografía-grande", "editorial",
+    "typographic-list", "lista-tipográfica", "project-index", "índice-de-proyectos",
+    "pixelated-media", "imagen-pixelada", "full-bleed-media", "medios-a-sangre",
+    "manifesto", "manifiesto", "two-column", "dos-columnas", "minimal-navigation", "navegación-mínima"
+  ],
+  "industries": [
+    "agencias digitales",
+    "diseño web",
+    "branding",
+    "servicios creativos"
+  ],
+  "summary": "Portfolio de agencia que alterna un hero rojo y negro de medios a sangre con grandes titulares serif sobre blanco. La lista de proyectos convierte nombres en la imagen principal y el manifiesto combina una declaración tipográfica, una figura aislada sobre negro y una columna directa de servicios y destinos.",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "observed": [
+        "Una imagen roja y negra, granulada y parcialmente pixelada, cubre todo el viewport; se distinguen formas y un rostro borroso sin una escena literal completamente legible.",
+        "La cabecera blanca superpuesta distribuye marca y un glifo a la izquierda, el grupo «Work, Agency, Careers, Store» en el centro y «Let’s talk» a la derecha.",
+        "En el ángulo inferior izquierdo, un lockup de glifos y etiquetas pequeñas precede al texto serif «Locomotive Digital-first Design Agency», que ocupa dos líneas grandes.",
+        "Pequeños acentos cian, naranja y blanco contrastan con la base roja y negra dentro del lockup inferior.",
+        "La captura registra un solo fotograma; aunque el fondo fue descrito como vídeo durante la captura, no muestra por sí solo su evolución temporal."
+      ],
+      "adaptation": [
+        "Combinar una pieza de medios abstracta a sangre con una descripción directa de la agencia para expresar carácter sin ocultar la función.",
+        "Crear un lockup original de símbolos, disciplinas y nombre que pueda sobrevivir sobre fondos variables.",
+        "Reservar zonas de contraste estable para navegación y titular, o añadir protección visual cuando cambie la luminosidad del medio.",
+        "Usar una mezcla de serif display y sans funcional para separar voz editorial de navegación, sin depender de una familia exacta ajena."
+      ],
+      "avoid": [
+        "No copiar los glifos, logotipos, composición tipográfica o material del reel de Locomotive.",
+        "No usar abstracción intensa si el visitante no puede descubrir qué ofrece la organización y cómo contactarla.",
+        "No inferir reproducción, distorsión animada, duración, librería o técnica de render desde este fotograma."
+      ],
+      "motion": {
+        "status": "not-tested",
+        "description": "El fondo se describió como vídeo en la sesión, pero no se midieron cambio, reproducción, bucle, duración o interacción. El análisis se limita al fotograma capturado."
+      }
+    },
+    {
+      "id": "02-featured-work",
+      "observed": [
+        "Sobre blanco, la etiqueta sans «Featured work» aparece sobre una regla horizontal que abre un índice de proyectos.",
+        "Los nombres Lightship, Wolverine Worldwide, The Drake Hotel, Dulcedo y Scout Motors se componen centrados con serif negra de gran escala y se separan mediante líneas finas.",
+        "Una miniatura fotográfica rectangular aparece junto a Dulcedo; la captura no acredita si está siempre visible o responde a un estado de interacción.",
+        "La cabecera mantiene la misma distribución del hero, ahora en negro sobre blanco.",
+        "Scout Motors queda parcialmente cortado por el borde inferior y la captura no muestra el final del listado."
+      ],
+      "adaptation": [
+        "Usar un índice tipográfico cuando los nombres de proyectos o clientes tengan suficiente reconocimiento y el objetivo sea un recorrido rápido.",
+        "Añadir una vista previa propia como señal visual secundaria, manteniendo el nombre como objetivo principal y accesible.",
+        "Separar filas con reglas simples y áreas de interacción amplias en lugar de envolver cada proyecto en una tarjeta.",
+        "Proporcionar categoría, fecha o resultado en otro nivel cuando los nombres solos no expliquen el trabajo."
+      ],
+      "avoid": [
+        "No asumir que la miniatura de Dulcedo es un hover, sigue el puntero o anima; solo es visible en este estado.",
+        "No tratar los cinco nombres visibles como inventario completo ni reconstruir la fila cortada.",
+        "No usar tipografía extrema si produce cortes, solapamientos o objetivos táctiles ambiguos en anchos pequeños."
+      ],
+      "motion": {
+        "status": "not-tested",
+        "description": "No se recorrieron filas ni se probó la miniatura. No se conoce si existen cambios de imagen, hover, seguimiento del puntero o transiciones."
+      }
+    },
+    {
+      "id": "03-agency-manifesto",
+      "observed": [
+        "Una frase serif de gran escala ocupa la franja superior, pero comienza antes del borde alto de la captura; son visibles varias líneas sobre identidades y experiencias digitales a medida.",
+        "Debajo, una retícula de dos columnas coloca a la izquierda un rectángulo negro con una persona vista de espaldas y a la derecha un párrafo sans sobre estrategia, despliegue, mantenimiento, web y branding.",
+        "Dos enlaces, «Agency» y «Careers», se presentan como filas con reglas finas y flechas hacia la derecha.",
+        "La figura aislada sobre negro funciona como contrapunto conceptual frente al texto directo de la columna derecha.",
+        "En el borde inferior comienza el texto «Always looking», por lo que la sección continúa fuera del viewport; tampoco se ve el inicio completo de la frase superior."
+      ],
+      "adaptation": [
+        "Combinar una declaración editorial amplia con una explicación operativa más pequeña para expresar voz y capacidad en la misma sección.",
+        "Usar una imagen conceptual propia como pausa entre la declaración y los destinos de agencia o empleo.",
+        "Limitar los enlaces a próximos pasos pertinentes y darles filas amplias con etiquetas claras.",
+        "En móvil, ordenar declaración, explicación, imagen y enlaces según prioridad, sin conservar una división de columnas demasiado estrecha."
+      ],
+      "avoid": [
+        "No completar las palabras o frases ausentes en los bordes ni atribuir contenido a la continuación inferior.",
+        "No copiar el texto de manifiesto, la persona, el glifo central o la composición literal.",
+        "No inferir animación, recorte dinámico, modelo 3D o técnica de aislamiento de la figura desde la captura estática."
+      ],
+      "motion": {
+        "status": "not-tested",
+        "description": "No se observó movimiento de la figura, la frase o las flechas y no se probaron los enlaces. La captura describe una composición parcial."
+      }
+    },
+    {
+      "id": "04-hero-mobile",
+      "observed": [
+        "En el viewport registrado de 390 por 844, el fondo rojo y negro se recompone como grandes bloques pixelados y formas oscuras verticales.",
+        "La cabecera contiene marca, glifo y «Menu» en una única fila; los destinos de escritorio y «Let’s talk» no aparecen.",
+        "El lockup inferior combina pequeñas etiquetas delineadas, el nombre Locomotive y el título serif «Digital-first Design Agency» en varias líneas.",
+        "Acentos cian, naranja y blanco permanecen dentro del lockup sobre la base roja; la zona tipográfica alcanza el borde inferior y la composición del hero continúa fuera de pantalla.",
+        "La captura no muestra la apertura del menú, una acción de contacto independiente ni el inicio de la sección siguiente."
+      ],
+      "adaptation": [
+        "Recomponer un lockup editorial para el ancho móvil, controlando cortes de línea y contraste como una pieza diseñada, no como reducción automática.",
+        "Simplificar navegación a marca, menú y una acción prioritaria si la conversión exige acceso inmediato.",
+        "Elegir un recorte móvil del medio que conserve textura y espacio para texto sin competir con él.",
+        "Probar el título en alturas móviles reales para que el contenido esencial no quede pegado o cortado en el borde."
+      ],
+      "avoid": [
+        "No asumir que los enlaces ausentes están dentro del menú ni cuál es su orden; el menú no se abrió.",
+        "No copiar el lockup, glifos, distorsión o material de fondo de la agencia.",
+        "No tratar esta captura parcial como evidencia de la altura total del hero o de un breakpoint exacto generalizable."
+      ],
+      "motion": {
+        "status": "not-tested",
+        "description": "No se abrió el menú ni se observó evolución del fondo o del lockup. La evidencia móvil es un único estado y termina dentro del hero."
+      }
+    }
+  ]
+}

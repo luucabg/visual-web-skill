@@ -1,0 +1,75 @@
+{
+  "brief": {
+    "product": "PULSO",
+    "productType": "instrumento musical portátil conceptual",
+    "audience": "personas que componen, improvisan o capturan ideas musicales fuera del estudio",
+    "primaryAction": "Explorar el instrumento",
+    "availableContent": "nombre PULSO, carácter conceptual del producto, libertad para definir apariencia y copy; no hay fotografías, especificaciones ni datos comerciales reales",
+    "tone": "preciso, táctil y expresivo",
+    "restrictions": [
+      "entregar solo dirección de arte y una imagen horizontal de hero",
+      "no escribir código ni publicar",
+      "no inventar precios, premios, reseñas ni especificaciones técnicas verificadas",
+      "identificar PULSO como concepto cuando el contexto pueda inducir a pensar que es un producto real"
+    ]
+  },
+  "selectionMethod": {
+    "catalog": "<skill-root>/references/INDEX.md",
+    "searches": [
+      "instrumento musical diseño industrial producto táctil",
+      "producto físico materialidad fotografía editorial",
+      "electrónica consumo tecnología musical tipografía grande",
+      "concepto producto fotorrealista materialidad"
+    ],
+    "openedCaptureCount": 5,
+    "note": "Las cinco capturas listadas abajo se abrieron con view_image en detalle original antes de leer los análisis. Son material de estudio y no activos de producción."
+  },
+  "references": [
+    {
+      "siteId": "teenage-engineering",
+      "siteName": "Teenage Engineering",
+      "sourceUrl": "https://teenage.engineering/",
+      "analysisPath": "<skill-root>/references/sites/teenage-engineering/analysis.md",
+      "captureIds": [
+        "01-hero-desktop",
+        "02-instrument",
+        "04-hero-mobile"
+      ],
+      "openedImagePaths": [
+        "<skill-root>/references/sites/teenage-engineering/01-hero-desktop.jpg",
+        "<skill-root>/references/sites/teenage-engineering/02-instrument.jpg",
+        "<skill-root>/references/sites/teenage-engineering/04-hero-mobile.jpg"
+      ],
+      "role": "jerarquía tipográfica, disciplina de acento y retrato monumental de producto musical",
+      "observed": "El hero de escritorio combina masas tipográficas negras, microjerarquías y un acento naranja muy limitado. La captura de instrumento coloca un objeto blanco monumental entrando desde abajo sobre un campo gris silencioso. En móvil, la campaña se recompone para conservar título y protagonista, en vez de reducir el escritorio como una sola pieza.",
+      "adapt": "Usar una palabra PULSO de gran escala, reservar coral para un único gesto y presentar el instrumento conceptual como objeto dominante sobre un campo material tranquilo. La versión móvil descrita en la dirección tendrá su propio encuadre y orden.",
+      "reason": "El producto pertenece al territorio musical y necesita una lectura industrial precisa sin perder energía gráfica.",
+      "reject": "No se trasladan personaje, ilustración, símbolos de navegación, nombres, emblemas, hardware, embalaje, códigos, microtexto técnico ni diseño industrial de la marca. Tampoco se infiere movimiento o tecnología."
+    },
+    {
+      "siteId": "oryzo",
+      "siteName": "Oryzo",
+      "sourceUrl": "https://oryzo.ai/",
+      "analysisPath": "<skill-root>/references/sites/oryzo/analysis.md",
+      "captureIds": [
+        "01-hero-desktop",
+        "04-hero-mobile"
+      ],
+      "openedImagePaths": [
+        "<skill-root>/references/sites/oryzo/01-hero-desktop.jpg",
+        "<skill-root>/references/sites/oryzo/04-hero-mobile.jpg"
+      ],
+      "role": "materialidad, encuadre de producto conceptual y planificación de zonas de texto",
+      "observed": "La portada cenital organiza un objeto central y varias capas de información sobre materiales de taller. Marca, explicación y controles ocupan áreas despejadas. En móvil, el objeto se vuelve a centrar y las anotaciones se redistribuyen alrededor de él.",
+      "adapt": "Construir una escena propia de exterior donde piedra, aluminio, silicona y cinta tejida comuniquen uso con las manos y portabilidad. Reservar zonas claras para nombre, frase y CTA, y reencuadrar el objeto de forma independiente en móvil.",
+      "reason": "PULSO es ficticio; esta referencia permite tratarlo como objeto diseñado sin fingir evidencia técnica o comercial.",
+      "reject": "No se copian la vista cenital, base de corte verde, corcho, mesa, herramientas, marca, panel de autoría, miniatura ni copy. Se rechazan de forma expresa las afirmaciones de premio y cualquier capa pseudotécnica sin fundamento."
+    }
+  ],
+  "direction": {
+    "concept": "Tocar el afuera: PULSO aparece como un instrumento que sale del estudio y convierte una superficie cotidiana en un lugar para hacer música.",
+    "typeMood": "Grotesca condensada de gran escala para PULSO, sans humanista contenida para apoyo y CTA, sin imitar ni atribuir fuentes exactas de las referencias.",
+    "imageLanguage": "Fotografía editorial de producto con ángulo oblicuo, piedra gastada, aluminio grafito, silicona mate y cinta coral; luz rasante fría con un pulso cálido localizado.",
+    "motionPurpose": "Si se implementara, una variación lenta de luz en el aro central explicaría el concepto de pulso; la alternativa estática conserva el mismo foco. No forma parte de este entregable."
+  }
+}

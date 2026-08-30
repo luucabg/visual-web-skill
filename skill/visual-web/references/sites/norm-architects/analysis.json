@@ -1,0 +1,121 @@
+{
+  "id": "norm-architects",
+  "tags": [
+    "architecture", "arquitectura", "interior-design", "diseño-de-interiores", "furniture", "mobiliario",
+    "hospitality", "retail-design", "diseño-comercial", "portfolio", "portafolio",
+    "photography-led", "protagonismo-fotográfico", "full-bleed-photography", "fotografía-a-sangre",
+    "warm-neutral", "neutros-cálidos", "beige", "cream", "crema", "brown", "marrón",
+    "minimal", "minimalista", "quiet-luxury", "lujo-sereno", "editorial",
+    "asymmetric-grid", "retícula-asimétrica", "project-gallery", "galería-de-proyectos",
+    "letter-spacing", "espaciado-de-letras", "small-caps", "versalitas", "carousel-signals", "señales-de-carrusel"
+  ],
+  "industries": [
+    "arquitectura",
+    "diseño de interiores",
+    "mobiliario",
+    "hospitalidad y retail"
+  ],
+  "summary": "Portfolio arquitectónico de tono sereno construido con fotografía amplia, materiales cálidos, crema y tipografía pequeña muy espaciada. La portada superpone título y relato de proyecto sobre una imagen a sangre; la galería usa una retícula asimétrica 2:1:1 y los relatos destacados dejan que paisaje y arquitectura ocupen casi todo el viewport.",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "observed": [
+        "Una fotografía de la Polène Flagship Store ocupa todo el viewport y muestra mesas de madera estratificada, pedestales de tronco, bolsos, piedra y luz natural en una paleta cálida.",
+        "La cabecera blanca se superpone a la imagen con marca a la izquierda, seis destinos centrados y un icono de búsqueda en el extremo derecho.",
+        "El título «Polène Flagship Store» y un párrafo centrado aparecen cerca del pie en blanco, sobre la zona oscura de las mesas.",
+        "Una larga hilera de puntos de paginación ocupa el borde inferior; varios puntos tienen distinto brillo, pero la captura no establece el estado o función exactos de todos.",
+        "El encuadre usa elementos verticales y mesas horizontales para conducir la mirada hacia los bolsos iluminados al fondo."
+      ],
+      "adaptation": [
+        "Usar una fotografía de proyecto a sangre cuando material, proporción y luz puedan comunicar la especialidad antes del texto.",
+        "Reservar una zona oscura o protegida para título y resumen, verificando el contraste en cada imagen del conjunto.",
+        "Mantener el relato breve y ofrecer una ruta clara al caso completo para no cubrir en exceso la fotografía.",
+        "Si existen numerosos proyectos, combinar paginación comprensible con nombres o posición textual, no solo una línea de puntos."
+      ],
+      "avoid": [
+        "No copiar fotografía, proyecto, marca, bolsos o texto de Norm Architects y Polène.",
+        "No asumir autoplay, orden, número total, duración o transición del carrusel a partir de los puntos visibles.",
+        "No superponer texto fino sobre materiales claros o cambiantes sin una estrategia de contraste por imagen."
+      ],
+      "motion": {
+        "status": "not-tested",
+        "description": "No se accionaron puntos, búsqueda o navegación y no se observó cambio temporal de proyecto. La captura registra Polène como estado seleccionado."
+      }
+    },
+    {
+      "id": "02-latest-work",
+      "observed": [
+        "Sobre un fondo crema, una retícula asimétrica presenta tres proyectos en una proporción aproximada 2:1:1: 262 Fifth Avenue es ancho, Pol Joinery Bench y Composed Matter ocupan columnas estrechas.",
+        "Cada proyecto combina fotografía, título en mayúsculas espaciadas y metadatos; el primero y el tercero incluyen además un párrafo descriptivo.",
+        "Las imágenes alternan interior urbano amplio, detalle de ensamblaje y una instalación vista a través de una puerta, manteniendo tonos piedra, madera y beige.",
+        "La palabra «Recent» aparece vertical en ambos márgenes de la fila principal.",
+        "Una segunda fila de fotografías comienza en el borde inferior, por lo que la captura no contiene la galería completa."
+      ],
+      "adaptation": [
+        "Asignar más ancho al proyecto prioritario y dos columnas menores a trabajos complementarios, justificando la jerarquía con contenido real.",
+        "Repetir título, disciplina, tipo y fecha como metadatos consistentes aunque la longitud de los relatos varíe.",
+        "Coordinar cultivos fotográficos y temperatura de color para que imágenes de escalas diferentes formen una colección serena.",
+        "Convertir la retícula en un orden lineal explícito en móvil y evitar que los rótulos verticales interfieran con lectura o foco."
+      ],
+      "avoid": [
+        "No interpretar la relación 2:1:1 como importancia permanente si el contenido no necesita esa prioridad.",
+        "No tratar la fila visible como inventario completo ni reconstruir las fotografías cortadas bajo el viewport.",
+        "No usar texto pequeño y muy espaciado sin comprobar tamaño, contraste y lectura en dispositivos estrechos."
+      ],
+      "motion": {
+        "status": "not-tested",
+        "description": "No se accionaron proyectos ni se probaron cambios de imagen, hover o desplazamiento especial. La evidencia es una retícula estática parcial."
+      }
+    },
+    {
+      "id": "03-hospitality-feature",
+      "observed": [
+        "Una fotografía de paisaje ocupa casi todo el viewport: árboles oscuros enmarcan un prado, un edificio bajo y un fondo de niebla.",
+        "El título «Sjöparken» y un párrafo blanco centrado se superponen cerca del tercio inferior sobre el césped.",
+        "La composición usa los árboles laterales y las ramas altas como marco natural que dirige hacia la arquitectura distante.",
+        "Una franja crema estrecha con un fragmento de navegación aparece en el borde superior, porque la captura empieza dentro de una sección interior.",
+        "La foto alcanza el borde inferior antes de otra franja crema; no se observa el desarrollo completo del caso."
+      ],
+      "adaptation": [
+        "Usar una imagen ambiental amplia para explicar la relación entre arquitectura y paisaje antes de mostrar detalles interiores.",
+        "Colocar un relato corto sobre una zona tonal estable y ofrecer el texto completo en una superficie independiente cuando sea necesario.",
+        "Elegir fotografías con marcos naturales o arquitectónicos que conduzcan al sujeto sin depender de adornos de interfaz.",
+        "Preparar una alternativa de texto accesible y verificar contraste en toda la anchura del párrafo."
+      ],
+      "avoid": [
+        "No copiar la fotografía, proyecto, título o descripción.",
+        "No asumir que la imagen es vídeo, tiene parallax o cambia al hacer scroll; no se observó movimiento.",
+        "No inferir el contenido anterior o posterior desde las franjas parciales del viewport."
+      ],
+      "motion": {
+        "status": "not-tested",
+        "description": "No se observó movimiento del paisaje, parallax o cambio de texto y no se probaron enlaces. La captura registra una pieza editorial estática."
+      }
+    },
+    {
+      "id": "04-hero-mobile",
+      "observed": [
+        "En el viewport registrado de 390 por 844, el proyecto seleccionado es 262 Fifth Avenue, distinto de Polène en la captura de escritorio; se ve un interior de madera frente al skyline de Manhattan.",
+        "Flechas blancas aparecen en los laterales, una serie de puntos ocupa el pie de la imagen y búsqueda más menú se sitúan arriba a la derecha.",
+        "El título y un párrafo blanco se superponen cerca de la mitad inferior; debajo del hero comienza una sección crema con «Latest Work» y la parte alta de una fotografía.",
+        "El logotipo blanco de la zona superior izquierda pierde contraste sobre el cielo y la pared clara: solo un fragmento resulta claramente visible en esta captura.",
+        "El recorte móvil prioriza una vista vertical del marco de madera y la ciudad; no corresponde al mismo proyecto ni al mismo encuadre del escritorio."
+      ],
+      "adaptation": [
+        "Diseñar un cultivo móvil por proyecto, preservando sujeto, profundidad y una zona de lectura para título y resumen.",
+        "Proteger el logotipo con color alternativo, sombra, degradado o superficie cuando el fondo sea claro; este estado no es un modelo suficiente de contraste.",
+        "Mantener flechas y paginación con nombres accesibles, áreas táctiles amplias y estado comprensible.",
+        "Permitir que la siguiente sección aparezca para indicar continuidad, sin confundirla con el contenido del proyecto seleccionado."
+      ],
+      "avoid": [
+        "No comparar Polène y 262 Fifth Avenue como si fueran el mismo hero adaptado; son estados de contenido diferentes.",
+        "No adoptar el logotipo blanco casi perdido sobre la pared clara como solución de contraste.",
+        "No inferir autoplay, gesto, duración, orden o transición del carrusel; los controles no se probaron."
+      ],
+      "motion": {
+        "status": "not-tested",
+        "description": "Las capturas registran proyectos seleccionados distintos en escritorio y móvil, pero no se accionaron flechas o puntos ni se observó una transición temporal."
+      }
+    }
+  ]
+}

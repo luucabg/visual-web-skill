@@ -1,0 +1,84 @@
+{
+  "id": "floema",
+  "tags": ["urban-furniture", "mobiliario-urbano", "signage", "señalética", "photography", "fotografía", "product", "producto", "image-constellation", "constelación-de-imágenes", "editorial", "sustainability", "sostenibilidad", "process", "proceso", "cream", "crema", "forest-green", "verde-oscuro", "yellow", "amarillo", "pill-navigation", "navegación-en-cápsulas", "contextual-photography", "fotografía-de-contexto"],
+  "industries": ["mobiliario urbano", "señalética", "equipamiento exterior", "diseño de espacios públicos"],
+  "summary": "Una portada crema con titular central y pequeñas imágenes dispersas da paso a categorías sobre fotografías de lugares, un manifiesto verde oscuro y una secuencia fotográfica de proceso. Combina catálogo de objetos con escala humana y contexto territorial.",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "observed": [
+        "Un titular negro centrado en dos líneas queda rodeado por pequeñas imágenes de productos y escenas de fabricación sobre un campo crema.",
+        "Las imágenes tienen tamaños y visibilidades distintos; algunas son muy tenues y otras se recortan por el perímetro. No hay una única fotografía protagonista.",
+        "La marca y búsqueda están a la izquierda de la cabecera; cuatro enlaces en cápsulas blancas y selector de idioma se agrupan a la derecha.",
+        "La captura muestra barras de desplazamiento vertical y horizontal, además de un control circular amarillo abajo a la izquierda."
+      ],
+      "adaptation": [
+        "Presentar la amplitud de una colección mediante imágenes propias pequeñas que rodeen una promesa breve y legible.",
+        "Graduar tamaño y presencia visual para que la constelación funcione como contexto y el texto conserve prioridad.",
+        "Asegurar una zona central de lectura y comprobar los límites del contenedor para evitar desplazamiento horizontal accidental."
+      ],
+      "avoid": [
+        "No confundir esta portada con un hero de fotografía única ni convertir cada miniatura en una tarjeta con marco y metadatos.",
+        "No asumir animación, profundidad real ni respuesta al puntero a partir de tamaños y visibilidad variables."
+      ],
+      "motion": {"status": "not-tested", "description": "No se comprobó movimiento de la constelación, respuesta al puntero ni función del control circular. Se describe únicamente el estado visible."}
+    },
+    {
+      "id": "02-urban-collection",
+      "observed": [
+        "Una fotografía de plaza urbana ocupa la mayor parte de la captura con apariencia oscurecida, dejando leer texto blanco sobre edificios y pavimento.",
+        "Una etiqueta coral de categoría antecede a un título de varias líneas y un botón blanco; el bloque principal se desplaza a la derecha de un pequeño índice lateral.",
+        "Una tarjeta blanca de catálogo con portada coral aparece abajo a la derecha como acción secundaria.",
+        "En el borde inferior hay una franja de otro paisaje y una indicación para continuar: la imagen reúne parte de la sección Urban y el inicio de una superficie siguiente."
+      ],
+      "adaptation": [
+        "Usar una fotografía propia de contexto para explicar dónde vive una categoría de producto, antes de entrar en su listado.",
+        "Distinguir acción de exploración y descarga mediante tamaños y ubicaciones claras, sin hacerlas competir en el mismo bloque.",
+        "Evaluar una capa tonal o un encuadre tranquilo que mantenga legible el texto sobre fotografía."
+      ],
+      "avoid": [
+        "No describir todo el viewport como una única sección homogénea ni copiar la franja inferior como si fuera un borde decorativo intencional.",
+        "No deducir transición, fijación o técnica de scroll por la coexistencia de dos superficies en esta captura."
+      ],
+      "motion": {"status": "not-tested", "description": "No se probó el paso entre categorías, el botón de productos ni la descarga del catálogo. La franja siguiente solo acredita un encuadre durante el scroll."}
+    },
+    {
+      "id": "03-sustainability",
+      "observed": [
+        "El tramo superior combina un manifiesto grande amarillo verdoso sobre verde oscuro con una fotografía de señalética instalada en un paisaje costero.",
+        "El inicio de un párrafo precedente queda fuera del encuadre por arriba; la afirmación principal y su enlace sí están completos.",
+        "Debajo, sobre crema, tres fotografías rectangulares muestran piezas gráficas, mecanizado y trabajo manual, con títulos y descripciones breves alineados bajo cada imagen.",
+        "La cabecera visible cambia sus cápsulas y marca al mismo tono amarillo verdoso del bloque oscuro."
+      ],
+      "adaptation": [
+        "Conectar una declaración de marca con una fotografía de uso y después explicar cómo se realiza el trabajo en una secuencia de tres etapas.",
+        "Diferenciar manifiesto y proceso con un cambio de fondo, conservando tipografía y ritmos de alineación.",
+        "Sostener cualquier afirmación ambiental propia con datos, certificaciones o información verificable fuera del recurso visual."
+      ],
+      "avoid": [
+        "No tratar la afirmación ambiental visible como una evaluación independiente ni como prueba de impacto del producto.",
+        "No reconstruir el párrafo cortado ni inferir el flujo de fabricación completo a partir de tres fotografías."
+      ],
+      "motion": {"status": "not-tested", "description": "No se verificaron efectos de entrada, cambios de color de cabecera durante el recorrido ni enlaces. Se comparan solo superficies capturadas."}
+    },
+    {
+      "id": "04-hero-mobile",
+      "observed": [
+        "En el viewport de 390 por 844 registrado, la marca queda arriba a la izquierda y a la derecha aparecen idioma y un control blanco compacto con símbolos de menú y búsqueda.",
+        "El titular continúa centrado en dos líneas, rodeado por pequeñas imágenes repartidas verticalmente que se recortan en los laterales.",
+        "La constelación conserva variación de tamaño y presencia; una imagen verde pálida aparece detrás de la zona de marca.",
+        "El control circular amarillo permanece abajo a la izquierda y también es visible una barra de desplazamiento horizontal."
+      ],
+      "adaptation": [
+        "Recomponer la dispersión de imágenes para un campo vertical, preservando un núcleo central sin interferencias de lectura.",
+        "Agrupar controles de cabecera cuando el ancho se reduce, manteniendo funciones y etiquetas accesibles en la implementación propia.",
+        "Probar los bordes y el ancho de documento en móvil; los recortes decorativos no deben provocar una navegación lateral involuntaria."
+      ],
+      "avoid": [
+        "No presentar esta captura como evidencia de responsive sin desbordamiento, ya que muestra una barra horizontal.",
+        "No usar miniaturas pequeñas para transmitir información esencial que no exista también como texto o imagen accesible en otra sección."
+      ],
+      "motion": {"status": "not-tested", "description": "No se abrió el menú ni la búsqueda y no se observó la evolución de las imágenes. Esta captura solo informa del encuadre móvil."}
+    }
+  ]
+}

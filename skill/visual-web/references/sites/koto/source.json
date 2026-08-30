@@ -1,0 +1,76 @@
+{
+  "id": "koto",
+  "name": "Koto",
+  "url": "https://koto.studio/",
+  "capturedAt": "2026-08-30T22:28:00.264Z",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "file": "references/sites/koto/01-hero-desktop.jpg",
+      "kind": "hero",
+      "pageUrl": "https://koto.com/",
+      "scrollY": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:28:05.174Z",
+      "sectionLabel": "Portada del estudio creativo",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "03-contact",
+      "file": "references/sites/koto/03-contact.jpg",
+      "kind": "closing",
+      "pageUrl": "https://koto.com/",
+      "scrollY": 5214,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:28:45.428Z",
+      "sectionLabel": "Contacto editorial por finalidad y oficina",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "02-work",
+      "file": "references/sites/koto/02-work.jpg",
+      "kind": "gallery",
+      "pageUrl": "https://koto.com/",
+      "scrollY": 1564,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T22:28:55.850Z",
+      "sectionLabel": "Proyecto destacado: composición de portfolio",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "04-hero-mobile",
+      "file": "references/sites/koto/04-hero-mobile.jpg",
+      "kind": "mobile",
+      "pageUrl": "https://koto.com/",
+      "scrollY": 0,
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "capturedAt": "2026-08-30T22:29:03.617Z",
+      "sectionLabel": "Portada móvil del estudio, fotograma del reel",
+      "imageDimensions": {
+        "width": 375,
+        "height": 812
+      }
+    }
+  ]
+}

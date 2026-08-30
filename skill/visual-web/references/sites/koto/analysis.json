@@ -1,0 +1,120 @@
+{
+  "id": "koto",
+  "tags": [
+    "creative-studio", "estudio-creativo", "branding", "brand-design", "diseño-de-marca",
+    "portfolio", "portafolio", "showreel", "reel", "full-bleed-media", "medios-a-sangre",
+    "dark", "oscuro", "black", "negro", "yellow-accent", "acento-amarillo",
+    "video-hero", "hero-de-video", "media-led", "protagonismo-visual", "editorial",
+    "asymmetric-grid", "retícula-asimétrica", "project-gallery", "galería-de-proyectos",
+    "minimal-navigation", "navegación-mínima", "contact-directory", "directorio-de-contacto"
+  ],
+  "industries": [
+    "branding y diseño de marca",
+    "estudios creativos",
+    "publicidad",
+    "consultoría de diseño"
+  ],
+  "summary": "Portfolio de estudio dirigido por imágenes en movimiento a pantalla completa, un logotipo amarillo y capas tipográficas sobrias. Los proyectos se explican con texto lateral y medios dominantes sobre negro; el cierre convierte contacto, contratación y canales en un directorio editorial austero.",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "observed": [
+        "Un fotograma rural ocupa todo el viewport: un campo verde y ocre rodeado por árboles, con una figura pequeña cerca del centro inferior.",
+        "La navegación se superpone en la parte alta con logotipo amarillo, seis enlaces oscuros y una hora con zona UTC en el extremo derecho.",
+        "La palabra «Copilot» aparece centrada en blanco; un control «Play» se sitúa más abajo y un control circular de pausa aparece en el ángulo inferior derecho.",
+        "El lema «We’re Koto / The Creative Company» queda en el ángulo inferior izquierdo con blanco y gris; su contraste depende del fotograma que haya detrás.",
+        "Durante la captura, el parent observó que el reel sustituyó este plano de Copilot por otro plano de una furgoneta de Amazon; no se midieron tiempo, transición ni mecanismo."
+      ],
+      "adaptation": [
+        "Usar un reel a sangre cuando varias piezas fuertes puedan comunicar el rango de un portfolio antes de abrir casos individuales.",
+        "Superponer solo marca, navegación, título de proyecto y una presentación corta, reservando áreas seguras que funcionen con todos los fotogramas.",
+        "Aplicar una capa, sombra o color adaptativo detrás del texto cuando la luminosidad del reel varíe.",
+        "Ofrecer controles claros para pausar y reproducir, además de una alternativa estática o reducida para preferencias de movimiento y conexiones limitadas."
+      ],
+      "avoid": [
+        "No depender de un fotograma concreto para que la navegación o el lema alcancen contraste suficiente.",
+        "No copiar proyectos, reel, logotipo o rótulos de clientes del estudio.",
+        "No atribuir autoplay, bucle, duración, tipo de transición, librería o tecnología: solo se observó un cambio de plano."
+      ],
+      "motion": {
+        "status": "observed",
+        "description": "El parent observó durante la sesión que el reel cambió del plano de campo rotulado Copilot a un plano de una furgoneta de Amazon. No se midieron duración, transición, controles, repetición ni motor."
+      }
+    },
+    {
+      "id": "03-contact",
+      "observed": [
+        "Sobre negro, el título «Contact» y el subtítulo gris «Press and careers» ocupan una columna estrecha a la izquierda.",
+        "La región derecha organiza tres filas separadas por reglas finas: Press + Media con correo, Recruitment con invitación y Channels con una lista de cinco destinos visibles.",
+        "Una tarjeta fotográfica de oficina aparece abajo a la izquierda e incorpora «Say hello» y un correo de Berlín sobre la imagen.",
+        "El pie distribuye copyright, privacidad, términos y cookies en una línea tenue cerca del borde inferior.",
+        "La jerarquía depende de blanco, gris medio y reglas sutiles; no hay botones rellenos ni superficies elevadas en el directorio."
+      ],
+      "adaptation": [
+        "Separar contacto de prensa, empleo, oficinas y canales por intención para evitar que un único formulario sirva a públicos incompatibles.",
+        "Usar una fotografía de oficina o equipo propio como invitación humana, acompañada por un dato de contacto específico.",
+        "Mantener las etiquetas de fila cortas y dar a cada destino un texto de acción claro y accesible.",
+        "Medir contraste de reglas, enlaces y texto legal, porque un acabado discreto no debe ocultar información operativa."
+      ],
+      "avoid": [
+        "No copiar direcciones, canales, fotografías o estructura de oficinas de Koto.",
+        "No convertir todo el cierre en gris tenue si los datos de contacto son el objetivo principal.",
+        "No asumir que la tarjeta de oficina abre correo, galería o ubicación; no se probó su interacción."
+      ],
+      "motion": {
+        "status": "not-tested",
+        "description": "No se accionaron correos, canales, tarjeta de oficina ni enlaces legales. La captura solo muestra el estado estático del cierre."
+      }
+    },
+    {
+      "id": "02-work",
+      "observed": [
+        "Una superficie negra amplia divide el contenido en una columna textual estrecha a la izquierda y una región de medios considerablemente mayor a la derecha.",
+        "La columna izquierda presenta «Our work / Instagram», un párrafo gris y una ficha pequeña de proyecto relacionado cerca del borde inferior.",
+        "La región derecha muestra un fotograma con cuatro personas y la palabra «Instagram» en blanco de gran escala; un icono circular de pausa es visible en el ángulo inferior derecho del medio.",
+        "Debajo del primer medio entra una segunda pieza que queda cortada por el borde inferior, por lo que no se observa la composición completa del caso.",
+        "En la parte superior permanecen visibles un control oscuro de marca y Home a la izquierda, y hora e icono de cuadrícula a la derecha; la captura no establece su método de posicionamiento."
+      ],
+      "adaptation": [
+        "Reservar una columna estable para contexto y dejar que imágenes o vídeos demuestren el trabajo a escala mayor.",
+        "Combinar nombre, relato breve, categoría o fecha y una pista del caso siguiente para sostener navegación narrativa.",
+        "Preparar cada medio con un encuadre que admita el rótulo del proyecto sin tapar rostros o detalles esenciales.",
+        "Dar controles y alternativas a cualquier pieza en movimiento, y conservar un orden de lectura lineal en móvil."
+      ],
+      "avoid": [
+        "No asumir que el control de pausa acredita autoplay, duración o funcionamiento; no se observó temporalmente esta pieza.",
+        "No tratar la segunda pieza cortada como una imagen completa ni inventar su contenido inferior.",
+        "No usar texto gris pequeño sobre negro sin medir legibilidad, especialmente en párrafos extensos."
+      ],
+      "motion": {
+        "status": "not-tested",
+        "description": "Aunque hay un control de pausa visible, no se observó el medio a lo largo del tiempo ni se accionó. No se conoce su reproducción o transición."
+      }
+    },
+    {
+      "id": "04-hero-mobile",
+      "observed": [
+        "En el viewport registrado de 390 por 844, un primer plano granulado de un rostro ocupa todo el fondo; se distinguen frente, ceja y ojo.",
+        "La cabecera superpone el logotipo amarillo, la etiqueta «Menu» y un icono de cuatro puntos; no aparecen los seis enlaces del escritorio.",
+        "Un pequeño control triangular queda cerca del centro y un control circular de pausa en el ángulo inferior derecho.",
+        "El lema gris se superpone en dos líneas al rostro cerca del pie y presenta contraste visual débil en partes del fotograma.",
+        "El parent observó que el hero pertenece al reel cambiante; esta captura solo conserva un fotograma móvil diferente del campo mostrado en escritorio."
+      ],
+      "adaptation": [
+        "Elegir recortes móviles específicos del reel para conservar un sujeto reconocible y áreas seguras para marca, menú y lema.",
+        "Añadir una capa de contraste estable o una superficie detrás del lema; este fotograma no debe tomarse como modelo de legibilidad.",
+        "Mantener controles táctiles visibles, con nombre accesible, área suficiente y estado comprensible.",
+        "Ofrecer una imagen alternativa o una reproducción reducida cuando el usuario prefiera menos movimiento."
+      ],
+      "avoid": [
+        "No adoptar como ideal el contraste débil del lema gris sobre piel y detalle variable.",
+        "No asumir el contenido del menú ni la relación funcional entre los dos iconos de reproducción visibles.",
+        "No inferir que el reel usa la misma secuencia, encuadre o duración en escritorio y móvil."
+      ],
+      "motion": {
+        "status": "observed",
+        "description": "El parent observó un reel que cambia de imagen durante la sesión; la captura móvil registra un primer plano de rostro distinto del plano rural de escritorio. No se midieron secuencia, duración, transición o implementación."
+      }
+    }
+  ]
+}
