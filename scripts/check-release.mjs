@@ -24,7 +24,7 @@ function walk(directory) {
 walk(root);
 
 for (const required of ['README.md', 'LICENSE.md', 'NOTICES.md', 'CONTRIBUTING.md',
-  '.github/workflows/verify.yml', 'docs/visual-web-cover.svg', 'skill/visual-web/SKILL.md']) {
+  '.github/workflows/verify.yml', 'docs/visual-web-cover.svg', 'docs/social-preview.png', 'skill/visual-web/SKILL.md']) {
   assert(files.some(file => file.relative === required), `Release file missing: ${required}`);
 }
 const privatePackage = JSON.parse(fs.readFileSync(path.join(root, 'package.json'), 'utf8'));

@@ -20,9 +20,9 @@
     <text x="76" y="408" font-size="24" font-weight="400">Referencias reales → dirección de arte → código</text>
   </g>
   <g transform="translate(74 518)" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">
-    <rect width="212" height="54" rx="27" fill="#11120f"/>
+    <rect width="238" height="54" rx="27" fill="#11120f"/>
     <text x="25" y="34" fill="#f2eee4">SECCIÓN POR SECCIÓN</text>
-    <rect x="226" width="182" height="54" rx="27" fill="#c9ff3d"/>
-    <text x="252" y="34" fill="#11120f">LISTO PARA CREAR</text>
+    <rect x="250" width="205" height="54" rx="27" fill="#c9ff3d"/>
+    <text x="273" y="34" fill="#11120f">LISTO PARA CREAR</text>
   </g>
 </svg>
