@@ -1,0 +1,76 @@
+{
+  "id": "guggenheim",
+  "tags": ["museum", "museo", "culture", "cultura", "institutional", "institucional", "editorial", "programming", "programación", "exhibitions", "exposiciones", "events", "eventos", "full-bleed-media", "medios-a-sangre", "gallery", "galería", "white", "blanco", "minimal-navigation", "navegación-mínima"],
+  "industries": ["museos e instituciones culturales", "arte y exposiciones", "eventos", "educación cultural"],
+  "summary": "Sitio cultural funcional y visual: la portada combina navegación tipográfica con una obra inmersiva a sangre; exposiciones y eventos pasan a galerías horizontales abiertas, sin marcos decorativos, donde imagen, fecha y descripción forman la jerarquía.",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "observed": [
+        "El nombre del museo, siete áreas de navegación y tres utilidades ocupan una cabecera blanca de dos filas.",
+        "Un vídeo de instalación artística llena el resto del viewport y utiliza sus propios controles discretos en la esquina inferior izquierda.",
+        "La interfaz permanece neutra para que luz, profundidad y figura humana de la obra dominen la portada."
+      ],
+      "adaptation": [
+        "Usar una imagen o vídeo propio a sangre como entrada a una institución cuando el programa visual sea su mejor argumento.",
+        "Mantener la navegación clara y neutra para públicos diversos, reservando expresividad a las obras y contenidos."
+      ],
+      "avoid": [
+        "No reutilizar obras, visitantes, marca, fotografías o programación del museo.",
+        "No ocultar información práctica esencial si la portada depende de un medio silencioso o abstracto."
+      ],
+      "motion": {"status": "not-tested", "description": "Se documentó un fotograma con controles, pero no se evaluaron duración, audio, pausa ni secuencia del vídeo."}
+    },
+    {
+      "id": "02-exhibitions",
+      "observed": [
+        "Dos imágenes de exposición de proporciones distintas comparten una galería horizontal sobre fondo blanco.",
+        "Título y fecha se alinean bajo cada imagen con gran peso tipográfico; un botón de exploración y contador con flechas cierran la sección.",
+        "La marca de cabecera se reduce a un símbolo gris mientras la navegación textual permanece visible."
+      ],
+      "adaptation": [
+        "Permitir proporciones distintas en una galería cuando reflejen el contenido y mantener una línea base común para títulos y fechas.",
+        "Combinar acceso a todo el archivo con navegación local de la selección sin duplicar el mismo CTA."
+      ],
+      "avoid": [
+        "No copiar obras, títulos, fechas o símbolo institucional.",
+        "No usar carrusel horizontal como único acceso a programación esencial; debe existir una vista completa accesible."
+      ],
+      "motion": {"status": "not-tested", "description": "No se accionaron flechas, contador, imágenes ni el acceso a todas las exposiciones."}
+    },
+    {
+      "id": "03-upcoming-events",
+      "observed": [
+        "Tres eventos se muestran en columnas abiertas con fotografías superiores y texto sin cajas ni sombras.",
+        "Los títulos tienen gran peso, seguidos por fecha y párrafos de longitudes distintas; el borde derecho corta una tarjeta adicional e indica continuidad horizontal.",
+        "Un botón de calendario y un contador con flechas aparecen en extremos opuestos al pie de la sección."
+      ],
+      "adaptation": [
+        "Diseñar tarjetas sin contenedor cuando la alineación, las imágenes y la tipografía ya separan bien los elementos.",
+        "Aceptar longitudes de descripción variables mediante una retícula que alinee acciones y preserve el ritmo."
+      ],
+      "avoid": [
+        "No truncar contenido importante por imitar el corte lateral del carrusel.",
+        "No inventar eventos, fechas o disponibilidad para completar una composición."
+      ],
+      "motion": {"status": "not-tested", "description": "No se probó el carrusel, el calendario ni los enlaces de cada evento."}
+    },
+    {
+      "id": "04-hero-mobile",
+      "observed": [
+        "La cabecera móvil mantiene el nombre completo a la izquierda y agrupa Tickets, búsqueda y menú a la derecha.",
+        "El vídeo inmersivo comienza inmediatamente debajo y se recorta en vertical alrededor de una visitante y puntos de luz.",
+        "Los controles de vídeo quedan en la zona inferior sin texto superpuesto sobre la obra."
+      ],
+      "adaptation": [
+        "Elegir un encuadre móvil donde el sujeto o foco principal siga siendo reconocible y no quede bajo la cabecera.",
+        "Priorizar una utilidad principal y controles compactos cuando la navegación institucional completa no cabe."
+      ],
+      "avoid": [
+        "No depender de un recorte automático que elimine el foco visual del medio.",
+        "No esconder búsqueda, entradas o accesibilidad dentro de un menú si son tareas frecuentes del público."
+      ],
+      "motion": {"status": "not-tested", "description": "No se abrieron búsqueda o menú y no se probó el vídeo ni sus controles en móvil."}
+    }
+  ]
+}

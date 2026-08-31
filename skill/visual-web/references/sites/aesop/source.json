@@ -1,0 +1,76 @@
+{
+  "id": "aesop",
+  "name": "Aesop",
+  "url": "https://www.aesop.com/",
+  "capturedAt": "2026-08-30T23:56:52.856Z",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "file": "references/sites/aesop/01-hero-desktop.jpg",
+      "kind": "hero",
+      "pageUrl": "https://www.aesop.com/",
+      "scrollY": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T23:56:52.856Z",
+      "sectionLabel": "Portada de comercio sensorial: vídeo a sangre, navegación y titular superpuesto",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "02-curated-sets",
+      "file": "references/sites/aesop/02-curated-sets.jpg",
+      "kind": "product",
+      "pageUrl": "https://www.aesop.com/",
+      "scrollY": 820,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T23:56:55.497Z",
+      "sectionLabel": "Selección de producto: introducción editorial y retícula de formulaciones",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "03-product-story",
+      "file": "references/sites/aesop/03-product-story.jpg",
+      "kind": "editorial",
+      "pageUrl": "https://www.aesop.com/",
+      "scrollY": 1950,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T23:56:59.204Z",
+      "sectionLabel": "Relato de producto: fotografía amplia, detalle y compra contextual",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "04-hero-mobile",
+      "file": "references/sites/aesop/04-hero-mobile.jpg",
+      "kind": "mobile",
+      "pageUrl": "https://www.aesop.com/",
+      "scrollY": 0,
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "capturedAt": "2026-08-30T23:57:09.674Z",
+      "sectionLabel": "Portada móvil de comercio sensorial",
+      "imageDimensions": {
+        "width": 375,
+        "height": 812
+      }
+    }
+  ]
+}

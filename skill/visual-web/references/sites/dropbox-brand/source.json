@@ -1,0 +1,76 @@
+{
+  "id": "dropbox-brand",
+  "name": "Dropbox Brand",
+  "url": "https://brand.dropbox.com/",
+  "capturedAt": "2026-08-30T23:55:56.298Z",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "file": "references/sites/dropbox-brand/01-hero-desktop.jpg",
+      "kind": "hero",
+      "pageUrl": "https://brand.dropbox.com/",
+      "scrollY": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T23:55:56.298Z",
+      "sectionLabel": "Portada del sistema de marca: retícula, manifiesto y azul Dropbox",
+      "imageDimensions": {
+        "width": 1440,
+        "height": 900
+      }
+    },
+    {
+      "id": "02-typography",
+      "file": "references/sites/dropbox-brand/02-typography.jpg",
+      "kind": "editorial",
+      "pageUrl": "https://brand.dropbox.com/typography",
+      "scrollY": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T23:56:10.405Z",
+      "sectionLabel": "Sistema tipográfico: escala extrema, utilidades y bloques cromáticos",
+      "imageDimensions": {
+        "width": 1440,
+        "height": 900
+      }
+    },
+    {
+      "id": "03-imagery",
+      "file": "references/sites/dropbox-brand/03-imagery.jpg",
+      "kind": "gallery",
+      "pageUrl": "https://brand.dropbox.com/imagery",
+      "scrollY": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T23:56:22.410Z",
+      "sectionLabel": "Sistema de imagen: collage de archivos, fotografía, ilustración y datos",
+      "imageDimensions": {
+        "width": 1440,
+        "height": 900
+      }
+    },
+    {
+      "id": "04-hero-mobile",
+      "file": "references/sites/dropbox-brand/04-hero-mobile.jpg",
+      "kind": "mobile",
+      "pageUrl": "https://brand.dropbox.com/",
+      "scrollY": 0,
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "capturedAt": "2026-08-30T23:56:26.263Z",
+      "sectionLabel": "Portada móvil del sistema de marca",
+      "imageDimensions": {
+        "width": 390,
+        "height": 844
+      }
+    }
+  ]
+}

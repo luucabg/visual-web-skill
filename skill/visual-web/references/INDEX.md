@@ -1,10 +1,40 @@
 # Visual reference library
 
-Catalog capture date: 2026-08-30T22:33:00.313Z.
+Catalog capture date: 2026-08-31T00:08:01.792Z.
 
 Real browser captures. Choose references from this index, open the relevant images, then read their analysis. Screenshots are local study material; review rights before any redistribution.
 
-Sites: 12. Captures: 48.
+Sites: 18. Captures: 72.
+
+## Aesop
+
+[Original site](https://www.aesop.com/) · [Analysis](sites/aesop/analysis.md) · [Capture manifest](sites/aesop/source.json)
+
+Comercio sensorial de tono sobrio que combina vídeo humano a sangre, navegación blanca superpuesta y superficies crema. Las secciones de catálogo aíslan producto y precio; el relato editorial divide el viewport entre una escena cinematográfica y una ficha de compra muy contenida.
+
+Tags: ecommerce, comercio-electrónico, beauty, belleza, luxury, lujo, editorial, sensory, sensorial, full-bleed-video, vídeo-a-sangre, product-photography, fotografía-de-producto, cream, crema, split-layout, composición-dividida, serif-sans, minimal. Industries: cosmética y cuidado personal, comercio de lujo, fragancias, retail editorial.
+
+| Capture | Kind | Browser viewport | Original image | What to inspect |
+| --- | --- | --- | --- | --- |
+| [01-hero-desktop](sites/aesop/01-hero-desktop.jpg) | hero | 1440 × 900 | 1425 × 891 | Portada de comercio sensorial: vídeo a sangre, navegación y titular superpuesto |
+| [02-curated-sets](sites/aesop/02-curated-sets.jpg) | product | 1440 × 900 | 1425 × 891 | Selección de producto: introducción editorial y retícula de formulaciones |
+| [03-product-story](sites/aesop/03-product-story.jpg) | editorial | 1440 × 900 | 1425 × 891 | Relato de producto: fotografía amplia, detalle y compra contextual |
+| [04-hero-mobile](sites/aesop/04-hero-mobile.jpg) | mobile | 390 × 844 | 375 × 812 | Portada móvil de comercio sensorial |
+
+## Aman
+
+[Original site](https://www.aman.com/) · [Analysis](sites/aman/analysis.md) · [Capture manifest](sites/aman/source.json)
+
+Hospitalidad de lujo basada en silencio visual, fotografía cinematográfica y superficies marfil. La portada deja respirar una escena de paisaje; las páginas de resort añaden navegación contextual y las historias estacionales combinan copy serif centrado con una única imagen de gran escala.
+
+Tags: hospitality, hospitalidad, travel, viajes, luxury, lujo, resort, cinematic, cinematográfico, architecture, arquitectura, warm-neutral, neutros-cálidos, serif, full-bleed-photography, fotografía-a-sangre, quiet, sereno, editorial. Industries: hoteles y resorts, viajes de lujo, hospitalidad, residencias y experiencias.
+
+| Capture | Kind | Browser viewport | Original image | What to inspect |
+| --- | --- | --- | --- | --- |
+| [01-hero-desktop](sites/aman/01-hero-desktop.jpg) | hero | 1440 × 900 | 1425 × 891 | Portada de hospitalidad: cabecera serena y paisaje cinematográfico |
+| [02-resort-detail](sites/aman/02-resort-detail.jpg) | gallery | 1440 × 900 | 1425 × 891 | Página de resort: navegación contextual y arquitectura a gran escala |
+| [03-seasonal-story](sites/aman/03-seasonal-story.jpg) | editorial | 1440 × 900 | 1425 × 891 | Relato estacional: título centrado, texto breve, CTA y fotografía acuática |
+| [04-seasonal-mobile](sites/aman/04-seasonal-mobile.jpg) | mobile | 390 × 844 | 375 × 812 | Relato estacional móvil de hospitalidad |
 
 ## Basement Studio
 
@@ -21,6 +51,36 @@ Tags: digital-studio, estudio-digital, branding, creative-development, desarroll
 | [03-capabilities](sites/basement/03-capabilities.jpg) | editorial | 1440 × 900 | 1425 × 891 | Servicios: jerarquía y distribución de capacidades |
 | [04-hero-mobile](sites/basement/04-hero-mobile.jpg) | mobile | 390 × 844 | 375 × 812 | Portada móvil de escena inmersiva |
 
+## Dropbox Brand
+
+[Original site](https://brand.dropbox.com/) · [Analysis](sites/dropbox-brand/analysis.md) · [Capture manifest](sites/dropbox-brand/source.json)
+
+Guía de marca convertida en experiencia editorial: una retícula azul casi vacía da paso a páginas negras de tipografía e imagen donde etiquetas, herramientas y archivos flotan con escalas extremas. La variedad visual se mantiene unida por líneas finas, módulos y un azul identificador.
+
+Tags: brand-system, sistema-de-marca, grid, retícula, typography, tipografía, collage, editorial, blue, azul, black, negro, lime, lima, oversized-type, tipografía-grande, modular, experimental. Industries: sistemas de marca, software y tecnología, guías de identidad, herramientas creativas.
+
+| Capture | Kind | Browser viewport | Original image | What to inspect |
+| --- | --- | --- | --- | --- |
+| [01-hero-desktop](sites/dropbox-brand/01-hero-desktop.jpg) | hero | 1440 × 900 | 1440 × 900 | Portada del sistema de marca: retícula, manifiesto y azul Dropbox |
+| [02-typography](sites/dropbox-brand/02-typography.jpg) | editorial | 1440 × 900 | 1440 × 900 | Sistema tipográfico: escala extrema, utilidades y bloques cromáticos |
+| [03-imagery](sites/dropbox-brand/03-imagery.jpg) | gallery | 1440 × 900 | 1440 × 900 | Sistema de imagen: collage de archivos, fotografía, ilustración y datos |
+| [04-hero-mobile](sites/dropbox-brand/04-hero-mobile.jpg) | mobile | 390 × 844 | 390 × 844 | Portada móvil del sistema de marca |
+
+## Figma
+
+[Original site](https://www.figma.com/) · [Analysis](sites/figma/analysis.md) · [Capture manifest](sites/figma/source.json)
+
+Presentación de producto creativa y luminosa que trata ejemplos de diseño como materia visual. El hero separa titular, collage y CTA; después alterna demostraciones de interfaz a gran escala con mosaicos densos de herramientas, cursores y resultados multicolor.
+
+Tags: saas, software-as-a-service, design-tool, herramienta-de-diseño, collaboration, colaboración, product-ui, interfaz-de-producto, collage, colorful, colorido, white, blanco, editorial, oversized-type, tipografía-grande, mosaic, mosaico, playful, lúdico. Industries: software creativo, diseño de producto, colaboración de equipos, herramientas de IA.
+
+| Capture | Kind | Browser viewport | Original image | What to inspect |
+| --- | --- | --- | --- | --- |
+| [01-hero-desktop](sites/figma/01-hero-desktop.jpg) | hero | 1440 × 900 | 1425 × 891 | Portada de producto creativo: titular fragmentado, collage y CTA aislado |
+| [02-workspace](sites/figma/02-workspace.jpg) | product | 1440 × 900 | 1425 × 891 | Espacio de trabajo: relato amplio y demostración de interfaces colaborativas |
+| [03-expression-tools](sites/figma/03-expression-tools.jpg) | gallery | 1440 × 900 | 1425 × 891 | Herramientas expresivas: mosaico de ejemplos y controles de producto |
+| [04-hero-mobile](sites/figma/04-hero-mobile.jpg) | mobile | 390 × 844 | 375 × 812 | Portada móvil de producto creativo |
+
 ## Floema
 
 [Original site](https://floema.com/en) · [Analysis](sites/floema/analysis.md) · [Capture manifest](sites/floema/source.json)
@@ -35,6 +95,21 @@ Tags: urban-furniture, mobiliario-urbano, signage, señalética, photography, fo
 | [02-urban-collection](sites/floema/02-urban-collection.jpg) | product | 1440 × 900 | 1416 × 885 | Colección Urban: fotografía de contexto y categoría |
 | [03-sustainability](sites/floema/03-sustainability.jpg) | editorial | 1440 × 900 | 1416 × 885 | Manifiesto de sostenibilidad y voz de la marca |
 | [04-hero-mobile](sites/floema/04-hero-mobile.jpg) | mobile | 390 × 844 | 375 × 812 | Portada móvil: título y constelación de producto |
+
+## Guggenheim New York
+
+[Original site](https://www.guggenheim.org/) · [Analysis](sites/guggenheim/analysis.md) · [Capture manifest](sites/guggenheim/source.json)
+
+Sitio cultural funcional y visual: la portada combina navegación tipográfica con una obra inmersiva a sangre; exposiciones y eventos pasan a galerías horizontales abiertas, sin marcos decorativos, donde imagen, fecha y descripción forman la jerarquía.
+
+Tags: museum, museo, culture, cultura, institutional, institucional, editorial, programming, programación, exhibitions, exposiciones, events, eventos, full-bleed-media, medios-a-sangre, gallery, galería, white, blanco, minimal-navigation, navegación-mínima. Industries: museos e instituciones culturales, arte y exposiciones, eventos, educación cultural.
+
+| Capture | Kind | Browser viewport | Original image | What to inspect |
+| --- | --- | --- | --- | --- |
+| [01-hero-desktop](sites/guggenheim/01-hero-desktop.jpg) | hero | 1440 × 900 | 1440 × 900 | Portada cultural: navegación amplia y obra inmersiva a sangre |
+| [02-exhibitions](sites/guggenheim/02-exhibitions.jpg) | gallery | 1440 × 900 | 1440 × 900 | Exposiciones: galería horizontal, fechas y navegación mínima |
+| [03-upcoming-events](sites/guggenheim/03-upcoming-events.jpg) | editorial | 1440 × 900 | 1440 × 900 | Agenda cultural: tarjetas abiertas con imagen, fecha y descripción |
+| [04-hero-mobile](sites/guggenheim/04-hero-mobile.jpg) | mobile | 390 × 844 | 390 × 844 | Portada móvil de institución cultural |
 
 ## Koto
 
@@ -140,6 +215,21 @@ Tags: architecture, arquitectura, interior-design, diseño-de-interiores, furnit
 | [02-latest-work](sites/norm-architects/02-latest-work.jpg) | gallery | 1440 × 900 | 1425 × 891 | Trabajos recientes: imagen, contexto y tipografía |
 | [03-hospitality-feature](sites/norm-architects/03-hospitality-feature.jpg) | editorial | 1440 × 900 | 1425 × 891 | Proyecto de hospitalidad: fotografía y relato |
 | [04-hero-mobile](sites/norm-architects/04-hero-mobile.jpg) | mobile | 390 × 844 | 375 × 812 | Portada móvil arquitectónica |
+
+## Oatly
+
+[Original site](https://www.oatly.com/) · [Analysis](sites/oatly/analysis.md) · [Capture manifest](sites/oatly/source.json)
+
+Marca alimentaria tratada como publicación: un marco técnico contiene manifiesto y mosaico de historias; los interiores cambian entre lettering irregular, texto manual, fotografía de bebida y titulares condensados de escala extrema. La imperfección gráfica convive con una retícula muy controlada.
+
+Tags: food, alimentación, beverage, bebidas, brand-editorial, marca-editorial, ecommerce, playful, lúdico, hand-drawn, dibujado-a-mano, condensed-type, tipografía-condensada, newspaper-grid, retícula-editorial, cream, crema, black, negro, irregular-type, tipografía-irregular. Industries: alimentación y bebidas, productos de consumo, sostenibilidad, marca editorial.
+
+| Capture | Kind | Browser viewport | Original image | What to inspect |
+| --- | --- | --- | --- | --- |
+| [01-hero-desktop](sites/oatly/01-hero-desktop.jpg) | hero | 1440 × 900 | 1440 × 900 | Portada editorial alimentaria: marco técnico, manifiesto y mosaico de historias |
+| [02-look-book](sites/oatly/02-look-book.jpg) | editorial | 1440 × 900 | 1425 × 891 | Recetario editorial: titular expresivo, texto manuscrito y fotografía de bebida |
+| [03-sustainability](sites/oatly/03-sustainability.jpg) | editorial | 1440 × 900 | 1416 × 885 | Sostenibilidad: tipografía condensada extrema, declaración y sello irregular |
+| [04-hero-mobile](sites/oatly/04-hero-mobile.jpg) | mobile | 390 × 844 | 390 × 844 | Portada móvil de marca alimentaria |
 
 ## Oryzo
 

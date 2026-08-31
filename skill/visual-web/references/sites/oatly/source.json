@@ -1,0 +1,76 @@
+{
+  "id": "oatly",
+  "name": "Oatly",
+  "url": "https://www.oatly.com/",
+  "capturedAt": "2026-08-31T00:06:11.446Z",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "file": "references/sites/oatly/01-hero-desktop.jpg",
+      "kind": "hero",
+      "pageUrl": "https://www.oatly.com/",
+      "scrollY": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-31T00:06:11.446Z",
+      "sectionLabel": "Portada editorial alimentaria: marco técnico, manifiesto y mosaico de historias",
+      "imageDimensions": {
+        "width": 1440,
+        "height": 900
+      }
+    },
+    {
+      "id": "02-look-book",
+      "file": "references/sites/oatly/02-look-book.jpg",
+      "kind": "editorial",
+      "pageUrl": "https://www.oatly.com/recipes/look-book-vol-3",
+      "scrollY": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-31T00:06:38.165Z",
+      "sectionLabel": "Recetario editorial: titular expresivo, texto manuscrito y fotografía de bebida",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "03-sustainability",
+      "file": "references/sites/oatly/03-sustainability.jpg",
+      "kind": "editorial",
+      "pageUrl": "https://www.oatly.com/sustainability",
+      "scrollY": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-31T00:06:33.590Z",
+      "sectionLabel": "Sostenibilidad: tipografía condensada extrema, declaración y sello irregular",
+      "imageDimensions": {
+        "width": 1416,
+        "height": 885
+      }
+    },
+    {
+      "id": "04-hero-mobile",
+      "file": "references/sites/oatly/04-hero-mobile.jpg",
+      "kind": "mobile",
+      "pageUrl": "https://www.oatly.com/",
+      "scrollY": 0,
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "capturedAt": "2026-08-31T00:06:42.839Z",
+      "sectionLabel": "Portada móvil de marca alimentaria",
+      "imageDimensions": {
+        "width": 390,
+        "height": 844
+      }
+    }
+  ]
+}

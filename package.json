@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "node --test tests/tooling.test.mjs tests/maintenance.test.mjs",
-    "check": "node scripts/check-package.mjs && node scripts/check-evaluations.mjs && node scripts/check-release.mjs"
+    "check": "node scripts/check-readme-prompt.mjs && node scripts/check-package.mjs && node scripts/check-evaluations.mjs && node scripts/check-release.mjs"
   },
   "engines": {
     "node": ">=20"

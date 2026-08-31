@@ -1,0 +1,76 @@
+{
+  "id": "aman",
+  "name": "Aman",
+  "url": "https://www.aman.com/",
+  "capturedAt": "2026-08-30T23:58:50.691Z",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "file": "references/sites/aman/01-hero-desktop.jpg",
+      "kind": "hero",
+      "pageUrl": "https://www.aman.com/",
+      "scrollY": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T23:58:50.691Z",
+      "sectionLabel": "Portada de hospitalidad: cabecera serena y paisaje cinematográfico",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "02-resort-detail",
+      "file": "references/sites/aman/02-resort-detail.jpg",
+      "kind": "gallery",
+      "pageUrl": "https://www.aman.com/resorts/amanvari",
+      "scrollY": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T23:59:45.664Z",
+      "sectionLabel": "Página de resort: navegación contextual y arquitectura a gran escala",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "03-seasonal-story",
+      "file": "references/sites/aman/03-seasonal-story.jpg",
+      "kind": "editorial",
+      "pageUrl": "https://www.aman.com/stories/summer-with-aman",
+      "scrollY": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-30T23:59:36.440Z",
+      "sectionLabel": "Relato estacional: título centrado, texto breve, CTA y fotografía acuática",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "04-seasonal-mobile",
+      "file": "references/sites/aman/04-seasonal-mobile.jpg",
+      "kind": "mobile",
+      "pageUrl": "https://www.aman.com/stories/summer-with-aman",
+      "scrollY": 0,
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "capturedAt": "2026-08-31T00:00:56.316Z",
+      "sectionLabel": "Relato estacional móvil de hospitalidad",
+      "imageDimensions": {
+        "width": 375,
+        "height": 812
+      }
+    }
+  ]
+}

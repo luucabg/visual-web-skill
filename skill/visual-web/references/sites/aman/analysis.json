@@ -1,0 +1,76 @@
+{
+  "id": "aman",
+  "tags": ["hospitality", "hospitalidad", "travel", "viajes", "luxury", "lujo", "resort", "cinematic", "cinematográfico", "architecture", "arquitectura", "warm-neutral", "neutros-cálidos", "serif", "full-bleed-photography", "fotografía-a-sangre", "quiet", "sereno", "editorial"],
+  "industries": ["hoteles y resorts", "viajes de lujo", "hospitalidad", "residencias y experiencias"],
+  "summary": "Hospitalidad de lujo basada en silencio visual, fotografía cinematográfica y superficies marfil. La portada deja respirar una escena de paisaje; las páginas de resort añaden navegación contextual y las historias estacionales combinan copy serif centrado con una única imagen de gran escala.",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "observed": [
+        "Una cabecera marfil muy alta contiene menú, búsqueda, logotipo centrado, idioma y una reserva oscura; debajo aparece una película panorámica enmarcada por márgenes generosos.",
+        "La escena costera utiliza luz suave y tonos arena; no hay un titular superpuesto en el estado capturado.",
+        "La ausencia de copy sobre la imagen convierte ritmo, encuadre y marca en la primera lectura."
+      ],
+      "adaptation": [
+        "Permitir que una fotografía propia excepcional abra la experiencia cuando el lugar o ambiente sea la oferta principal.",
+        "Usar una cabecera espaciosa y una única acción contrastada para separar exploración de reserva."
+      ],
+      "avoid": [
+        "No copiar el logotipo, arquitectura, destino o material audiovisual de Aman.",
+        "No usar una portada casi sin texto si el visitante necesita entender una oferta desconocida o comparar servicios inmediatamente."
+      ],
+      "motion": {"status": "not-tested", "description": "La portada contiene medio audiovisual, pero no se evaluaron montaje, bucle, carga ni controles."}
+    },
+    {
+      "id": "02-resort-detail",
+      "observed": [
+        "La página del resort añade una segunda navegación horizontal con galería, alojamiento, bienestar, gastronomía y contacto.",
+        "Una fotografía arquitectónica casi cuadrada ocupa el centro y conserva márgenes marfil, con cielo abierto como gran zona negativa.",
+        "La jerarquía de navegación permanece ligera mediante versalitas, espaciado amplio y divisiones finas."
+      ],
+      "adaptation": [
+        "Introducir navegación contextual cuando una propiedad o producto tenga suficientes subtemas reales para justificarla.",
+        "Encuadrar arquitectura o espacios con margen y cielo disponible para transmitir calma sin añadir adornos."
+      ],
+      "avoid": [
+        "No reproducir fotografías, nombre del resort, destinos ni estructura de reservas.",
+        "No apilar dos navegaciones completas en proyectos pequeños; la segunda debe reducir fricción, no añadirla."
+      ],
+      "motion": {"status": "not-tested", "description": "No se abrieron las áreas de la navegación contextual ni se comprobó la galería."}
+    },
+    {
+      "id": "03-seasonal-story",
+      "observed": [
+        "Un título serif, subtítulo, párrafo y botón delineado se centran dentro de una gran superficie marfil.",
+        "La imagen acuática comienza en la mitad inferior y se extiende a casi todo el ancho con márgenes laterales pequeños.",
+        "El bloque limita el ancho de texto y deja más espacio alrededor que el necesario para leer, reforzando un ritmo contemplativo."
+      ],
+      "adaptation": [
+        "Usar una apertura editorial centrada para una campaña o experiencia concreta, seguida por una imagen que continúe el tono del texto.",
+        "Limitar el párrafo y reservar una sola acción cuando la decisión requiera deseo y contexto antes que comparación."
+      ],
+      "avoid": [
+        "No copiar el relato, destino, disponibilidad o promesas estacionales.",
+        "No usar un botón de disponibilidad si no existe un flujo de reserva o contacto real."
+      ],
+      "motion": {"status": "not-tested", "description": "No se probó el botón, la aparición de la imagen ni posibles transiciones de la historia."}
+    },
+    {
+      "id": "04-seasonal-mobile",
+      "observed": [
+        "La historia estacional se convierte en una columna con título, subtítulo, párrafo y botón centrados, seguida por vídeo costero.",
+        "La navegación móvil conserva menú, logotipo y búsqueda; una acción Reserve de ancho completo aparece después del medio.",
+        "El texto permanece legible por ancho y tamaño, aunque ocupa gran parte del primer viewport."
+      ],
+      "adaptation": [
+        "Ordenar en móvil relato, medio y acción según la intención principal, sin intentar mostrar todo antes del primer desplazamiento.",
+        "Separar la acción persistente o final del contenido visual para que no compita con el texto."
+      ],
+      "avoid": [
+        "No reducir tanto el texto que pierda el tono editorial ni ocultar la acción principal detrás de controles de vídeo.",
+        "No afirmar que esta vista es la portada móvil general: corresponde a una historia estacional concreta."
+      ],
+      "motion": {"status": "not-tested", "description": "No se verificó el vídeo móvil, la reserva, la búsqueda ni el menú; se documenta una página de historia, no la portada general."}
+    }
+  ]
+}

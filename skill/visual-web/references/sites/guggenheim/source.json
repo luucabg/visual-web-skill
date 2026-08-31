@@ -1,0 +1,76 @@
+{
+  "id": "guggenheim",
+  "name": "Guggenheim New York",
+  "url": "https://www.guggenheim.org/",
+  "capturedAt": "2026-08-31T00:07:23.841Z",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "file": "references/sites/guggenheim/01-hero-desktop.jpg",
+      "kind": "hero",
+      "pageUrl": "https://www.guggenheim.org/",
+      "scrollY": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-31T00:07:23.841Z",
+      "sectionLabel": "Portada cultural: navegación amplia y obra inmersiva a sangre",
+      "imageDimensions": {
+        "width": 1440,
+        "height": 900
+      }
+    },
+    {
+      "id": "02-exhibitions",
+      "file": "references/sites/guggenheim/02-exhibitions.jpg",
+      "kind": "gallery",
+      "pageUrl": "https://www.guggenheim.org/",
+      "scrollY": 900,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-31T00:07:36.556Z",
+      "sectionLabel": "Exposiciones: galería horizontal, fechas y navegación mínima",
+      "imageDimensions": {
+        "width": 1440,
+        "height": 900
+      }
+    },
+    {
+      "id": "03-upcoming-events",
+      "file": "references/sites/guggenheim/03-upcoming-events.jpg",
+      "kind": "editorial",
+      "pageUrl": "https://www.guggenheim.org/",
+      "scrollY": 1700,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-31T00:07:37.484Z",
+      "sectionLabel": "Agenda cultural: tarjetas abiertas con imagen, fecha y descripción",
+      "imageDimensions": {
+        "width": 1440,
+        "height": 900
+      }
+    },
+    {
+      "id": "04-hero-mobile",
+      "file": "references/sites/guggenheim/04-hero-mobile.jpg",
+      "kind": "mobile",
+      "pageUrl": "https://www.guggenheim.org/",
+      "scrollY": 0,
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "capturedAt": "2026-08-31T00:08:01.792Z",
+      "sectionLabel": "Portada móvil de institución cultural",
+      "imageDimensions": {
+        "width": 390,
+        "height": 844
+      }
+    }
+  ]
+}

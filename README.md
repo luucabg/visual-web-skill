@@ -4,8 +4,8 @@
 
 <p align="center">
   <a href="https://github.com/luucabg/visual-web-skill/actions/workflows/verify.yml"><img src="https://github.com/luucabg/visual-web-skill/actions/workflows/verify.yml/badge.svg" alt="Verificación automática"></a>
-  <img src="https://img.shields.io/badge/webs_reales-12-c9ff3d" alt="12 webs reales">
-  <img src="https://img.shields.io/badge/capturas-48-ff4d30" alt="48 capturas">
+  <img src="https://img.shields.io/badge/webs_reales-18-c9ff3d" alt="18 webs reales">
+  <img src="https://img.shields.io/badge/capturas-72-ff4d30" alt="72 capturas">
   <img src="https://img.shields.io/badge/pruebas-43_aprobadas-11120f" alt="43 pruebas aprobadas">
 </p>
 
@@ -27,25 +27,115 @@ La IA **abre las capturas** antes de tomar decisiones. Cada elección queda regi
 
 No entrena el modelo ni copia una web completa. Le proporciona memoria visual organizada y un método para razonar sobre ella.
 
-## Pruébala con un solo mensaje
+## Prompt maestro para copiar y pegar
 
-Después de instalarla, abre una tarea nueva en Codex y pega algo parecido a esto:
+Completa lo que sepas y escribe **NO SÉ** cuando falte un dato. La IA decidirá cuántas secciones necesita la empresa, mostrará primero el mapa de la web y evitará inventar testimonios, cifras, servicios o ubicaciones. El bloque siguiente se puede copiar directamente desde este README:
+
+<!-- PROMPT_EMPRESA_START -->
 
 ```text
-Usa $visual-web para crear una landing para un estudio de arquitectura
-residencial. La audiencia son personas que quieren reformar su vivienda. La
-acción principal es solicitar una primera conversación.
+Usa $visual-web para diseñar y construir una web completa para la empresa
+descrita abajo. Lee todos los datos antes de tomar decisiones.
 
-Quiero una estética cálida, precisa y tranquila. Selecciona y abre referencias
-reales de la biblioteca y desarrolla una identidad propia. Decide tú cuántas
-secciones necesita la web; usa solo las necesarias y presenta primero el mapa.
-Genera un diseño independiente por sección y después sus activos. Implementa y
-comprueba la web en escritorio y móvil. No inventes proyectos, clientes ni premios.
+DATOS DE LA EMPRESA
+
+- Nombre comercial: [NOMBRE]
+- Qué es y qué ofrece, explicado de forma sencilla: [DESCRIPCIÓN]
+- Sector: [SECTOR]
+- Ubicación o zona donde trabaja: [UBICACIÓN / ONLINE / ZONAS]
+- Público principal: [TIPO DE CLIENTE]
+- Problema o necesidad que resuelve: [PROBLEMA]
+- Servicios o productos reales: [LISTA]
+- Servicio o producto prioritario: [OFERTA PRINCIPAL]
+- Diferencias reales frente a otras opciones: [DIFERENCIAS]
+- Proceso real de trabajo o compra: [PROCESO]
+- Acción principal que queremos que haga el visitante: [PEDIR PRESUPUESTO /
+  RESERVAR / COMPRAR / LLAMAR / ESCRIBIR / OTRA]
+- Acción secundaria, si existe: [ACCIÓN SECUNDARIA O NO SÉ]
+- Pruebas reales disponibles: [AÑOS, CIFRAS, CLIENTES, PREMIOS, RESEÑAS,
+  CERTIFICACIONES O NO SÉ]
+- Preguntas o dudas frecuentes de los clientes: [LISTA O NO SÉ]
+- Personalidad de la marca en 3–5 palabras: [ADJETIVOS]
+- Estilos que deben evitarse: [ESTILOS, COLORES O RECURSOS A EVITAR]
+- Colores, tipografías o normas existentes: [DATOS O NO SÉ]
+- Material disponible: [LOGO, FOTOS, VÍDEOS, TEXTOS, CATÁLOGO, CAPTURAS,
+  ENLACES O NO SÉ]
+- Web actual, si existe: [URL O NO SÉ]
+- Referencias que le gustan a la empresa y por qué: [URL + MOTIVO O NO SÉ]
+- Competidores conocidos: [URL O NOMBRES O NO SÉ]
+- Idioma de la web: [IDIOMA]
+- Datos de contacto autorizados: [EMAIL, TELÉFONO, DIRECCIÓN, REDES O NO SÉ]
+- Restricciones legales o del sector: [RESTRICCIONES O NO SÉ]
+- Tecnología o proyecto existente: [STACK / CARPETA / NO HAY PROYECTO]
+- Cualquier otro dato que deba respetarse: [NOTAS]
+
+DECISIONES QUE TE DELEGO
+
+1. Decide tú cuántas secciones necesita la web. Usa solo las necesarias para
+   explicar bien la oferta, resolver las dudas principales y conducir a la
+   acción prioritaria. No fuerces ocho secciones ni una estructura genérica.
+2. Antes de diseñar, presenta un mapa compacto con: nombre de sección, función,
+   contenido real que utilizará, acción, recurso visual y motivo para incluirla.
+3. Redacta el copy final a partir de los datos facilitados. Puedes mejorar el
+   lenguaje y la jerarquía, pero no cambies hechos ni inventes afirmaciones.
+4. Si falta un dato, omite la afirmación o la sección dependiente de él. No uses
+   Lorem ipsum, testimonios ficticios, cifras, premios, clientes, ubicaciones,
+   precios, disponibilidad ni certificaciones inventadas.
+5. Si falta logo, utiliza el nombre como tratamiento tipográfico provisional;
+   no inventes una identidad registrada. Si faltan fotos, usa imágenes
+   conceptuales solo cuando no puedan confundirse con productos, proyectos,
+   empleados o instalaciones reales.
+6. Resuelve de forma autónoma las decisiones reversibles. Pregunta únicamente
+   si falta un dato imprescindible que impida construir una web honesta o hacer
+   funcionar la acción principal.
+
+PROCESO VISUAL OBLIGATORIO
+
+1. Busca en la biblioteca de $visual-web por sector, tono, fotografía,
+   tipografía y tipo de conversión. Selecciona normalmente 2–4 referencias
+   compatibles e incluye al menos una captura móvil.
+2. Abre a tamaño legible las capturas concretas. No diseñes basándote solo en
+   nombres, URLs o análisis escritos.
+3. Registra las decisiones importantes como:
+   fuente → rasgo observado → adaptación propia → motivo.
+4. Construye una dirección de arte original conectada con el negocio. No copies
+   marcas, textos, fotografías, productos ni composiciones completas.
+5. Genera una imagen horizontal independiente y legible para cada sección que
+   hayas decidido. Mantén una sola identidad, pero varía escala, ritmo,
+   alineación y relación entre texto e imagen cuando el contenido lo pida.
+6. Inspecciona todos los diseños y corrige los que sean ilegibles, incoherentes,
+   repetitivos o imposibles de implementar.
+7. Genera después los activos necesarios por separado, sin títulos, botones ni
+   interfaz incrustada. Construye texto, botones, formularios, iconos sencillos
+   y estructura como HTML/CSS/SVG accesibles.
+
+IMPLEMENTACIÓN Y COMPROBACIÓN
+
+- Si existe un proyecto, conserva su stack y sus componentes adecuados. Si la
+  carpeta está vacía, elige una solución ligera y mantenible.
+- Implementa toda la web, responsive y funcional. No uses la imagen completa de
+  una sección como interfaz final.
+- Todos los botones y enlaces deben tener un destino real. Si faltan datos para
+  una función, no simules reservas, compras, formularios enviados o descargas.
+- Usa movimiento suave con una función clara y respeta prefers-reduced-motion.
+- Comprueba como mínimo un portátil pequeño y un móvil, además de teclado,
+  foco, contraste, recortes, imágenes, enlaces y la acción principal.
+- Compara la implementación con cada diseño generado y corrige las diferencias
+  importantes de composición, tipografía, encuadre y espacio.
+- Ejecuta build, lint, pruebas y verificaciones apropiadas. No declares la tarea
+  terminada mientras haya secciones, estados o funciones incompletos.
+
+ENTREGA
+
+Entrega la web completa, sus activos, el registro de referencias y una nota
+breve con: secciones elegidas, decisiones visuales, comprobaciones realizadas y
+limitaciones reales. Indica con claridad cualquier dato que la empresa todavía
+deba facilitar.
 ```
 
-Puedes cambiar el negocio, el público y el tono. La IA puede decidir el número de secciones según el contenido y la conversión. También puedes pedir solo un hero, una dirección visual o una investigación de referencias.
+<!-- PROMPT_EMPRESA_END -->
 
-**[Abrir el prompt maestro para rellenar con los datos de una empresa →](PROMPT-EMPRESA.md)**
+La misma plantilla está disponible como [documento independiente](PROMPT-EMPRESA.md) para compartirla o editarla con más comodidad.
 
 ## Instalación sencilla en Windows
 
@@ -90,9 +180,11 @@ Estos heroes son composiciones conceptuales generadas, no tres webs publicadas. 
 
 ## La biblioteca visual
 
-La primera edición contiene **48 capturas reales** —escritorio, secciones interiores y móvil— de 12 referencias:
+La biblioteca contiene **72 capturas reales** —escritorio, secciones interiores y móvil— de 18 referencias:
 
-`Lando Norris` · `MindMarket` · `Oryzo` · `Floema` · `Mistral` · `Shopify Editions` · `Linear` · `Teenage Engineering` · `Koto` · `Locomotive` · `Basement` · `Norm Architects`
+`Lando Norris` · `MindMarket` · `Oryzo` · `Floema` · `Mistral` · `Shopify Editions` · `Linear` · `Teenage Engineering` · `Koto` · `Locomotive` · `Basement` · `Norm Architects` · `Dropbox Brand` · `Aesop` · `Aman` · `Figma` · `Oatly` · `Guggenheim`
+
+![Vista conjunta de las seis referencias nuevas: Dropbox Brand, Aesop, Aman, Figma, Oatly y Guggenheim](docs/new-reference-heroes.jpg)
 
 ### Las referencias reales, a la vista
 
@@ -112,6 +204,14 @@ La primera edición contiene **48 capturas reales** —escritorio, secciones int
 | --- | --- | --- |
 | [![Portada real de Locomotive](skill/visual-web/references/sites/locomotive/01-hero-desktop.jpg)](skill/visual-web/references/sites/locomotive/analysis.md) | [![Portada real de Basement](skill/visual-web/references/sites/basement/01-hero-desktop.jpg)](skill/visual-web/references/sites/basement/analysis.md) | [![Portada real de Norm Architects](skill/visual-web/references/sites/norm-architects/01-hero-desktop.jpg)](skill/visual-web/references/sites/norm-architects/analysis.md) |
 
+| Dropbox Brand | Aesop | Aman |
+| --- | --- | --- |
+| [![Portada real de Dropbox Brand](skill/visual-web/references/sites/dropbox-brand/01-hero-desktop.jpg)](skill/visual-web/references/sites/dropbox-brand/analysis.md) | [![Portada real de Aesop](skill/visual-web/references/sites/aesop/01-hero-desktop.jpg)](skill/visual-web/references/sites/aesop/analysis.md) | [![Portada real de Aman](skill/visual-web/references/sites/aman/01-hero-desktop.jpg)](skill/visual-web/references/sites/aman/analysis.md) |
+
+| Figma | Oatly | Guggenheim |
+| --- | --- | --- |
+| [![Portada real de Figma](skill/visual-web/references/sites/figma/01-hero-desktop.jpg)](skill/visual-web/references/sites/figma/analysis.md) | [![Portada real de Oatly](skill/visual-web/references/sites/oatly/01-hero-desktop.jpg)](skill/visual-web/references/sites/oatly/analysis.md) | [![Portada real del Guggenheim](skill/visual-web/references/sites/guggenheim/01-hero-desktop.jpg)](skill/visual-web/references/sites/guggenheim/analysis.md) |
+
 Pulsa cualquier imagen para abrir su análisis. En cada ficha hay cuatro capturas: **portada de escritorio, dos secciones interiores y portada móvil**. La IA no se limita a esta galería: la skill le obliga a buscar, abrir a tamaño legible las capturas concretas que encajan con el encargo y leer después sus análisis.
 
 Cada web incluye:
@@ -122,7 +222,7 @@ Cada web incluye:
 - decisiones transferibles, límites y rasgos que debe evitar copiar;
 - estado de movimiento marcado como observado o no probado.
 
-[Explorar las 48 capturas en el índice visual →](skill/visual-web/references/INDEX.md)
+[Explorar las 72 capturas en el índice visual →](skill/visual-web/references/INDEX.md)
 
 ## Qué contiene
 

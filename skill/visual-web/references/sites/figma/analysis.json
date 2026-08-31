@@ -1,0 +1,76 @@
+{
+  "id": "figma",
+  "tags": ["saas", "software-as-a-service", "design-tool", "herramienta-de-diseño", "collaboration", "colaboración", "product-ui", "interfaz-de-producto", "collage", "colorful", "colorido", "white", "blanco", "editorial", "oversized-type", "tipografía-grande", "mosaic", "mosaico", "playful", "lúdico"],
+  "industries": ["software creativo", "diseño de producto", "colaboración de equipos", "herramientas de IA"],
+  "summary": "Presentación de producto creativa y luminosa que trata ejemplos de diseño como materia visual. El hero separa titular, collage y CTA; después alterna demostraciones de interfaz a gran escala con mosaicos densos de herramientas, cursores y resultados multicolor.",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "observed": [
+        "El hero divide el ancho en tres focos: un titular negro con cortes de palabra a la izquierda, un collage vertical animado en el centro y un botón negro aislado a la derecha.",
+        "La cabecera blanca contiene navegación de producto y dos acciones comerciales; una regla gris fina separa la barra del contenido.",
+        "El fondo blanco y la distancia entre focos permiten que el collage colorido sea complejo sin volver ilegible el mensaje."
+      ],
+      "adaptation": [
+        "Separar promesa, demostración y acción en una composición de tres focos cuando cada pieza tenga una función inequívoca.",
+        "Usar una muestra propia en capas para comunicar variedad creativa sin convertir el hero en una captura completa de aplicación."
+      ],
+      "avoid": [
+        "No reutilizar obras, marcas, pantallas, fechas o contenido del collage de Figma.",
+        "No forzar cortes tipográficos que dificulten comprensión o traducción; deben comprobarse con el copy definitivo."
+      ],
+      "motion": {"status": "not-tested", "description": "El collage cambió de estado durante la observación, pero no se midió su secuencia, duración o control; se conserva como movimiento no probado."}
+    },
+    {
+      "id": "02-workspace",
+      "observed": [
+        "Un título ancho y una explicación gris introducen una gran superficie verde pálido con dos ejemplos de aplicación móvil.",
+        "Ventanas, cursores y etiquetas de colaboradores se superponen a las pantallas para representar trabajo compartido.",
+        "La demostración ocupa más altura que el texto y usa estados de producto legibles en vez de pequeñas tarjetas de funciones."
+      ],
+      "adaptation": [
+        "Mostrar un flujo de producto con uno o dos estados propios de gran tamaño y señales de colaboración relacionadas con una tarea concreta.",
+        "Usar una superficie tonal suave para separar la demostración del fondo general sin añadir un contenedor dentro de otro."
+      ],
+      "avoid": [
+        "No copiar pantallas, nombres de usuarios, cursores, ilustraciones ni ejemplos de Figma.",
+        "No añadir cursores o etiquetas ficticias si el producto no tiene colaboración real."
+      ],
+      "motion": {"status": "not-tested", "description": "No se verificó la animación de interfaces, cursores o etiquetas ni su correspondencia con funciones reales."}
+    },
+    {
+      "id": "03-expression-tools",
+      "observed": [
+        "Una introducción breve se alinea a la izquierda y un enlace a producto a la derecha antes de un mosaico de cuatro columnas.",
+        "Cada franja mezcla una pieza creativa con controles flotantes, cursores o manipuladores que explican textura, color, profundidad y composición.",
+        "El mosaico no usa márgenes gruesos ni tarjetas de texto repetidas; las imágenes y los controles forman una demostración continua."
+      ],
+      "adaptation": [
+        "Construir un mosaico de capacidades a partir de resultados reales y controles simplificados cuando la variedad sea parte esencial del producto.",
+        "Alternar densidad visual con una introducción muy limpia para evitar que toda la página mantenga el mismo nivel de estímulo."
+      ],
+      "avoid": [
+        "No usar ejemplos ajenos ni controles que parezcan editables si solo son decoración.",
+        "No comprimir el mosaico hasta que texto, cursores o resultados pierdan legibilidad en portátil."
+      ],
+      "motion": {"status": "not-tested", "description": "No se interactuó con el mosaico ni se comprobó si las muestras responden al cursor o al scroll."}
+    },
+    {
+      "id": "04-hero-mobile",
+      "observed": [
+        "La cabecera móvil reduce la navegación a logotipo, acción principal y menú.",
+        "El titular se muestra completo sin los cortes forzados del escritorio y el collage se reencuadra en una pila vertical.",
+        "El botón principal vuelve a aparecer como bloque ancho bajo el collage, dejando aire suficiente alrededor."
+      ],
+      "adaptation": [
+        "Cambiar los saltos del titular y el encuadre del collage para móvil en lugar de conservar literalmente la composición de tres focos.",
+        "Repetir la acción principal después de la demostración cuando mejora el recorrido y no crea destinos contradictorios."
+      ],
+      "avoid": [
+        "No conservar el collage de escritorio si obliga a miniaturizar sus detalles.",
+        "No repetir CTAs con textos o destinos distintos sin una jerarquía clara."
+      ],
+      "motion": {"status": "not-tested", "description": "No se abrió el menú ni se comprobó el cambio de piezas del collage en móvil."}
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "oatly",
+  "tags": ["food", "alimentación", "beverage", "bebidas", "brand-editorial", "marca-editorial", "ecommerce", "playful", "lúdico", "hand-drawn", "dibujado-a-mano", "condensed-type", "tipografía-condensada", "newspaper-grid", "retícula-editorial", "cream", "crema", "black", "negro", "irregular-type", "tipografía-irregular"],
+  "industries": ["alimentación y bebidas", "productos de consumo", "sostenibilidad", "marca editorial"],
+  "summary": "Marca alimentaria tratada como publicación: un marco técnico contiene manifiesto y mosaico de historias; los interiores cambian entre lettering irregular, texto manual, fotografía de bebida y titulares condensados de escala extrema. La imperfección gráfica convive con una retícula muy controlada.",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "observed": [
+        "Una línea negra encierra toda la experiencia y organiza iconos, categorías y un área editorial de dos columnas.",
+        "El manifiesto en mayúsculas dibujadas ocupa la izquierda, mientras una historia de gran formato y otra secundaria forman un mosaico asimétrico.",
+        "Etiquetas pequeñas amarillas y pies blancos identifican el tipo de contenido sin convertir cada pieza en una tarjeta uniforme."
+      ],
+      "adaptation": [
+        "Combinar una retícula estricta con tipografía o imágenes expresivas para una marca que deba sentirse directa y humana.",
+        "Organizar contenidos de tamaños distintos como portada editorial, reservando jerarquía para una historia principal."
+      ],
+      "avoid": [
+        "No copiar lettering, campañas, fotografías, titulares ni la voz verbal de Oatly.",
+        "No usar irregularidad en todos los niveles; navegación y etiquetas necesitan conservar orientación y legibilidad."
+      ],
+      "motion": {"status": "not-tested", "description": "No se probó la apertura de piezas, el scroll interno ni los controles de cabecera."}
+    },
+    {
+      "id": "02-look-book",
+      "observed": [
+        "Un título negro de formas irregulares ocupa casi todo el ancho superior y se recorta ligeramente en los laterales.",
+        "Debajo, texto negro con apariencia manual forma una columna densa a la izquierda y una fotografía de bebida helada domina la derecha.",
+        "La navegación mantiene líneas rectas y tipografía condensada, creando contraste con el cuerpo gestual."
+      ],
+      "adaptation": [
+        "Usar una pareja de tipografías con papeles claros: una expresiva para campaña y otra precisa para navegación y datos.",
+        "Emparejar relato y fotografía de producto en dos columnas cuando ambos aporten información distinta y real."
+      ],
+      "avoid": [
+        "No imitar literalmente las formas del título ni usar una fuente manual para párrafos largos sin comprobar lectura.",
+        "No reutilizar la bebida, pajita, recetas o texto editorial visibles."
+      ],
+      "motion": {"status": "not-tested", "description": "No se recorrió el recetario ni se probó la navegación de la página."}
+    },
+    {
+      "id": "03-sustainability",
+      "observed": [
+        "Un titular condensado negro, en mayúsculas y de varias líneas, cubre casi toda la superficie crema.",
+        "Una etiqueta estrellada verde se superpone a la esquina inferior derecha del titular y actúa como segunda voz.",
+        "Un asterisco pequeño al pie introduce una limitación sobre las imágenes, añadiendo una capa de transparencia al mensaje."
+      ],
+      "adaptation": [
+        "Reservar escala extrema para una declaración verificable y añadir una nota clara que explique alcance o metodología.",
+        "Usar una insignia de forma distinta para una idea secundaria sin fragmentar el bloque principal."
+      ],
+      "avoid": [
+        "No copiar afirmaciones ambientales, sello, titular o estilo de campaña.",
+        "No presentar sostenibilidad solo como gesto gráfico; enlazar pruebas, metodología y fechas reales."
+      ],
+      "motion": {"status": "not-tested", "description": "No se comprobó desplazamiento horizontal, animación del sello ni navegación a informes."}
+    },
+    {
+      "id": "04-hero-mobile",
+      "observed": [
+        "La cabecera móvil usa un icono de menú a la izquierda y cuatro utilidades compactas a la derecha.",
+        "El manifiesto centrado aparece antes de un botón delineado y una secuencia vertical de historias con bordes negros.",
+        "Las piezas cambian de orden y escala: la historia principal ocupa todo el ancho, seguida por módulos menores."
+      ],
+      "adaptation": [
+        "Transformar el mosaico de escritorio en una secuencia vertical priorizada, conservando títulos y categorías visibles.",
+        "Mantener bordes, etiquetas y ritmos consistentes para que la variedad de imágenes no parezca una lista accidental."
+      ],
+      "avoid": [
+        "No intentar reproducir las dos columnas en un ancho estrecho.",
+        "No reducir utilidades a iconos ambiguos sin nombres accesibles y áreas táctiles suficientes."
+      ],
+      "motion": {"status": "not-tested", "description": "No se abrió el menú, las utilidades ni las historias en la vista móvil."}
+    }
+  ]
+}

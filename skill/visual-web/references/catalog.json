@@ -1,7 +1,353 @@
 {
   "schemaVersion": 1,
-  "capturedAt": "2026-08-30T22:33:00.313Z",
+  "capturedAt": "2026-08-31T00:08:01.792Z",
   "sites": [
+    {
+      "id": "aesop",
+      "name": "Aesop",
+      "url": "https://www.aesop.com/",
+      "capturedAt": "2026-08-30T23:56:52.856Z",
+      "tags": [
+        "ecommerce",
+        "comercio-electrónico",
+        "beauty",
+        "belleza",
+        "luxury",
+        "lujo",
+        "editorial",
+        "sensory",
+        "sensorial",
+        "full-bleed-video",
+        "vídeo-a-sangre",
+        "product-photography",
+        "fotografía-de-producto",
+        "cream",
+        "crema",
+        "split-layout",
+        "composición-dividida",
+        "serif-sans",
+        "minimal"
+      ],
+      "industries": [
+        "cosmética y cuidado personal",
+        "comercio de lujo",
+        "fragancias",
+        "retail editorial"
+      ],
+      "summary": "Comercio sensorial de tono sobrio que combina vídeo humano a sangre, navegación blanca superpuesta y superficies crema. Las secciones de catálogo aíslan producto y precio; el relato editorial divide el viewport entre una escena cinematográfica y una ficha de compra muy contenida.",
+      "analysis": "references/sites/aesop/analysis.md",
+      "captures": [
+        {
+          "id": "01-hero-desktop",
+          "file": "references/sites/aesop/01-hero-desktop.jpg",
+          "kind": "hero",
+          "pageUrl": "https://www.aesop.com/",
+          "scrollY": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T23:56:52.856Z",
+          "sectionLabel": "Portada de comercio sensorial: vídeo a sangre, navegación y titular superpuesto",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "Un fotograma de vídeo cálido ocupa casi todo el viewport y coloca un rostro en el centro; la navegación y el logotipo se superponen en blanco.",
+            "El mensaje y el botón se concentran cerca del borde inferior, sobre un degradado oscuro que refuerza el contraste.",
+            "La cabecera usa dos niveles: utilidades pequeñas arriba y categorías de compra debajo, sin una caja opaca detrás."
+          ],
+          "adaptation": [
+            "Usar una escena humana propia como atmósfera cuando el producto vende ritual, cuidado o sensación, reservando una base oscura para el copy.",
+            "Separar utilidades y categorías en la navegación solo si la amplitud real del catálogo lo justifica."
+          ],
+          "avoid": [
+            "No reutilizar rostros, productos, textos, logotipo ni fotogramas de la campaña.",
+            "No superponer navegación blanca sobre una imagen propia sin comprobar contraste en todos los estados del medio."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "Se observó un estado de vídeo, pero no se midieron duración, transición de diapositivas ni controles."
+          }
+        },
+        {
+          "id": "02-curated-sets",
+          "file": "references/sites/aesop/02-curated-sets.jpg",
+          "kind": "product",
+          "pageUrl": "https://www.aesop.com/",
+          "scrollY": 820,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T23:56:55.497Z",
+          "sectionLabel": "Selección de producto: introducción editorial y retícula de formulaciones",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "Una introducción serif centrada precede a tres grupos de producto fotografiados sobre un fondo crema uniforme.",
+            "Nombre, descripción, precio y botón oscuro se alinean en columnas, mientras los productos conservan escalas y siluetas distintas.",
+            "Las flechas laterales y marcadores inferiores sugieren una colección horizontal sin convertir cada grupo en una tarjeta cerrada."
+          ],
+          "adaptation": [
+            "Presentar conjuntos o categorías con fotografía aislada y una línea base común para comparar sin ruido visual.",
+            "Mantener jerarquía consistente entre nombre, explicación, precio y acción aunque las imágenes tengan proporciones diferentes."
+          ],
+          "avoid": [
+            "No copiar envases, nombres, precios o descripciones de Aesop.",
+            "No usar un carrusel si oculta productos esenciales o dificulta la navegación con teclado y móvil."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se accionaron flechas, marcadores ni botones de compra; solo se documenta la disposición visible."
+          }
+        },
+        {
+          "id": "03-product-story",
+          "file": "references/sites/aesop/03-product-story.jpg",
+          "kind": "editorial",
+          "pageUrl": "https://www.aesop.com/",
+          "scrollY": 1950,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T23:56:59.204Z",
+          "sectionLabel": "Relato de producto: fotografía amplia, detalle y compra contextual",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "El viewport se divide casi por la mitad: una escena de vídeo azul a la izquierda y una ficha clara con botella aislada a la derecha.",
+            "El título editorial y su acción aparecen sobre la escena; la explicación, precio y compra quedan asociados al producto sin otra caja intermedia.",
+            "Una cabecera blanca fija reduce el logotipo y convierte la navegación en una franja funcional al entrar en contenido."
+          ],
+          "adaptation": [
+            "Emparejar contexto y producto en dos superficies cuando la historia y la conversión necesiten convivir sin mezclarse.",
+            "Asignar a cada mitad una función clara: emoción y relato en una; información y acción en la otra."
+          ],
+          "avoid": [
+            "No equilibrar las mitades por rutina si el contenido propio no necesita dos lecturas simultáneas.",
+            "No simular compra, precio o disponibilidad sin datos reales y un destino funcional."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se probó la fijación de cabecera, el vídeo, el cambio de producto ni la acción de compra."
+          }
+        },
+        {
+          "id": "04-hero-mobile",
+          "file": "references/sites/aesop/04-hero-mobile.jpg",
+          "kind": "mobile",
+          "pageUrl": "https://www.aesop.com/",
+          "scrollY": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          },
+          "capturedAt": "2026-08-30T23:57:09.674Z",
+          "sectionLabel": "Portada móvil de comercio sensorial",
+          "imageDimensions": {
+            "width": 375,
+            "height": 812
+          },
+          "observed": [
+            "La portada móvil conserva el vídeo en formato vertical y lleva el mensaje a la parte inferior, debajo del sujeto.",
+            "Logotipo, búsqueda, localización, cesta y menú ocupan una única fila transparente sobre la imagen.",
+            "El botón ancho, los controles de vídeo y los marcadores quedan dentro de la zona inferior sin tapar el título."
+          ],
+          "adaptation": [
+            "Elegir o generar un encuadre vertical específico con espacio para interfaz; no recortar automáticamente el vídeo de escritorio.",
+            "Reducir la navegación a acciones esenciales y mantener un CTA táctil de ancho suficiente."
+          ],
+          "avoid": [
+            "No colocar texto sobre el rostro o el elemento principal al adaptar el medio.",
+            "No esconder el control de reproducción o silenciar contenido relevante sin una alternativa comprensible."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "La captura muestra controles de vídeo, pero no se verificaron reproducción, audio, gesto de carrusel ni menú."
+          }
+        }
+      ]
+    },
+    {
+      "id": "aman",
+      "name": "Aman",
+      "url": "https://www.aman.com/",
+      "capturedAt": "2026-08-30T23:58:50.691Z",
+      "tags": [
+        "hospitality",
+        "hospitalidad",
+        "travel",
+        "viajes",
+        "luxury",
+        "lujo",
+        "resort",
+        "cinematic",
+        "cinematográfico",
+        "architecture",
+        "arquitectura",
+        "warm-neutral",
+        "neutros-cálidos",
+        "serif",
+        "full-bleed-photography",
+        "fotografía-a-sangre",
+        "quiet",
+        "sereno",
+        "editorial"
+      ],
+      "industries": [
+        "hoteles y resorts",
+        "viajes de lujo",
+        "hospitalidad",
+        "residencias y experiencias"
+      ],
+      "summary": "Hospitalidad de lujo basada en silencio visual, fotografía cinematográfica y superficies marfil. La portada deja respirar una escena de paisaje; las páginas de resort añaden navegación contextual y las historias estacionales combinan copy serif centrado con una única imagen de gran escala.",
+      "analysis": "references/sites/aman/analysis.md",
+      "captures": [
+        {
+          "id": "01-hero-desktop",
+          "file": "references/sites/aman/01-hero-desktop.jpg",
+          "kind": "hero",
+          "pageUrl": "https://www.aman.com/",
+          "scrollY": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T23:58:50.691Z",
+          "sectionLabel": "Portada de hospitalidad: cabecera serena y paisaje cinematográfico",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "Una cabecera marfil muy alta contiene menú, búsqueda, logotipo centrado, idioma y una reserva oscura; debajo aparece una película panorámica enmarcada por márgenes generosos.",
+            "La escena costera utiliza luz suave y tonos arena; no hay un titular superpuesto en el estado capturado.",
+            "La ausencia de copy sobre la imagen convierte ritmo, encuadre y marca en la primera lectura."
+          ],
+          "adaptation": [
+            "Permitir que una fotografía propia excepcional abra la experiencia cuando el lugar o ambiente sea la oferta principal.",
+            "Usar una cabecera espaciosa y una única acción contrastada para separar exploración de reserva."
+          ],
+          "avoid": [
+            "No copiar el logotipo, arquitectura, destino o material audiovisual de Aman.",
+            "No usar una portada casi sin texto si el visitante necesita entender una oferta desconocida o comparar servicios inmediatamente."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "La portada contiene medio audiovisual, pero no se evaluaron montaje, bucle, carga ni controles."
+          }
+        },
+        {
+          "id": "02-resort-detail",
+          "file": "references/sites/aman/02-resort-detail.jpg",
+          "kind": "gallery",
+          "pageUrl": "https://www.aman.com/resorts/amanvari",
+          "scrollY": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T23:59:45.664Z",
+          "sectionLabel": "Página de resort: navegación contextual y arquitectura a gran escala",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "La página del resort añade una segunda navegación horizontal con galería, alojamiento, bienestar, gastronomía y contacto.",
+            "Una fotografía arquitectónica casi cuadrada ocupa el centro y conserva márgenes marfil, con cielo abierto como gran zona negativa.",
+            "La jerarquía de navegación permanece ligera mediante versalitas, espaciado amplio y divisiones finas."
+          ],
+          "adaptation": [
+            "Introducir navegación contextual cuando una propiedad o producto tenga suficientes subtemas reales para justificarla.",
+            "Encuadrar arquitectura o espacios con margen y cielo disponible para transmitir calma sin añadir adornos."
+          ],
+          "avoid": [
+            "No reproducir fotografías, nombre del resort, destinos ni estructura de reservas.",
+            "No apilar dos navegaciones completas en proyectos pequeños; la segunda debe reducir fricción, no añadirla."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se abrieron las áreas de la navegación contextual ni se comprobó la galería."
+          }
+        },
+        {
+          "id": "03-seasonal-story",
+          "file": "references/sites/aman/03-seasonal-story.jpg",
+          "kind": "editorial",
+          "pageUrl": "https://www.aman.com/stories/summer-with-aman",
+          "scrollY": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T23:59:36.440Z",
+          "sectionLabel": "Relato estacional: título centrado, texto breve, CTA y fotografía acuática",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "Un título serif, subtítulo, párrafo y botón delineado se centran dentro de una gran superficie marfil.",
+            "La imagen acuática comienza en la mitad inferior y se extiende a casi todo el ancho con márgenes laterales pequeños.",
+            "El bloque limita el ancho de texto y deja más espacio alrededor que el necesario para leer, reforzando un ritmo contemplativo."
+          ],
+          "adaptation": [
+            "Usar una apertura editorial centrada para una campaña o experiencia concreta, seguida por una imagen que continúe el tono del texto.",
+            "Limitar el párrafo y reservar una sola acción cuando la decisión requiera deseo y contexto antes que comparación."
+          ],
+          "avoid": [
+            "No copiar el relato, destino, disponibilidad o promesas estacionales.",
+            "No usar un botón de disponibilidad si no existe un flujo de reserva o contacto real."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se probó el botón, la aparición de la imagen ni posibles transiciones de la historia."
+          }
+        },
+        {
+          "id": "04-seasonal-mobile",
+          "file": "references/sites/aman/04-seasonal-mobile.jpg",
+          "kind": "mobile",
+          "pageUrl": "https://www.aman.com/stories/summer-with-aman",
+          "scrollY": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          },
+          "capturedAt": "2026-08-31T00:00:56.316Z",
+          "sectionLabel": "Relato estacional móvil de hospitalidad",
+          "imageDimensions": {
+            "width": 375,
+            "height": 812
+          },
+          "observed": [
+            "La historia estacional se convierte en una columna con título, subtítulo, párrafo y botón centrados, seguida por vídeo costero.",
+            "La navegación móvil conserva menú, logotipo y búsqueda; una acción Reserve de ancho completo aparece después del medio.",
+            "El texto permanece legible por ancho y tamaño, aunque ocupa gran parte del primer viewport."
+          ],
+          "adaptation": [
+            "Ordenar en móvil relato, medio y acción según la intención principal, sin intentar mostrar todo antes del primer desplazamiento.",
+            "Separar la acción persistente o final del contenido visual para que no compita con el texto."
+          ],
+          "avoid": [
+            "No reducir tanto el texto que pierda el tono editorial ni ocultar la acción principal detrás de controles de vídeo.",
+            "No afirmar que esta vista es la portada móvil general: corresponde a una historia estacional concreta."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se verificó el vídeo móvil, la reserva, la búsqueda ni el menú; se documenta una página de historia, no la portada general."
+          }
+        }
+      ]
+    },
     {
       "id": "basement",
       "name": "Basement Studio",
@@ -212,6 +558,352 @@
       ]
     },
     {
+      "id": "dropbox-brand",
+      "name": "Dropbox Brand",
+      "url": "https://brand.dropbox.com/",
+      "capturedAt": "2026-08-30T23:55:56.298Z",
+      "tags": [
+        "brand-system",
+        "sistema-de-marca",
+        "grid",
+        "retícula",
+        "typography",
+        "tipografía",
+        "collage",
+        "editorial",
+        "blue",
+        "azul",
+        "black",
+        "negro",
+        "lime",
+        "lima",
+        "oversized-type",
+        "tipografía-grande",
+        "modular",
+        "experimental"
+      ],
+      "industries": [
+        "sistemas de marca",
+        "software y tecnología",
+        "guías de identidad",
+        "herramientas creativas"
+      ],
+      "summary": "Guía de marca convertida en experiencia editorial: una retícula azul casi vacía da paso a páginas negras de tipografía e imagen donde etiquetas, herramientas y archivos flotan con escalas extremas. La variedad visual se mantiene unida por líneas finas, módulos y un azul identificador.",
+      "analysis": "references/sites/dropbox-brand/analysis.md",
+      "captures": [
+        {
+          "id": "01-hero-desktop",
+          "file": "references/sites/dropbox-brand/01-hero-desktop.jpg",
+          "kind": "hero",
+          "pageUrl": "https://brand.dropbox.com/",
+          "scrollY": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T23:55:56.298Z",
+          "sectionLabel": "Portada del sistema de marca: retícula, manifiesto y azul Dropbox",
+          "imageDimensions": {
+            "width": 1440,
+            "height": 900
+          },
+          "observed": [
+            "Una retícula azul muy fina divide un campo blanco; el contenido principal ocupa una columna central amplia y deja grandes zonas vacías a ambos lados.",
+            "El titular azul, pesado y alineado a la izquierda, aparece cerca de la esquina superior de la columna mientras el símbolo de Dropbox y dos chevrones cierran la composición abajo.",
+            "La portada evita fotografía, botones grandes y navegación visible; la identidad se apoya en proporción, color y espacio."
+          ],
+          "adaptation": [
+            "Usar una retícula visible como estructura narrativa cuando el producto tenga un sistema o metodología que mostrar.",
+            "Concentrar el mensaje en una sola columna y reservar el resto como espacio activo, sin rellenarlo con tarjetas por defecto."
+          ],
+          "avoid": [
+            "No copiar el azul, símbolo, titular o proporción exacta de la marca.",
+            "No confundir el vacío intencional con una portada incompleta; la adaptación necesita una jerarquía y una señal clara para continuar."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se probó la función de los chevrones, la aparición del titular ni el comportamiento de la retícula."
+          }
+        },
+        {
+          "id": "02-typography",
+          "file": "references/sites/dropbox-brand/02-typography.jpg",
+          "kind": "editorial",
+          "pageUrl": "https://brand.dropbox.com/typography",
+          "scrollY": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T23:56:10.405Z",
+          "sectionLabel": "Sistema tipográfico: escala extrema, utilidades y bloques cromáticos",
+          "imageDimensions": {
+            "width": 1440,
+            "height": 900
+          },
+          "observed": [
+            "Sobre negro, la palabra Typography ocupa casi todo el ancho útil en blanco y atraviesa una retícula de líneas azules.",
+            "Bloques lima, amarillo y blanco entran desde distintos bordes con muestras de caracteres, texto vertical y una etiqueta cian de Type Designer.",
+            "Un pequeño control blanco con B, cursiva y expansión aparece aislado, como herramienta editorial más que como CTA comercial."
+          ],
+          "adaptation": [
+            "Convertir una propiedad del sistema visual en demostración: escala, caracteres y controles pueden explicar mejor que un párrafo largo.",
+            "Superponer módulos de tamaños y orientaciones distintas sobre una retícula común para conservar orden dentro de una composición expresiva."
+          ],
+          "avoid": [
+            "No reutilizar el nombre de la tipografía, muestras, etiquetas ni combinaciones cromáticas identificables.",
+            "No añadir controles decorativos que parezcan interactivos si no tienen una función real en la implementación."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "La captura no demuestra si los módulos se arrastran, animan o responden a los controles visibles."
+          }
+        },
+        {
+          "id": "03-imagery",
+          "file": "references/sites/dropbox-brand/03-imagery.jpg",
+          "kind": "gallery",
+          "pageUrl": "https://brand.dropbox.com/imagery",
+          "scrollY": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-30T23:56:22.410Z",
+          "sectionLabel": "Sistema de imagen: collage de archivos, fotografía, ilustración y datos",
+          "imageDimensions": {
+            "width": 1440,
+            "height": 900
+          },
+          "observed": [
+            "La palabra Imagery aparece enorme en blanco sobre negro y sirve de ancla para un collage de documentos, ilustración, fotografía y gráficos.",
+            "Los archivos se recortan por los bordes y se solapan sin marcos uniformes; una línea azul mantiene la relación con el sistema general.",
+            "La mezcla de soportes comunica amplitud de usos sin presentarlos como una cuadrícula de tarjetas equivalentes."
+          ],
+          "adaptation": [
+            "Crear un collage con materiales propios de distintas clases cuando el servicio organiza o transforma contenido heterogéneo.",
+            "Usar solapamiento y recorte para indicar abundancia, manteniendo una palabra o idea dominante que estabilice la lectura."
+          ],
+          "avoid": [
+            "No reutilizar documentos, ilustraciones, fotografías ni gráficos visibles de Dropbox.",
+            "No esconder información esencial en piezas pequeñas o parcialmente cortadas; el collage debe funcionar como evidencia secundaria."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se observó si los archivos entran, se desplazan o cambian con el scroll."
+          }
+        },
+        {
+          "id": "04-hero-mobile",
+          "file": "references/sites/dropbox-brand/04-hero-mobile.jpg",
+          "kind": "mobile",
+          "pageUrl": "https://brand.dropbox.com/",
+          "scrollY": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          },
+          "capturedAt": "2026-08-30T23:56:26.263Z",
+          "sectionLabel": "Portada móvil del sistema de marca",
+          "imageDimensions": {
+            "width": 390,
+            "height": 844
+          },
+          "observed": [
+            "La retícula se reorganiza en un campo vertical y el titular queda contenido entre dos líneas horizontales en la mitad superior.",
+            "El símbolo aparece abajo a la izquierda de la columna central y los chevrones abajo a la derecha, conservando la lógica del escritorio.",
+            "La reducción de ancho mantiene tamaños legibles y mucho espacio libre en vez de comprimir la portada."
+          ],
+          "adaptation": [
+            "Redibujar la retícula para móvil y conservar relaciones entre anclas, en lugar de escalar toda la composición proporcionalmente.",
+            "Mantener un único mensaje breve y posiciones táctiles claras cuando el concepto depende del espacio."
+          ],
+          "avoid": [
+            "No reducir el titular hasta hacerlo secundario ni llenar el espacio móvil con navegación completa.",
+            "No asumir que los chevrones tienen el mismo destino o comportamiento que en escritorio."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se activaron los controles inferiores ni se compararon estados durante el desplazamiento móvil."
+          }
+        }
+      ]
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "url": "https://www.figma.com/",
+      "capturedAt": "2026-08-31T00:04:14.426Z",
+      "tags": [
+        "saas",
+        "software-as-a-service",
+        "design-tool",
+        "herramienta-de-diseño",
+        "collaboration",
+        "colaboración",
+        "product-ui",
+        "interfaz-de-producto",
+        "collage",
+        "colorful",
+        "colorido",
+        "white",
+        "blanco",
+        "editorial",
+        "oversized-type",
+        "tipografía-grande",
+        "mosaic",
+        "mosaico",
+        "playful",
+        "lúdico"
+      ],
+      "industries": [
+        "software creativo",
+        "diseño de producto",
+        "colaboración de equipos",
+        "herramientas de IA"
+      ],
+      "summary": "Presentación de producto creativa y luminosa que trata ejemplos de diseño como materia visual. El hero separa titular, collage y CTA; después alterna demostraciones de interfaz a gran escala con mosaicos densos de herramientas, cursores y resultados multicolor.",
+      "analysis": "references/sites/figma/analysis.md",
+      "captures": [
+        {
+          "id": "01-hero-desktop",
+          "file": "references/sites/figma/01-hero-desktop.jpg",
+          "kind": "hero",
+          "pageUrl": "https://www.figma.com/es-es/",
+          "scrollY": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-31T00:04:14.426Z",
+          "sectionLabel": "Portada de producto creativo: titular fragmentado, collage y CTA aislado",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "El hero divide el ancho en tres focos: un titular negro con cortes de palabra a la izquierda, un collage vertical animado en el centro y un botón negro aislado a la derecha.",
+            "La cabecera blanca contiene navegación de producto y dos acciones comerciales; una regla gris fina separa la barra del contenido.",
+            "El fondo blanco y la distancia entre focos permiten que el collage colorido sea complejo sin volver ilegible el mensaje."
+          ],
+          "adaptation": [
+            "Separar promesa, demostración y acción en una composición de tres focos cuando cada pieza tenga una función inequívoca.",
+            "Usar una muestra propia en capas para comunicar variedad creativa sin convertir el hero en una captura completa de aplicación."
+          ],
+          "avoid": [
+            "No reutilizar obras, marcas, pantallas, fechas o contenido del collage de Figma.",
+            "No forzar cortes tipográficos que dificulten comprensión o traducción; deben comprobarse con el copy definitivo."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "El collage cambió de estado durante la observación, pero no se midió su secuencia, duración o control; se conserva como movimiento no probado."
+          }
+        },
+        {
+          "id": "02-workspace",
+          "file": "references/sites/figma/02-workspace.jpg",
+          "kind": "product",
+          "pageUrl": "https://www.figma.com/es-es/",
+          "scrollY": 850,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-31T00:04:33.363Z",
+          "sectionLabel": "Espacio de trabajo: relato amplio y demostración de interfaces colaborativas",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "Un título ancho y una explicación gris introducen una gran superficie verde pálido con dos ejemplos de aplicación móvil.",
+            "Ventanas, cursores y etiquetas de colaboradores se superponen a las pantallas para representar trabajo compartido.",
+            "La demostración ocupa más altura que el texto y usa estados de producto legibles en vez de pequeñas tarjetas de funciones."
+          ],
+          "adaptation": [
+            "Mostrar un flujo de producto con uno o dos estados propios de gran tamaño y señales de colaboración relacionadas con una tarea concreta.",
+            "Usar una superficie tonal suave para separar la demostración del fondo general sin añadir un contenedor dentro de otro."
+          ],
+          "avoid": [
+            "No copiar pantallas, nombres de usuarios, cursores, ilustraciones ni ejemplos de Figma.",
+            "No añadir cursores o etiquetas ficticias si el producto no tiene colaboración real."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se verificó la animación de interfaces, cursores o etiquetas ni su correspondencia con funciones reales."
+          }
+        },
+        {
+          "id": "03-expression-tools",
+          "file": "references/sites/figma/03-expression-tools.jpg",
+          "kind": "gallery",
+          "pageUrl": "https://www.figma.com/es-es/",
+          "scrollY": 2920,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-31T00:04:36.576Z",
+          "sectionLabel": "Herramientas expresivas: mosaico de ejemplos y controles de producto",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "Una introducción breve se alinea a la izquierda y un enlace a producto a la derecha antes de un mosaico de cuatro columnas.",
+            "Cada franja mezcla una pieza creativa con controles flotantes, cursores o manipuladores que explican textura, color, profundidad y composición.",
+            "El mosaico no usa márgenes gruesos ni tarjetas de texto repetidas; las imágenes y los controles forman una demostración continua."
+          ],
+          "adaptation": [
+            "Construir un mosaico de capacidades a partir de resultados reales y controles simplificados cuando la variedad sea parte esencial del producto.",
+            "Alternar densidad visual con una introducción muy limpia para evitar que toda la página mantenga el mismo nivel de estímulo."
+          ],
+          "avoid": [
+            "No usar ejemplos ajenos ni controles que parezcan editables si solo son decoración.",
+            "No comprimir el mosaico hasta que texto, cursores o resultados pierdan legibilidad en portátil."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se interactuó con el mosaico ni se comprobó si las muestras responden al cursor o al scroll."
+          }
+        },
+        {
+          "id": "04-hero-mobile",
+          "file": "references/sites/figma/04-hero-mobile.jpg",
+          "kind": "mobile",
+          "pageUrl": "https://www.figma.com/es-es/",
+          "scrollY": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          },
+          "capturedAt": "2026-08-31T00:04:46.228Z",
+          "sectionLabel": "Portada móvil de producto creativo",
+          "imageDimensions": {
+            "width": 375,
+            "height": 812
+          },
+          "observed": [
+            "La cabecera móvil reduce la navegación a logotipo, acción principal y menú.",
+            "El titular se muestra completo sin los cortes forzados del escritorio y el collage se reencuadra en una pila vertical.",
+            "El botón principal vuelve a aparecer como bloque ancho bajo el collage, dejando aire suficiente alrededor."
+          ],
+          "adaptation": [
+            "Cambiar los saltos del titular y el encuadre del collage para móvil en lugar de conservar literalmente la composición de tres focos.",
+            "Repetir la acción principal después de la demostración cuando mejora el recorrido y no crea destinos contradictorios."
+          ],
+          "avoid": [
+            "No conservar el collage de escritorio si obliga a miniaturizar sus detalles.",
+            "No repetir CTAs con textos o destinos distintos sin una jerarquía clara."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se abrió el menú ni se comprobó el cambio de piezas del collage en móvil."
+          }
+        }
+      ]
+    },
+    {
       "id": "floema",
       "name": "Floema",
       "url": "https://floema.com/en",
@@ -394,6 +1086,181 @@
           "motion": {
             "status": "not-tested",
             "description": "No se probó el paso entre categorías, el botón de productos ni la descarga del catálogo. La franja siguiente solo acredita un encuadre durante el scroll."
+          }
+        }
+      ]
+    },
+    {
+      "id": "guggenheim",
+      "name": "Guggenheim New York",
+      "url": "https://www.guggenheim.org/",
+      "capturedAt": "2026-08-31T00:07:23.841Z",
+      "tags": [
+        "museum",
+        "museo",
+        "culture",
+        "cultura",
+        "institutional",
+        "institucional",
+        "editorial",
+        "programming",
+        "programación",
+        "exhibitions",
+        "exposiciones",
+        "events",
+        "eventos",
+        "full-bleed-media",
+        "medios-a-sangre",
+        "gallery",
+        "galería",
+        "white",
+        "blanco",
+        "minimal-navigation",
+        "navegación-mínima"
+      ],
+      "industries": [
+        "museos e instituciones culturales",
+        "arte y exposiciones",
+        "eventos",
+        "educación cultural"
+      ],
+      "summary": "Sitio cultural funcional y visual: la portada combina navegación tipográfica con una obra inmersiva a sangre; exposiciones y eventos pasan a galerías horizontales abiertas, sin marcos decorativos, donde imagen, fecha y descripción forman la jerarquía.",
+      "analysis": "references/sites/guggenheim/analysis.md",
+      "captures": [
+        {
+          "id": "01-hero-desktop",
+          "file": "references/sites/guggenheim/01-hero-desktop.jpg",
+          "kind": "hero",
+          "pageUrl": "https://www.guggenheim.org/",
+          "scrollY": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-31T00:07:23.841Z",
+          "sectionLabel": "Portada cultural: navegación amplia y obra inmersiva a sangre",
+          "imageDimensions": {
+            "width": 1440,
+            "height": 900
+          },
+          "observed": [
+            "El nombre del museo, siete áreas de navegación y tres utilidades ocupan una cabecera blanca de dos filas.",
+            "Un vídeo de instalación artística llena el resto del viewport y utiliza sus propios controles discretos en la esquina inferior izquierda.",
+            "La interfaz permanece neutra para que luz, profundidad y figura humana de la obra dominen la portada."
+          ],
+          "adaptation": [
+            "Usar una imagen o vídeo propio a sangre como entrada a una institución cuando el programa visual sea su mejor argumento.",
+            "Mantener la navegación clara y neutra para públicos diversos, reservando expresividad a las obras y contenidos."
+          ],
+          "avoid": [
+            "No reutilizar obras, visitantes, marca, fotografías o programación del museo.",
+            "No ocultar información práctica esencial si la portada depende de un medio silencioso o abstracto."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "Se documentó un fotograma con controles, pero no se evaluaron duración, audio, pausa ni secuencia del vídeo."
+          }
+        },
+        {
+          "id": "02-exhibitions",
+          "file": "references/sites/guggenheim/02-exhibitions.jpg",
+          "kind": "gallery",
+          "pageUrl": "https://www.guggenheim.org/",
+          "scrollY": 900,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-31T00:07:36.556Z",
+          "sectionLabel": "Exposiciones: galería horizontal, fechas y navegación mínima",
+          "imageDimensions": {
+            "width": 1440,
+            "height": 900
+          },
+          "observed": [
+            "Dos imágenes de exposición de proporciones distintas comparten una galería horizontal sobre fondo blanco.",
+            "Título y fecha se alinean bajo cada imagen con gran peso tipográfico; un botón de exploración y contador con flechas cierran la sección.",
+            "La marca de cabecera se reduce a un símbolo gris mientras la navegación textual permanece visible."
+          ],
+          "adaptation": [
+            "Permitir proporciones distintas en una galería cuando reflejen el contenido y mantener una línea base común para títulos y fechas.",
+            "Combinar acceso a todo el archivo con navegación local de la selección sin duplicar el mismo CTA."
+          ],
+          "avoid": [
+            "No copiar obras, títulos, fechas o símbolo institucional.",
+            "No usar carrusel horizontal como único acceso a programación esencial; debe existir una vista completa accesible."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se accionaron flechas, contador, imágenes ni el acceso a todas las exposiciones."
+          }
+        },
+        {
+          "id": "03-upcoming-events",
+          "file": "references/sites/guggenheim/03-upcoming-events.jpg",
+          "kind": "editorial",
+          "pageUrl": "https://www.guggenheim.org/",
+          "scrollY": 1700,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-31T00:07:37.484Z",
+          "sectionLabel": "Agenda cultural: tarjetas abiertas con imagen, fecha y descripción",
+          "imageDimensions": {
+            "width": 1440,
+            "height": 900
+          },
+          "observed": [
+            "Tres eventos se muestran en columnas abiertas con fotografías superiores y texto sin cajas ni sombras.",
+            "Los títulos tienen gran peso, seguidos por fecha y párrafos de longitudes distintas; el borde derecho corta una tarjeta adicional e indica continuidad horizontal.",
+            "Un botón de calendario y un contador con flechas aparecen en extremos opuestos al pie de la sección."
+          ],
+          "adaptation": [
+            "Diseñar tarjetas sin contenedor cuando la alineación, las imágenes y la tipografía ya separan bien los elementos.",
+            "Aceptar longitudes de descripción variables mediante una retícula que alinee acciones y preserve el ritmo."
+          ],
+          "avoid": [
+            "No truncar contenido importante por imitar el corte lateral del carrusel.",
+            "No inventar eventos, fechas o disponibilidad para completar una composición."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se probó el carrusel, el calendario ni los enlaces de cada evento."
+          }
+        },
+        {
+          "id": "04-hero-mobile",
+          "file": "references/sites/guggenheim/04-hero-mobile.jpg",
+          "kind": "mobile",
+          "pageUrl": "https://www.guggenheim.org/",
+          "scrollY": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          },
+          "capturedAt": "2026-08-31T00:08:01.792Z",
+          "sectionLabel": "Portada móvil de institución cultural",
+          "imageDimensions": {
+            "width": 390,
+            "height": 844
+          },
+          "observed": [
+            "La cabecera móvil mantiene el nombre completo a la izquierda y agrupa Tickets, búsqueda y menú a la derecha.",
+            "El vídeo inmersivo comienza inmediatamente debajo y se recorta en vertical alrededor de una visitante y puntos de luz.",
+            "Los controles de vídeo quedan en la zona inferior sin texto superpuesto sobre la obra."
+          ],
+          "adaptation": [
+            "Elegir un encuadre móvil donde el sujeto o foco principal siga siendo reconocible y no quede bajo la cabecera.",
+            "Priorizar una utilidad principal y controles compactos cuando la navegación institucional completa no cabe."
+          ],
+          "avoid": [
+            "No depender de un recorte automático que elimine el foco visual del medio.",
+            "No esconder búsqueda, entradas o accesibilidad dentro de un menú si son tareas frecuentes del público."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se abrieron búsqueda o menú y no se probó el vídeo ni sus controles en móvil."
           }
         }
       ]
@@ -1783,6 +2650,181 @@
           "motion": {
             "status": "not-tested",
             "description": "Las capturas registran proyectos seleccionados distintos en escritorio y móvil, pero no se accionaron flechas o puntos ni se observó una transición temporal."
+          }
+        }
+      ]
+    },
+    {
+      "id": "oatly",
+      "name": "Oatly",
+      "url": "https://www.oatly.com/",
+      "capturedAt": "2026-08-31T00:06:11.446Z",
+      "tags": [
+        "food",
+        "alimentación",
+        "beverage",
+        "bebidas",
+        "brand-editorial",
+        "marca-editorial",
+        "ecommerce",
+        "playful",
+        "lúdico",
+        "hand-drawn",
+        "dibujado-a-mano",
+        "condensed-type",
+        "tipografía-condensada",
+        "newspaper-grid",
+        "retícula-editorial",
+        "cream",
+        "crema",
+        "black",
+        "negro",
+        "irregular-type",
+        "tipografía-irregular"
+      ],
+      "industries": [
+        "alimentación y bebidas",
+        "productos de consumo",
+        "sostenibilidad",
+        "marca editorial"
+      ],
+      "summary": "Marca alimentaria tratada como publicación: un marco técnico contiene manifiesto y mosaico de historias; los interiores cambian entre lettering irregular, texto manual, fotografía de bebida y titulares condensados de escala extrema. La imperfección gráfica convive con una retícula muy controlada.",
+      "analysis": "references/sites/oatly/analysis.md",
+      "captures": [
+        {
+          "id": "01-hero-desktop",
+          "file": "references/sites/oatly/01-hero-desktop.jpg",
+          "kind": "hero",
+          "pageUrl": "https://www.oatly.com/",
+          "scrollY": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-31T00:06:11.446Z",
+          "sectionLabel": "Portada editorial alimentaria: marco técnico, manifiesto y mosaico de historias",
+          "imageDimensions": {
+            "width": 1440,
+            "height": 900
+          },
+          "observed": [
+            "Una línea negra encierra toda la experiencia y organiza iconos, categorías y un área editorial de dos columnas.",
+            "El manifiesto en mayúsculas dibujadas ocupa la izquierda, mientras una historia de gran formato y otra secundaria forman un mosaico asimétrico.",
+            "Etiquetas pequeñas amarillas y pies blancos identifican el tipo de contenido sin convertir cada pieza en una tarjeta uniforme."
+          ],
+          "adaptation": [
+            "Combinar una retícula estricta con tipografía o imágenes expresivas para una marca que deba sentirse directa y humana.",
+            "Organizar contenidos de tamaños distintos como portada editorial, reservando jerarquía para una historia principal."
+          ],
+          "avoid": [
+            "No copiar lettering, campañas, fotografías, titulares ni la voz verbal de Oatly.",
+            "No usar irregularidad en todos los niveles; navegación y etiquetas necesitan conservar orientación y legibilidad."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se probó la apertura de piezas, el scroll interno ni los controles de cabecera."
+          }
+        },
+        {
+          "id": "02-look-book",
+          "file": "references/sites/oatly/02-look-book.jpg",
+          "kind": "editorial",
+          "pageUrl": "https://www.oatly.com/recipes/look-book-vol-3",
+          "scrollY": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-31T00:06:38.165Z",
+          "sectionLabel": "Recetario editorial: titular expresivo, texto manuscrito y fotografía de bebida",
+          "imageDimensions": {
+            "width": 1425,
+            "height": 891
+          },
+          "observed": [
+            "Un título negro de formas irregulares ocupa casi todo el ancho superior y se recorta ligeramente en los laterales.",
+            "Debajo, texto negro con apariencia manual forma una columna densa a la izquierda y una fotografía de bebida helada domina la derecha.",
+            "La navegación mantiene líneas rectas y tipografía condensada, creando contraste con el cuerpo gestual."
+          ],
+          "adaptation": [
+            "Usar una pareja de tipografías con papeles claros: una expresiva para campaña y otra precisa para navegación y datos.",
+            "Emparejar relato y fotografía de producto en dos columnas cuando ambos aporten información distinta y real."
+          ],
+          "avoid": [
+            "No imitar literalmente las formas del título ni usar una fuente manual para párrafos largos sin comprobar lectura.",
+            "No reutilizar la bebida, pajita, recetas o texto editorial visibles."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se recorrió el recetario ni se probó la navegación de la página."
+          }
+        },
+        {
+          "id": "03-sustainability",
+          "file": "references/sites/oatly/03-sustainability.jpg",
+          "kind": "editorial",
+          "pageUrl": "https://www.oatly.com/sustainability",
+          "scrollY": 0,
+          "viewport": {
+            "height": 900,
+            "width": 1440
+          },
+          "capturedAt": "2026-08-31T00:06:33.590Z",
+          "sectionLabel": "Sostenibilidad: tipografía condensada extrema, declaración y sello irregular",
+          "imageDimensions": {
+            "width": 1416,
+            "height": 885
+          },
+          "observed": [
+            "Un titular condensado negro, en mayúsculas y de varias líneas, cubre casi toda la superficie crema.",
+            "Una etiqueta estrellada verde se superpone a la esquina inferior derecha del titular y actúa como segunda voz.",
+            "Un asterisco pequeño al pie introduce una limitación sobre las imágenes, añadiendo una capa de transparencia al mensaje."
+          ],
+          "adaptation": [
+            "Reservar escala extrema para una declaración verificable y añadir una nota clara que explique alcance o metodología.",
+            "Usar una insignia de forma distinta para una idea secundaria sin fragmentar el bloque principal."
+          ],
+          "avoid": [
+            "No copiar afirmaciones ambientales, sello, titular o estilo de campaña.",
+            "No presentar sostenibilidad solo como gesto gráfico; enlazar pruebas, metodología y fechas reales."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se comprobó desplazamiento horizontal, animación del sello ni navegación a informes."
+          }
+        },
+        {
+          "id": "04-hero-mobile",
+          "file": "references/sites/oatly/04-hero-mobile.jpg",
+          "kind": "mobile",
+          "pageUrl": "https://www.oatly.com/",
+          "scrollY": 0,
+          "viewport": {
+            "height": 844,
+            "width": 390
+          },
+          "capturedAt": "2026-08-31T00:06:42.839Z",
+          "sectionLabel": "Portada móvil de marca alimentaria",
+          "imageDimensions": {
+            "width": 390,
+            "height": 844
+          },
+          "observed": [
+            "La cabecera móvil usa un icono de menú a la izquierda y cuatro utilidades compactas a la derecha.",
+            "El manifiesto centrado aparece antes de un botón delineado y una secuencia vertical de historias con bordes negros.",
+            "Las piezas cambian de orden y escala: la historia principal ocupa todo el ancho, seguida por módulos menores."
+          ],
+          "adaptation": [
+            "Transformar el mosaico de escritorio en una secuencia vertical priorizada, conservando títulos y categorías visibles.",
+            "Mantener bordes, etiquetas y ritmos consistentes para que la variedad de imágenes no parezca una lista accidental."
+          ],
+          "avoid": [
+            "No intentar reproducir las dos columnas en un ancho estrecho.",
+            "No reducir utilidades a iconos ambiguos sin nombres accesibles y áreas táctiles suficientes."
+          ],
+          "motion": {
+            "status": "not-tested",
+            "description": "No se abrió el menú, las utilidades ni las historias en la vista móvil."
           }
         }
       ]

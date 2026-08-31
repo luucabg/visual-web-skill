@@ -1,0 +1,76 @@
+{
+  "id": "dropbox-brand",
+  "tags": ["brand-system", "sistema-de-marca", "grid", "retícula", "typography", "tipografía", "collage", "editorial", "blue", "azul", "black", "negro", "lime", "lima", "oversized-type", "tipografía-grande", "modular", "experimental"],
+  "industries": ["sistemas de marca", "software y tecnología", "guías de identidad", "herramientas creativas"],
+  "summary": "Guía de marca convertida en experiencia editorial: una retícula azul casi vacía da paso a páginas negras de tipografía e imagen donde etiquetas, herramientas y archivos flotan con escalas extremas. La variedad visual se mantiene unida por líneas finas, módulos y un azul identificador.",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "observed": [
+        "Una retícula azul muy fina divide un campo blanco; el contenido principal ocupa una columna central amplia y deja grandes zonas vacías a ambos lados.",
+        "El titular azul, pesado y alineado a la izquierda, aparece cerca de la esquina superior de la columna mientras el símbolo de Dropbox y dos chevrones cierran la composición abajo.",
+        "La portada evita fotografía, botones grandes y navegación visible; la identidad se apoya en proporción, color y espacio."
+      ],
+      "adaptation": [
+        "Usar una retícula visible como estructura narrativa cuando el producto tenga un sistema o metodología que mostrar.",
+        "Concentrar el mensaje en una sola columna y reservar el resto como espacio activo, sin rellenarlo con tarjetas por defecto."
+      ],
+      "avoid": [
+        "No copiar el azul, símbolo, titular o proporción exacta de la marca.",
+        "No confundir el vacío intencional con una portada incompleta; la adaptación necesita una jerarquía y una señal clara para continuar."
+      ],
+      "motion": {"status": "not-tested", "description": "No se probó la función de los chevrones, la aparición del titular ni el comportamiento de la retícula."}
+    },
+    {
+      "id": "02-typography",
+      "observed": [
+        "Sobre negro, la palabra Typography ocupa casi todo el ancho útil en blanco y atraviesa una retícula de líneas azules.",
+        "Bloques lima, amarillo y blanco entran desde distintos bordes con muestras de caracteres, texto vertical y una etiqueta cian de Type Designer.",
+        "Un pequeño control blanco con B, cursiva y expansión aparece aislado, como herramienta editorial más que como CTA comercial."
+      ],
+      "adaptation": [
+        "Convertir una propiedad del sistema visual en demostración: escala, caracteres y controles pueden explicar mejor que un párrafo largo.",
+        "Superponer módulos de tamaños y orientaciones distintas sobre una retícula común para conservar orden dentro de una composición expresiva."
+      ],
+      "avoid": [
+        "No reutilizar el nombre de la tipografía, muestras, etiquetas ni combinaciones cromáticas identificables.",
+        "No añadir controles decorativos que parezcan interactivos si no tienen una función real en la implementación."
+      ],
+      "motion": {"status": "not-tested", "description": "La captura no demuestra si los módulos se arrastran, animan o responden a los controles visibles."}
+    },
+    {
+      "id": "03-imagery",
+      "observed": [
+        "La palabra Imagery aparece enorme en blanco sobre negro y sirve de ancla para un collage de documentos, ilustración, fotografía y gráficos.",
+        "Los archivos se recortan por los bordes y se solapan sin marcos uniformes; una línea azul mantiene la relación con el sistema general.",
+        "La mezcla de soportes comunica amplitud de usos sin presentarlos como una cuadrícula de tarjetas equivalentes."
+      ],
+      "adaptation": [
+        "Crear un collage con materiales propios de distintas clases cuando el servicio organiza o transforma contenido heterogéneo.",
+        "Usar solapamiento y recorte para indicar abundancia, manteniendo una palabra o idea dominante que estabilice la lectura."
+      ],
+      "avoid": [
+        "No reutilizar documentos, ilustraciones, fotografías ni gráficos visibles de Dropbox.",
+        "No esconder información esencial en piezas pequeñas o parcialmente cortadas; el collage debe funcionar como evidencia secundaria."
+      ],
+      "motion": {"status": "not-tested", "description": "No se observó si los archivos entran, se desplazan o cambian con el scroll."}
+    },
+    {
+      "id": "04-hero-mobile",
+      "observed": [
+        "La retícula se reorganiza en un campo vertical y el titular queda contenido entre dos líneas horizontales en la mitad superior.",
+        "El símbolo aparece abajo a la izquierda de la columna central y los chevrones abajo a la derecha, conservando la lógica del escritorio.",
+        "La reducción de ancho mantiene tamaños legibles y mucho espacio libre en vez de comprimir la portada."
+      ],
+      "adaptation": [
+        "Redibujar la retícula para móvil y conservar relaciones entre anclas, en lugar de escalar toda la composición proporcionalmente.",
+        "Mantener un único mensaje breve y posiciones táctiles claras cuando el concepto depende del espacio."
+      ],
+      "avoid": [
+        "No reducir el titular hasta hacerlo secundario ni llenar el espacio móvil con navegación completa.",
+        "No asumir que los chevrones tienen el mismo destino o comportamiento que en escritorio."
+      ],
+      "motion": {"status": "not-tested", "description": "No se activaron los controles inferiores ni se compararon estados durante el desplazamiento móvil."}
+    }
+  ]
+}

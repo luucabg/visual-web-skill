@@ -1,0 +1,76 @@
+{
+  "id": "figma",
+  "name": "Figma",
+  "url": "https://www.figma.com/",
+  "capturedAt": "2026-08-31T00:04:14.426Z",
+  "captures": [
+    {
+      "id": "01-hero-desktop",
+      "file": "references/sites/figma/01-hero-desktop.jpg",
+      "kind": "hero",
+      "pageUrl": "https://www.figma.com/es-es/",
+      "scrollY": 0,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-31T00:04:14.426Z",
+      "sectionLabel": "Portada de producto creativo: titular fragmentado, collage y CTA aislado",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "02-workspace",
+      "file": "references/sites/figma/02-workspace.jpg",
+      "kind": "product",
+      "pageUrl": "https://www.figma.com/es-es/",
+      "scrollY": 850,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-31T00:04:33.363Z",
+      "sectionLabel": "Espacio de trabajo: relato amplio y demostración de interfaces colaborativas",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "03-expression-tools",
+      "file": "references/sites/figma/03-expression-tools.jpg",
+      "kind": "gallery",
+      "pageUrl": "https://www.figma.com/es-es/",
+      "scrollY": 2920,
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "capturedAt": "2026-08-31T00:04:36.576Z",
+      "sectionLabel": "Herramientas expresivas: mosaico de ejemplos y controles de producto",
+      "imageDimensions": {
+        "width": 1425,
+        "height": 891
+      }
+    },
+    {
+      "id": "04-hero-mobile",
+      "file": "references/sites/figma/04-hero-mobile.jpg",
+      "kind": "mobile",
+      "pageUrl": "https://www.figma.com/es-es/",
+      "scrollY": 0,
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "capturedAt": "2026-08-31T00:04:46.228Z",
+      "sectionLabel": "Portada móvil de producto creativo",
+      "imageDimensions": {
+        "width": 375,
+        "height": 812
+      }
+    }
+  ]
+}

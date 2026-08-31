@@ -8,4 +8,4 @@ EL SOFTWARE SE PROPORCIONA «TAL CUAL», SIN GARANTÍA DE NINGÚN TIPO, EXPRESA 
 
 ## Material excluido
 
-Las capturas bajo `skill/visual-web/references/sites/` y las marcas, fotografías, ilustraciones y textos que aparecen en ellas pertenecen a sus respectivos titulares. Esta licencia no concede derechos sobre esos materiales. Se incluyen únicamente como referencias de estudio en la copia privada de este repositorio. Consulta [NOTICES.md](NOTICES.md).
+Las capturas bajo `skill/visual-web/references/sites/`, la composición `docs/new-reference-heroes.jpg` y las marcas, fotografías, ilustraciones y textos que aparecen en ellas pertenecen a sus respectivos titulares. Esta licencia no concede derechos sobre esos materiales. Se incluyen únicamente como referencias contextuales para estudio, comentario y análisis de diseño. Consulta [NOTICES.md](NOTICES.md).

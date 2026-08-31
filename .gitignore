@@ -4,6 +4,7 @@ Thumbs.db
 *.log
 .env
 .env.*
+.capture-review/
 
 # Evidencia local de construcción; no forma parte de la distribución.
 GATES.md

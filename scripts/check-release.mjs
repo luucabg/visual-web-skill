@@ -63,7 +63,7 @@ for (const file of files) {
 const cover = fs.readFileSync(path.join(root, 'docs', 'visual-web-cover.svg'), 'utf8');
 assert(/width="1280" height="640"/.test(cover) && /role="img"/.test(cover), 'Cover must be a 2:1 accessible SVG');
 const readme = fs.readFileSync(path.join(root, 'README.md'), 'utf8');
-for (const phrase of ['Pruébala con un solo mensaje', 'Instalación sencilla', 'Tres resultados', 'Uso responsable']) {
+for (const phrase of ['Prompt maestro para copiar y pegar', 'Instalación sencilla', 'Tres resultados', 'Uso responsable']) {
   assert(readme.includes(phrase), `README is missing its nontechnical section: ${phrase}`);
 }
 
