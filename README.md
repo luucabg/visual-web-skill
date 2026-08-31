@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/visual-web-cover.svg" alt="Visual Web — referencias reales, dirección de arte y código" width="100%">
+  <img src="docs/visual-web-cover.svg" alt="Visual Web — 18 webs reales y 72 capturas para pasar de referencias a dirección de arte y código" width="100%">
 </p>
 
 <p align="center">
@@ -212,7 +212,7 @@ La biblioteca contiene **72 capturas reales** —escritorio, secciones interiore
 | --- | --- | --- |
 | [![Portada real de Figma](skill/visual-web/references/sites/figma/01-hero-desktop.jpg)](skill/visual-web/references/sites/figma/analysis.md) | [![Portada real de Oatly](skill/visual-web/references/sites/oatly/01-hero-desktop.jpg)](skill/visual-web/references/sites/oatly/analysis.md) | [![Portada real del Guggenheim](skill/visual-web/references/sites/guggenheim/01-hero-desktop.jpg)](skill/visual-web/references/sites/guggenheim/analysis.md) |
 
-Pulsa cualquier imagen para abrir su análisis. En cada ficha hay cuatro capturas: **portada de escritorio, dos secciones interiores y portada móvil**. La IA no se limita a esta galería: la skill le obliga a buscar, abrir a tamaño legible las capturas concretas que encajan con el encargo y leer después sus análisis.
+Pulsa cualquier imagen para abrir su análisis. En cada ficha hay cuatro capturas: **portada de escritorio, dos vistas interiores y una vista móvil**. La IA no se limita a esta galería: la skill le obliga a buscar, abrir a tamaño legible las capturas concretas que encajan con el encargo y leer después sus análisis.
 
 Cada web incluye:
 
@@ -267,6 +267,6 @@ La suite comprueba imágenes JPEG/PNG reales, rutas seguras, catálogo, búsqued
 
 ## Uso responsable
 
-Las capturas muestran diseños, marcas, fotografías y textos de sus respectivos titulares. Se conservan como referencias privadas de estudio y **no son activos para copiar o reutilizar**. Los diseños nuevos deben desarrollar su propia identidad y usar contenido autorizado. Consulta [procedencia y límites](NOTICES.md) y la [licencia](LICENSE.md).
+Las capturas muestran diseños, marcas, fotografías y textos de sus respectivos titulares. Se presentan como referencias para estudio y análisis de diseño y **no son activos para copiar o reutilizar**. Que el repositorio sea público no concede derechos sobre esos materiales. Los diseños nuevos deben desarrollar su propia identidad y usar contenido autorizado. Consulta [procedencia y límites](NOTICES.md) y la [licencia](LICENSE.md).
 
 Visual Web ayuda a diseñar y verificar mejor; no garantiza premios ni sustituye contenido real, accesibilidad, buen desarrollo o revisión humana.
